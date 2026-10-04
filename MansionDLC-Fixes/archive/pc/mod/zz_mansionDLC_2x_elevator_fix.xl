@@ -1,0 +1,64 @@
+{
+ "streaming": {
+  "sectors": [
+   {
+    "path": "base\\worlds\\03_night_city\\_compiled\\default\\exterior_-22_17_0_0.streamingsector",
+    "expectedNodes": 1516,
+    "nodeDeletions": [
+     {
+      "index": 705,
+      "type": "worldEntityNode",
+      "resource": "base\\gameplay\\devices\\vending_machines\\vending_machine_weapons_1.ent",
+      "position": {
+       "x": -1392.61938,
+       "y": 1147.45337,
+       "z": 23.0570526
+      },
+      "debugName": "EntityNode"
+     },
+     {
+      "index": 709,
+      "type": "worldEntityNode",
+      "resource": "base\\gameplay\\devices\\vending_machines\\vending_machine_weapons_1.ent",
+      "position": {
+       "x": -1394.47217,
+       "y": 1147.60754,
+       "z": 23.0570526
+      },
+      "debugName": "EntityNode"
+     }
+    ],
+    "nodeMutations": []
+   },
+   {
+    "path": "base\\worlds\\03_night_city\\_compiled\\default\\exterior_-11_8_0_1.streamingsector",
+    "expectedNodes": 2288,
+    "nodeDeletions": [
+     {
+      "index": 247,
+      "type": "worldEntityProxyMeshNode",
+      "resource": "base\\gameplay\\devices\\vending_machines\\appearances\\mproxy\\vending_machine_j_mproxy.mesh",
+      "position": {
+       "x": -1392.61938,
+       "y": 1147.45337,
+       "z": 23.0570526
+      },
+      "debugName": "None"
+     },
+     {
+      "index": 250,
+      "type": "worldEntityProxyMeshNode",
+      "resource": "base\\gameplay\\devices\\vending_machines\\appearances\\mproxy\\vending_machine_j_mproxy.mesh",
+      "position": {
+       "x": -1394.47217,
+       "y": 1147.60754,
+       "z": 23.0570526
+      },
+      "debugName": "None"
+     }
+    ],
+    "nodeMutations": []
+   }
+  ]
+ }
+}

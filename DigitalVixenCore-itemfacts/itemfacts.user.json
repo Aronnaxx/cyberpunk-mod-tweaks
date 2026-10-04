@@ -1,0 +1,15 @@
+{
+  "$comment": "Your item rows - same columns as itemfacts.json; these win over the shipped file and survive updates. Edited in game by the DVCore Item Editor (RedWindows).",
+  "Items.ash_trauma_armor_01": {
+    "armor": "medium",
+    "armorValue": 100
+  },
+  "Items.ash_trauma_armor_02": {
+    "armor": "heavy",
+    "armorValue": 250
+  },
+  "Items.ash_trauma_armor_03": {
+    "armor": "heavy",
+    "armorValue": 250
+  }
+}
