@@ -246,3 +246,11 @@ Open checks:
 - Stash flicker: More Weapon Filters vs More Inventory Filters - Ethan to disable More Weapon Filters, retest.
 - zz_LuaGCTuner v6.9 still untested in game (LHUD link log line, gameplay cleanup, green marker).
 - NCTO "Auto Assign Passengers" must stay OFF (typo + >3-seat index bug + missing Aldecaldos IDs).
+
+## FAC-TimeskipPosition v1.0 (2026-10-04 20:00)
+- Flesh & Chrome sleep-menu (TimeskipGameController) stamina/energy bars overlapped Dark Future's. Patch = replacement copies of FleshAndChrome_Config/_DVRCF/_TimeskipUI.reds: two DVRCF sliders under Rest/Sleep after "Show bars on timeskip": horizontal offset (-1500..1500, 0 = centred) and vertical offset (-200..1600, 0 = FAC original -100 px). Originals in FAC-TimeskipPosition-source/original. scc full-set compile: 0 errors. Note: redscript rejects negative literal defaults on fields (INVALID_CONSTANT), hence the relative Y.
+- Confirmed from LimitedHudNeedsBars source notes: "@wrapMethod cannot target a class declared in redscript" - explains the SONC wrap failure. Patching another mod's classes = replace its files (or blackboard/widget-name tricks).
+
+## NEXT: Lua GC Tuner LHUD still not working (Ethan, 2026-10-04)
+- scripting.log has NEITHER "Limited HUD link connected" NOR "Limited HUD link not found" from v6.9 in any of 5 launches today, so the LHUD probe in init.lua never runs or errors silently -> start by tracing why (pcall swallowing? only runs when meter screen = Hud?).
+- Reference that works for Ethan: LimitedHudNeedsBars (Nexus 33337, r6/scripts/LimitedHudNeedsBars) - gate is hide-only, reads LHUD blackboard fields IsGlobalFlagToggled_LHUD / IsMounted_LHUD with @if guards, and applies opacity/visibility to a widget property the owning mod never writes. Ask Ethan what exactly fails (meter never hides? never shows? settings page missing?).
