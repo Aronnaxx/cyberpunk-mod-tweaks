@@ -268,3 +268,9 @@ Open checks:
 - Lua GC Tuner v6.13: LHUD bridge reads LHUD's published flags (AllBlackboardDefinitions.lhud_*) instead of re-deriving from blackboards; v6.10-6.12 showed the HUD meter while LHUD hid everything.
 
 - 2026-10-04: Ethan removed Dark Future (clashed with Flesh & Chrome). Dark Future questions are closed. FAC-TimeskipPosition only existed to move FAC sleep-menu bars off Dark Future's, so it is optional now. LimitedHudNeedsBars still gates Flushing Etiquette / SynthDose.
+
+## Load-time phantom weapon (2026-10-05)
+- Every load: weapon roster (SMG, 00/0000) shows and crowds flee; draw+holster clears it. CET probe after load: WeaponRight empty, GetActiveWeapon none, HasWeaponEquipped false, UpperBody 0. LHUD PostLaunchCall (1 s after spawn) reads HasAnyWeaponEquipped_LHUD (WeaponRight slot), so a weapon is briefly in hand at load and is removed without a holster.
+- Ruled out: Always First Equip (tested disabled), StreetSense clothing fear (fearScore 0), 2BT (inventory puppet only), Visual Holsters (clothing swaps), Cutscene Weapon Swapper.
+- LHUD-LoadResync-v1.0.zip: re-queues the LHUDEventType.Weapon state 3 s and 8 s after player attach (HUD fix). WeaponSlotProbe-v1.0.zip: temporary CET logger (20 s after load) to find the brief draw.
+- Backpack hover flicker: backpack only; not Inventory Instant Preview (tested), not More Inventory Filters (off). Next: bisect More Weapon Filters, Flesh & Chrome InventoryUI, Backpack Search, MarkToSell, Equipment Bonus Stat.
