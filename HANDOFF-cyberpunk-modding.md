@@ -254,3 +254,8 @@ Open checks:
 ## NEXT: Lua GC Tuner LHUD still not working (Ethan, 2026-10-04)
 - scripting.log has NEITHER "Limited HUD link connected" NOR "Limited HUD link not found" from v6.9 in any of 5 launches today, so the LHUD probe in init.lua never runs or errors silently -> start by tracing why (pcall swallowing? only runs when meter screen = Hud?).
 - Reference that works for Ethan: LimitedHudNeedsBars (Nexus 33337, r6/scripts/LimitedHudNeedsBars) - gate is hide-only, reads LHUD blackboard fields IsGlobalFlagToggled_LHUD / IsMounted_LHUD with @if guards, and applies opacity/visibility to a widget property the owning mod never writes. Ask Ethan what exactly fails (meter never hides? never shows? settings page missing?).
+
+## Lua GC Tuner v6.10 / v6.11 (2026-10-04)
+- v6.10: LHUD bridge "Show with scanner".
+- v6.11: Esc menu split into "Esc menu (Resume list)" (default: top center X -1340 Y 360, scale 1.0, width 460 = just above Resume, estimated from a screenshot) and "Mod Configuration Menu & other Esc pages" (default = Ethan's old Esc meter: top center X -360 Y 100, scale 1.25, width 610). Existing settings migrate (old Esc values move to MCM). Page detection: r6/scripts/LuaGCTunerLHUD/LuaGCTunerMenu.reds (MenuScenario_BaseMenu m_currMenuName|m_currSubMenuName); overlay shows "Current menu: pause (page: ...)". Follow-LHUD switch removed (always on when the bridge exists). Overlay gameplay section shows LHUD link + active conditions. Offline compile clean. Untested in game.
+- Fullscreen Browser (Nexus 34417) installed by Ethan, works. Page file: D: 32768 fixed, C: system managed (set 2026-10-04, reboot pending).
