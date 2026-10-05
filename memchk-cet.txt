@@ -1,0 +1,1 @@
+print(string.format("MEMCHK %s luaHeapMB=%.0f availPhysMB=%.0f availCommitMB=%.0f commitLimitMB=%.0f totalPhysMB=%.0f", os.date("%H:%M:%S"), collectgarbage("count")/1024, Game.SysMem_AvailPhysMB(), Game.SysMem_AvailCommitMB(), Game.SysMem_CommitLimitMB(), Game.SysMem_TotalPhysMB()))
