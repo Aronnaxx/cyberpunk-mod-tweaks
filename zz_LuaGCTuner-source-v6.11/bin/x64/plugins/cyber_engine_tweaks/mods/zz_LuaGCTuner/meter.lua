@@ -66,7 +66,6 @@ local LOOK = {
   { f = "Countdown",  d = true, kind = "bool",   label = "Show countdown" },
   { f = "Eta",        d = true, kind = "bool",   label = "Show freeze estimate" },
   { f = "EtaAlways",  d = false, kind = "bool",  label = "Freeze estimate even when no cleanup is due" },
-  { f = "ShowAt",     d = 0,    kind = "int",    label = "Only show above (% of cap)", lo = 0, hi = 100, step = 1 },
 }
 M.LOOK = LOOK
 
@@ -235,14 +234,6 @@ local function destroy()
   w = nil
 end
 
--- "Only show above X % of cap": a pending cleanup countdown always shows
-local function aboveThreshold(screen, st)
-  local pct = opt(screen, "ShowAt")
-  if pct <= 0 or st.countdown then return true end
-  local cap = ctx.capMB()
-  return cap > 0 and ctx.heapMB() / cap * 100 >= pct
-end
-
 -- returns layer, screen id (nil = hidden)
 local function wanted()
   if not cfg.meterEnabled or not cfg.enabled then return nil end
@@ -252,10 +243,9 @@ local function wanted()
     local screen = KIND_SCREEN[s.menuKind] or "Other"
     if screen == "Pause" and s.pauseSub then screen = "Mcm" end   -- MCM / settings / save / load page of the Esc menu
     if not cfg[screen == "Other" and "meterOther" or ("meter" .. screen)] then return nil end
-    if not aboveThreshold(screen, s) then return nil end
     return "inkMenuLayer", screen
   end
-  if cfg.meterGameplay and aboveThreshold("Hud", s) and ctx.hudVisible() then return "inkHUDLayer", "Hud" end
+  if cfg.meterGameplay and ctx.hudVisible() then return "inkHUDLayer", "Hud" end
   return nil
 end
 

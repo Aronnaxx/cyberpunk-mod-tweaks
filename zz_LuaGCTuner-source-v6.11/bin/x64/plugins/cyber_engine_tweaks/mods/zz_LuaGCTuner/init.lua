@@ -1,6 +1,7 @@
 -- zz_LuaGCTuner v6.7 "menu-time cleanup"
 -- v6.11: Esc menu split into the Resume list and "Mod Configuration Menu & other Esc pages" (own meter
---        position each); Limited HUD is always followed when installed (switch removed); LHUD status in the overlay.
+--        position each); Limited HUD is always followed when installed (switch removed); LHUD status in the overlay;
+--        "Only show above (% of cap)" removed (the meter shows whenever its screen is on).
 -- v6.10: LHUD bridge gains "Show with scanner" (r6/scripts/LuaGCTunerLHUD).
 -- v6.9: one default "Wait before cleanup" (main section) that each menu can override ("Own wait time");
 --       meter: green marker at the gameplay-cleanup level, optional freeze estimate shown at all times.
