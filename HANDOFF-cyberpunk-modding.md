@@ -173,3 +173,43 @@
 - Menu threshold mode: '% of cap' (menuCollectPct, follows the cap) or 'Exact MB' (stored value no longer clamped; effective value limited to 90% of cap). ImGui: Ctrl+click any slider to type.
 - v6.1 (current zip zz_LuaGCTuner-v6.1.zip): per-menu cleanup mode (mode<Kind>: 1 Off / 2 Default wait / 3 Immediately / 4 Custom wait + wait<Kind>) for Pause, Map, Inventory, Journal, Other; old trig* switches migrate (false -> Off). Hard cap and dynamic min/max limited to installed RAM (SysMem_TotalPhysMB; 128 GB without the plugin); readSysMem runs before load().
 - Page file explained to Ethan: commit limit = RAM + page file; game committed 35.5 GB with 17.3 GB resident; screenshot showed 28.5 GB RAM free but 1.7 GB commit free. Recommend fixed 32 GB page file.
+
+## zz_LuaGCTuner v6.2-6.4 (2026-10-04) - current zip zz_LuaGCTuner-v6.4.zip
+- v6.2: meter placed from the layer's size (TopLeft + computed margin; right/center anchors were ignored inside the letterboxed menu window); meter colors built in M.init (HDRColor does not exist at file load -> v6.1 failed to load).
+- v6.3: per-screen meter layout (Inventory, Map, Journal, Pause, Other, Hud): meterOwn<Screen> + meterAnchor/X/Y/Scale<Screen>, Dark-Future-style "Own position (press Apply)" sections; freeze ETA in the countdown; notices say 'Esc menu' / 'map' / 'loading screen'. Ethan's layout: Top right, X 1290, Y 50, scale 0.8.
+- v6.4: r6/scripts/LuaGCTunerLHUD/LuaGCTunerLHUD.reds - LHUD bridge (own "Lua GC Tuner meter" section in LHUD's Mod Settings using LHUD's loc keys; LuaGCTunerLHUDSystem.IsVisible()/GetOpacity() recompute LHUD's rule from the same blackboards; everything @if(ModuleExists("LimitedHudCommon"))). Compiled offline with scc both with and without LHUD: 0 errors. Lua polls it at 4 Hz (meterLhud switch).
+- Play skill: Documents/claude-skill-tools/cyberpunk-play (cp.ps1 input+screenshot, crop.ps1, find-binding.ps1).
+- v6.5 (current zip zz_LuaGCTuner-v6.5.zip): sharp meter text - never SetScale ink text (it rasterizes then scales = blur); multiply font sizes / widths / margins by the scale and round. 'Advanced options' = default look (meter.LOOK: Anchor, X, Y, Scale, Width, Background, BgOpacity, Icon, Percent, Mode, Countdown, Eta) + per-screen 'Override settings' with every LOOK field (meter<Field><Screen>). Screen check throttled to 10 Hz.
+- Tuner cost measured (capture 2026-10-03_23-24-50, v4): own logic ~1.7 us/frame (onUpdate 0.5 us + onDraw 1.2 us); the 13.3 s 'exclusive' time is the cleanups themselves (gc_ms). Re-measure v6.5 with RedProfiler (meter + LHUD poll).
+- Blur elsewhere: Drone Companion r6/scripts/DroneCompanion/DroneHud.reds uses panel.SetScale (same blur cause); NCA HealthBarVisibility.reds SetScale(0.85,0.9). CET ImGui: config.json font oversample_horizontal 3 / vertical 1.
+- v6.6 (current zip zz_LuaGCTuner-v6.6.zip): profiler.lua - Esc-menu ring chart (72 rotated rect segments + legend, top 6 + Other) of per-mod Lua allocations from RedProfiler.MemRows(0, "", 200) ('|' fields, CET rows 'cet:<mod>', Lua KB assumed column 6 - first raw row is printed once to the CET log to verify). Modes: Off / Pause menu only / Sample gameplay after resume (default, profSampleS s, also stops on pause) / Always. Only stops captures it started; SetExportOnStop(false) around its stops. Meter 'Only show above (% of cap)' (meterShowAt, per screen; countdown always shows).
+
+## v6.7 (2026-10-04)
+- meter.lua: failed builds no longer retried + logged every frame (15,467 "could not build ... meter.lua:123" lines in ~2 min on 15:22-15:23, HUD layer lookup returned nil). Each distinct error logged once; retry at the 10 Hz screen check; layer lookup falls back to GetLayers() by class name.
+- 15:23 crash (police Emperor passenger spawn, ncpd_fleet.archive) is the 2nd identical crash: not a one-off.
+- Dynamic cap fell to 672 MB because commit was 58.5/65.5 GB (page file 3.9 GB, game 29.8 GB committed).
+- Profiler ring chart removed (Ethan: not scoped as wanted). profiler.lua gone; old prof* keys in settings.json are ignored.
+- Anchors: added Bottom center + Center (appended, indices 6/7); X -3000..3000, Y -2000..2000; center anchors 0 = centered; result clamped on screen.
+- Per-screen Background = on/off switch (stored 3/1); saved per-screen 2 (Map only) -> on for Map, off elsewhere. Default stays Off / Map only / Always.
+
+## v6.8 (2026-10-04)
+- Settings: one always-visible subcategory per screen (/screen<Id>: Pause, Map, Inventory, Journal, Other, Hud) with Clean up here (clean<Id>), Wait (wait<Id>), Show meter, Background opacity (meterBg<Id>, Map 0.85 else 0), Advanced options (meterOwn<Id> + look). Old /menus and /meter<Id> paths removed. Meter section = master + Default look.
+- Migration: mode<Id> 1=off, 2=on+pauseWaitS, 3=on+0 s, 4=on+wait<Id>; meterBackground/BgOpacity -> meterBg<Id>.
+- Gameplay cleanup (cleanHud, default off): at hudCleanPct % of cap (75), warning, hudWarnS (5 s), skips combat (IsInCombat) / driving (GetMountedVehicle). Pending cleanups feed the meter countdown.
+- LHUD link: no longer latched "missing" after 20 failed lookups (5 s, often before a save is loaded); retried every 2 s; logs "Limited HUD link connected" / "not found" once.
+
+## v6.9 (2026-10-04)
+- Default wait (pauseWaitS) in main section; per menu "Own wait time" (waitOwn<Id>) + wait<Id>. Migration: v6.8 wait differing from default -> own.
+- Meter: green marker at hudCleanPct when gameplay cleanup on; LOOK option EtaAlways ("~X freeze if cleaned now").
+- Crash 17:37 (3rd police Emperor passenger crash, during save load at ~[-1510,1473]): police Emperor stack = ncpd_fleet.archive (replaces ent) + NCTO police passengers + Law Enforcement Overhaul + new REDmod "NCPD Prevention Police Enhancement 2.7" (17:31, overrides preventiondata like LEO).
+
+## NCTO-PassengerFix v1.0 (2026-10-04)
+Root cause candidate for the 9 police-vehicle occupant crashes today (Emperor + Cortes, incl. NCTO own cortes ent): NCTO.reds:657 auto-assign NCPD list uses Passengers.PolicePassengerBackEntry (capital P; only lowercase exists) -> missing record in randomPassengers; matchRandomPassengersSlots reads past 3-entry lists for 4+ slot vehicles. Patch: TweakXL clone of the misspelled ID + @replaceGlobal capping slots. scc compile of NCTO+patch: clean. autoSetRandomPassengers currently false (user.ini 17:55).
+- v1.1: dropped the .reds (@replaceGlobal could not find module function matchRandomPassengersSlots in the full build; offline mini compile passed only because the @if guard skipped it). Typo fix (yaml) only.
+- v1.2: + Passengers.AldelcaldosDriverEntry (Factions Evolved typo, TweakXL warns non-existent).
+- Use Your Fridge Food&Drinks Filter requires More Inventory Filters and is incompatible with More Weapon Filters (Nexus 27740 description) - both filter mods installed -> stash grid flicker.
+
+## NCTO-PassengerFix v1.3 (2026-10-04 18:55)
+- Crash 18:48: same +0x33F1BC / SimpleOccupantSlotSpawner signature, this time on Arch V4 Fyrn bike (BDF_DRe_Arch_V4, ep1\vehicles\sportbike\v_sportbike2_arch_v4_fyrn.ent). Factions Evolved aldecaldos__modded_arch_fyrn_gray/vigil_gray use missing Passengers.AldelcaldosDriverEntry -> confirms "missing passenger entry record => load crash" mechanism.
+- v1.2 cloned Passengers.AldecaldosDriverEntry, which no installed mod defines; v1.3 clones NCTO's Passengers.AdelcaldosDriverEntry (Aldecados.yaml) instead. v1.2 superseded, never install it.
+- Audit tool: id-check-commands.txt (15 CET lines, 5179 Passengers/Character/Vehicle IDs from reds+lua across 64 mods); paste each into the CET console, grep scripting.log for "IDCHK MISSING".

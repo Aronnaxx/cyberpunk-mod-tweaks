@@ -1,0 +1,7 @@
+# Night City Traffic Overhaul 2.40 - passenger fix (NCTO.reds line 657)
+# "Auto Assign Passengers for Modded Vehicles" gives modded NCPD cars
+# Passengers.PolicePassengerBackEntry (capital P). Only Passengers.policePassengerBackEntry exists,
+# so those cars got a passenger entry that points at nothing (crash while spawning occupants on load).
+# This creates the misspelled ID as a copy of the real entry.
+Passengers.PolicePassengerBackEntry:
+  $base: Passengers.policePassengerBackEntry

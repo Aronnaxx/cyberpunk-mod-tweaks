@@ -1,0 +1,327 @@
+##### Factions Evolved - Claiming Files 25873 2.31c 2026-08-08T16-21Z k8Iw8mSgM
+  == r6\tweaks\zz_FactionsEvolved\FactionsEvolved_ClaimCars.yaml
+     249:   - !append Vehicle.v_standard3_chevalier_emperor_militech
+     252:   - !append Vehicle.v_standard3_chevalier_emperor_police
+     728:   - !append Vehicle.ncpd__modded_chevalier_emperor_netwatch
+     729:   - !append Vehicle.ncpd__modded_jv_netwatch_emperor
+##### Factions Evolved - Law Enforcement Overhaul Reset 25873 1.4l 2026-08-08T16-35Z KRvfRxIH7
+  == r6\tweaks\Law Enforcement Overhaul\prevention_vehicles.tweak
+     230: leo_ncpd_chevalier_emperor_heat_3 : v_standard3_chevalier_emperor_police
+     242: leo_ncpd_chevalier_emperor_heat_4 : vcd_chevalier_emperor_ncpd
+     247: leo_ncpd_chevalier_emperor_heat_5 : leo_ncpd_chevalier_emperor_heat_4
+     358: leo_nusa_chevalier_emperor_heat_4 : v_standard3_chevalier_emperor
+     360: 	appearanceName = "chevalier_emperor_nusa_nusa_01";
+     369: leo_nusa_chevalier_emperor_heat_5 : leo_nusa_chevalier_emperor_heat_4
+     416: leo_ncx_chevalier_emperor_heat_1 : v_standard3_chevalier_emperor
+     418: 	appearanceName = "chevalier_emperor__basic_suburban_1_4";
+     427: leo_ncx_chevalier_emperor_heat_2 : leo_ncx_chevalier_emperor_heat_1
+     462: leo_militech_chevalier_emperor_heat_3 : v_standard3_chevalier_emperor_militech
+     472: leo_militech_chevalier_emperor_heat_4 : leo_militech_chevalier_emperor_heat_3
+     478: leo_militech_chevalier_emperor_specops_heat_3 : v_standard3_chevalier_emperor_militech
+     480: 	appearanceName = "chevalier_emperor__basic_militech_camo_01";
+     489: leo_militech_chevalier_emperor_specops_heat_4 : leo_militech_chevalier_emperor_specops_heat_3
+     498: leo_militech_chevalier_emperor_specops_heat_5 : leo_militech_chevalier_emperor_specops_heat_4
+     965: leo_arasaka_chevalier_emperor_heat_3 : v_standard3_chevalier_emperor
+     967: 	appearanceName = "chevalier_emperor__basic_arasaka_01";
+     976: leo_arasaka_chevalier_emperor_heat_4 : leo_arasaka_chevalier_emperor_heat_3
+     985: leo_arasaka_chevalier_emperor_heat_5 : leo_arasaka_chevalier_emperor_heat_4
+    1034: leo_arasaka_bio_chevalier_emperor_heat_5 : v_standard3_chevalier_emperor
+    1036: 	appearanceName = "chevalier_emperor__basic_arasaka_01";
+    1141: leo_biotechnica_chevalier_emperor_heat_3 : v_standard3_chevalier_emperor
+    1143: 	appearanceName = "chevalier_emperor__basic_suburban_1_6";
+    1152: leo_biotechnica_chevalier_emperor_heat_4 : leo_biotechnica_chevalier_emperor_heat_3
+    1161: leo_biotechnica_chevalier_emperor_city_heat_4 : leo_biotechnica_chevalier_emperor_heat_3
+    1169: leo_biotechnica_chevalier_emperor_heat_5 : leo_biotechnica_chevalier_emperor_heat_4
+    1267: leo_nightcorp_chevalier_emperor_heat_3 : v_standard3_chevalier_emperor
+    1269: 	appearanceName = "chevalier_emperor__basic_autonomous_truck";
+    1278: leo_nightcorp_chevalier_emperor_heat_4 : leo_nightcorp_chevalier_emperor_heat_3
+    1287: leo_nightcorp_chevalier_emperor_heat_5 : leo_nightcorp_chevalier_emperor_heat_4
+    1334: leo_zetatech_chevalier_emperor_heat_3 : v_standard3_chevalier_emperor
+    1336: 	appearanceName = "chevalier_emperor__basic_zetatech_02";
+    1345: leo_zetatech_chevalier_emperor_heat_4 : leo_zetatech_chevalier_emperor_heat_3
+    1355: leo_zetatech_chevalier_emperor_heat_5 : leo_zetatech_chevalier_emperor_heat_4
+    1365: leo_netwatch_chevalier_emperor_heat_4 : vcd_chevalier_emperor_netwatch
+    1377: leo_netwatch_chevalier_emperor_heat_5 : leo_netwatch_chevalier_emperor_heat_4
+    1581: v_standard3_chevalier_emperor_police_prevention : leo_ncpd_chevalier_emperor_heat_3
+    1585: v_standard3_chevalier_emperor_police_prevention_2 : leo_ncpd_chevalier_emperor_heat_4
+    1589: v_standard3_chevalier_emperor_police_prevention_3 : leo_ncpd_chevalier_emperor_heat_5
+    1637: v_standard3_chevalier_emperor_nusa_prevention_2 : leo_nusa_chevalier_emperor_heat_4
+    1641: v_standard3_chevalier_emperor_nusa_prevention_3 : leo_nusa_chevalier_emperor_heat_5
+    1661: v_standard3_chevalier_emperor_ncx_prevention : leo_ncx_chevalier_emperor_heat_1
+    1665: v_standard3_chevalier_emperor_ncx_prevention_2 : leo_ncx_chevalier_emperor_heat_2
+    1681: v_standard3_chevalier_emperor_militech_prevention_2 : leo_militech_chevalier_emperor_heat_3
+    1685: v_standard3_chevalier_emperor_militech_prevention_3 : leo_militech_chevalier_emperor_heat_4
+    1689: v_standard3_chevalier_emperor_militech_specops_prevention : leo_militech_chevalier_emperor_specops_heat_3
+    1693: v_standard3_chevalier_emperor_militech_specops_prevention_2 : leo_militech_chevalier_emperor_specops_heat_4
+    1697: v_standard3_chevalier_emperor_militech_specops_prevention_3 : leo_militech_chevalier_emperor_specops_heat_5
+    1881: v_standard3_chevalier_emperor_arasaka_prevention : leo_arasaka_chevalier_emperor_heat_3
+    1885: v_standard3_chevalier_emperor_arasaka_prevention_2 : leo_arasaka_chevalier_emperor_heat_4
+    1889: v_standard3_chevalier_emperor_arasaka_prevention_3 : leo_arasaka_chevalier_emperor_heat_5
+    1909: v_standard3_chevalier_emperor_arasaka_bio_prevention : leo_arasaka_bio_chevalier_emperor_heat_5
+    1953: v_standard3_chevalier_emperor_biotechnica_prevention : leo_biotechnica_chevalier_emperor_heat_3
+    1957: v_standard3_chevalier_emperor_biotechnica_prevention_2 : leo_biotechnica_chevalier_emperor_heat_4
+    1961: v_standard3_chevalier_emperor_biotechnica_prevention_3 : leo_biotechnica_chevalier_emperor_city_heat_4
+    1965: v_standard3_chevalier_emperor_biotechnica_prevention_4 : leo_biotechnica_chevalier_emperor_heat_5
+    2005: v_standard3_chevalier_emperor_nightcorp_prevention : leo_nightcorp_chevalier_emperor_heat_3
+    2009: v_standard3_chevalier_emperor_nightcorp_prevention_2 : leo_nightcorp_chevalier_emperor_heat_4
+    2013: v_standard3_chevalier_emperor_nightcorp_prevention_3 : leo_nightcorp_chevalier_emperor_heat_5
+    2033: v_standard3_chevalier_emperor_zetatech_prevention : leo_zetatech_chevalier_emperor_heat_3
+    2037: v_standard3_chevalier_emperor_zetatech_prevention_2 : leo_zetatech_chevalier_emperor_heat_4
+    2041: v_standard3_chevalier_emperor_zetatech_prevention_3 : leo_zetatech_chevalier_emperor_heat_5
+    2045: v_standard3_chevalier_emperor_netwatch_prevention : leo_netwatch_chevalier_emperor_heat_4
+    2049: v_standard3_chevalier_emperor_netwatch_prevention_2 : leo_netwatch_chevalier_emperor_heat_5
+  == r6\tweaks\Law Enforcement Overhaul\preventiondata.tweak
+      85: 				vehicleRecord = "Vehicle.leo_ncpd_chevalier_emperor_heat_3";
+     122: 				vehicleRecord = "Vehicle.leo_ncpd_chevalier_emperor_heat_4";
+     134: 				vehicleRecord = "Vehicle.leo_netwatch_chevalier_emperor_heat_4";
+     163: 				vehicleRecord = "Vehicle.leo_ncpd_chevalier_emperor_heat_5";
+     179: 				vehicleRecord = "Vehicle.leo_netwatch_chevalier_emperor_heat_5";
+     328: 				vehicleRecord = "Vehicle.leo_ncpd_chevalier_emperor_heat_3";
+     373: 				vehicleRecord = "Vehicle.leo_ncpd_chevalier_emperor_heat_4";
+     385: 				vehicleRecord = "Vehicle.leo_netwatch_chevalier_emperor_heat_4";
+     414: 				vehicleRecord = "Vehicle.leo_ncpd_chevalier_emperor_heat_5";
+     430: 				vehicleRecord = "Vehicle.leo_netwatch_chevalier_emperor_heat_5";
+     579: 				vehicleRecord = "Vehicle.leo_ncpd_chevalier_emperor_heat_3";
+     624: 				vehicleRecord = "Vehicle.leo_ncpd_chevalier_emperor_heat_4";
+     636: 				vehicleRecord = "Vehicle.leo_netwatch_chevalier_emperor_heat_4";
+     669: 				vehicleRecord = "Vehicle.leo_ncpd_chevalier_emperor_heat_5";
+     685: 				vehicleRecord = "Vehicle.leo_netwatch_chevalier_emperor_heat_5";
+     830: 				vehicleRecord = "Vehicle.leo_ncpd_chevalier_emperor_heat_3";
+     875: 				vehicleRecord = "Vehicle.leo_ncpd_chevalier_emperor_heat_4";
+     887: 				vehicleRecord = "Vehicle.leo_netwatch_chevalier_emperor_heat_4";
+     920: 				vehicleRecord = "Vehicle.leo_ncpd_chevalier_emperor_heat_5";
+     932: 				vehicleRecord = "Vehicle.leo_netwatch_chevalier_emperor_heat_5";
+    1061: 				vehicleRecord = "Vehicle.leo_ncpd_chevalier_emperor_heat_3";
+    1098: 				vehicleRecord = "Vehicle.leo_ncpd_chevalier_emperor_heat_4";
+    1110: 				vehicleRecord = "Vehicle.leo_netwatch_chevalier_emperor_heat_4";
+    1139: 				vehicleRecord = "Vehicle.leo_ncpd_chevalier_emperor_heat_5";
+    1155: 				vehicleRecord = "Vehicle.leo_netwatch_chevalier_emperor_heat_5";
+    1272: 				vehicleRecord = "Vehicle.leo_ncpd_chevalier_emperor_heat_3";
+    1309: 				vehicleRecord = "Vehicle.leo_ncpd_chevalier_emperor_heat_4";
+    1321: 				vehicleRecord = "Vehicle.leo_netwatch_chevalier_emperor_heat_4";
+    1329: 				vehicleRecord = "Vehicle.leo_arasaka_chevalier_emperor_heat_4";
+    1370: 				vehicleRecord = "Vehicle.leo_ncpd_chevalier_emperor_heat_5";
+    1386: 				vehicleRecord = "Vehicle.leo_netwatch_chevalier_emperor_heat_5";
+    1418: 				vehicleRecord = "Vehicle.leo_arasaka_chevalier_emperor_heat_5";
+    1531: 				vehicleRecord = "Vehicle.leo_ncpd_chevalier_emperor_heat_3";
+    1535: 				vehicleRecord = "Vehicle.leo_zetatech_chevalier_emperor_heat_3";
+    1576: 				vehicleRecord = "Vehicle.leo_ncpd_chevalier_emperor_heat_4";
+    1588: 				vehicleRecord = "Vehicle.leo_netwatch_chevalier_emperor_heat_4";
+    1592: 				vehicleRecord = "Vehicle.leo_zetatech_chevalier_emperor_heat_4";
+    1604: 				vehicleRecord = "Vehicle.leo_biotechnica_chevalier_emperor_city_heat_4";
+    1608: 				vehicleRecord = "Vehicle.leo_nightcorp_chevalier_emperor_heat_4";
+    1637: 				vehicleRecord = "Vehicle.leo_ncpd_chevalier_emperor_heat_5";
+    1653: 				vehicleRecord = "Vehicle.leo_netwatch_chevalier_emperor_heat_5";
+    1685: 				vehicleRecord = "Vehicle.leo_zetatech_chevalier_emperor_heat_5";
+    1689: 				vehicleRecord = "Vehicle.leo_biotechnica_chevalier_emperor_heat_5";
+    1732: 				vehicleRecord = "Vehicle.leo_ncx_chevalier_emperor_heat_1";
+    1749: 				vehicleRecord = "Vehicle.leo_ncx_chevalier_emperor_heat_2";
+    1782: 				vehicleRecord = "Vehicle.leo_ncpd_chevalier_emperor_heat_3";
+    1819: 				vehicleRecord = "Vehicle.leo_ncpd_chevalier_emperor_heat_4";
+    1831: 				vehicleRecord = "Vehicle.leo_netwatch_chevalier_emperor_heat_4";
+    1860: 				vehicleRecord = "Vehicle.leo_ncpd_chevalier_emperor_heat_5";
+    1876: 				vehicleRecord = "Vehicle.leo_netwatch_chevalier_emperor_heat_5";
+    2011: 				vehicleRecord = "Vehicle.leo_nusa_chevalier_emperor_heat_4";
+    2044: 				vehicleRecord = "Vehicle.leo_nusa_chevalier_emperor_heat_5";
+    2115: 				vehicleRecord = "Vehicle.leo_militech_chevalier_emperor_heat_2";
+    2140: 				vehicleRecord = "Vehicle.leo_militech_chevalier_emperor_heat_3";
+    2144: 				vehicleRecord = "Vehicle.leo_militech_chevalier_emperor_specops_heat_3";
+    2169: 				vehicleRecord = "Vehicle.leo_militech_chevalier_emperor_heat_4";
+    2173: 				vehicleRecord = "Vehicle.leo_militech_chevalier_emperor_specops_heat_4";
+    2206: 				vehicleRecord = "Vehicle.leo_militech_chevalier_emperor_specops_heat_5";
+    2448: 				vehicleRecord = "Vehicle.leo_ncpd_chevalier_emperor_heat_5";
+    2464: 				vehicleRecord = "Vehicle.leo_netwatch_chevalier_emperor_heat_5";
+    2747: 				vehicleRecord = "Vehicle.leo_militech_chevalier_emperor_specops_heat_5";
+    2844: 				vehicleRecord = "Vehicle.leo_arasaka_chevalier_emperor_heat_3";
+    2873: 				vehicleRecord = "Vehicle.leo_arasaka_chevalier_emperor_heat_4";
+    2906: 				vehicleRecord = "Vehicle.leo_arasaka_chevalier_emperor_heat_5";
+    3007: 				vehicleRecord = "Vehicle.leo_biotechnica_chevalier_emperor_heat_3";
+    3036: 				vehicleRecord = "Vehicle.leo_biotechnica_chevalier_emperor_heat_4";
+    3069: 				vehicleRecord = "Vehicle.leo_biotechnica_chevalier_emperor_heat_5";
+    3073: 				vehicleRecord = "Vehicle.leo_arasaka_bio_chevalier_emperor_heat_5";
+    3173: 				vehicleRecord = "Vehicle.leo_nightcorp_chevalier_emperor_heat_3";
+    3202: 				vehicleRecord = "Vehicle.leo_nightcorp_chevalier_emperor_heat_4";
+    3235: 				vehicleRecord = "Vehicle.leo_nightcorp_chevalier_emperor_heat_5";
+  == r6\tweaks\zz_FactionsEvolved\FactionsEvolved_Prevention.yaml
+      51: Vehicle.leo_militech_chevalier_emperor_heat_2:
+      63: Vehicle.v_standard3_chevalier_emperor_militech_prevention:
+      64:   $base: Vehicle.leo_militech_chevalier_emperor_heat_2
+##### Factions Evolved - Reinforcements Gang Vs Gang 25873 1.4r 2026-08-28T17-08Z k8Iw8mSfl
+  == r6\tweaks\zz_FactionsEvolved\reinforcements\6thStreet.yaml
+      10: # Vehicle.GR_v_standard3_chevalier_emperor
+     238:     vehicleRecord: Vehicle.GR_v_standard3_chevalier_emperor
+     255:     vehicleRecord: Vehicle.GR_v_standard3_chevalier_emperor
+     289:     vehicleRecord: Vehicle.GR_v_standard3_chevalier_emperor
+  == r6\tweaks\zz_FactionsEvolved\reinforcements\animals.yaml
+       9: # Vehicle.GR_v_standard3_chevalier_emperor
+     336:   vehicleRecord: Vehicle.GR_v_standard3_chevalier_emperor
+  == r6\tweaks\zz_FactionsEvolved\reinforcements\arasaka.yaml
+       7: # Vehicle.GR_v_standard3_chevalier_emperor_arasaka_courier
+      88:     vehicleRecord: Vehicle.GR_v_standard3_chevalier_emperor_arasaka_courier
+     187:     vehicleRecord: Vehicle.GR_v_standard3_chevalier_emperor_arasaka_courier
+     221:     vehicleRecord: Vehicle.GR_v_standard3_chevalier_emperor_arasaka_courier
+     257:     vehicleRecord: Vehicle.GR_v_standard3_chevalier_emperor_arasaka_courier
+  == r6\tweaks\zz_FactionsEvolved\reinforcements\militech.yaml
+      25:     vehicleRecord: Vehicle.GR_v_standard3_chevalier_emperor_militech
+      58:     vehicleRecord: Vehicle.GR_v_standard3_chevalier_emperor_militech
+      75:     vehicleRecord: Vehicle.GR_v_standard3_chevalier_emperor_militech
+      92:     vehicleRecord: Vehicle.GR_v_standard3_chevalier_emperor_militech
+     126:     vehicleRecord: Vehicle.GR_v_standard3_chevalier_emperor_militech
+     160:     vehicleRecord: Vehicle.GR_v_standard3_chevalier_emperor_militech
+     194:     vehicleRecord: Vehicle.GR_v_standard3_chevalier_emperor_militech
+     211:     vehicleRecord: Vehicle.GR_v_standard3_chevalier_emperor_militech
+     228:     vehicleRecord: Vehicle.GR_v_standard3_chevalier_emperor_militech
+  == r6\tweaks\zz_FactionsEvolved\reinforcements\ncpd.yaml
+     151:     vehicleRecord: Vehicle.GR_ncpd_suv_chevalier_emperor_heat_4
+     168:     vehicleRecord: Vehicle.GR_ncpd_suv_chevalier_emperor_heat_4
+     185:     vehicleRecord: Vehicle.GR_ncpd_suv_chevalier_emperor_heat_4
+     274: # Vehicle.GR_ncpd_suv_chevalier_emperor_heat_4
+##### Factions Evolved 25873 2.40 2026-08-26T09-40Z E91D9dTxK
+  == r6\scripts\NightCityTrafficOverhaul\NCTOvehicles.reds
+      88:     t"Vehicle.arasaka__chevalier_emperor",
+     181:     t"Vehicle.utility__modded_sheriff_emperor",
+     252:     t"Vehicle.police__chevalier_emperor",
+     260:     t"Vehicle.ncpd__modded_chevalier_emperor_netwatch",
+     261:     t"Vehicle.ncpd__modded_jv_netwatch_emperor",
+     275:     t"Vehicle.militech__chevalier_emperor",
+     289:     t"Vehicle.charterHillSecurity__chevalier_emperor",
+     701:     t"Vehicle.ncpd__modded_chevalier_emperor_netwatch",
+     702:     t"Vehicle.ncpd__modded_jv_netwatch_emperor",
+     826:     t"Vehicle.utility__modded_sheriff_emperor",
+     854:     t"Vehicle.arasaka__chevalier_emperor",
+     866:     t"Vehicle.militech__chevalier_emperor",
+     875:     t"Vehicle.police__chevalier_emperor",
+     883:     t"Vehicle.charterHillSecurity__chevalier_emperor",
+     937:     t"Vehicle.ncpd_suv_chevalier_emperor_heat_4",
+    1155:     t"Vehicle.v_standard3_chevalier_emperor",
+    1156:     t"Vehicle.v_standard3_chevalier_emperor_militech",
+    1157:     t"Vehicle.v_standard3_chevalier_emperor_militech_border_prevention",
+    1158:     t"Vehicle.v_standard3_chevalier_emperor_militech_wasteland_heavy_prevention",
+    1159:     t"Vehicle.v_standard3_chevalier_emperor_militech_wasteland_prevention",
+    1160:     t"Vehicle.v_standard3_chevalier_emperor_militech_wasteland_prevention_2",
+    1161:     t"Vehicle.v_standard3_chevalier_emperor_ncu",
+    1162:     t"Vehicle.v_standard3_chevalier_emperor_police",
+    1163:     t"Vehicle.v_standard3_chevalier_emperor_police_mws",
+    1164:     t"Vehicle.v_standard3_chevalier_emperor_police_prevention",
+    1165:     t"Vehicle.v_standard3_chevalier_emperor_police_siren",
+    1166:     t"Vehicle.v_standard3_chevalier_emperor_sport",
+    1261:     t"Vehicle.hackable_chevalier_emperor_police_siren",
+    1286:     t"Vehicle.hackable_chevalier_emperor",
+    1329:     t"Vehicle.cs_savable_chevalier_emperor",
+    1358:     t"Vehicle.cs_savable_chevalier_emperor_police_siren",
+  == r6\tweaks\zz_FactionsEvolved\FactionsEvolved_NCPD.yaml
+      57: Vehicle.ncpd__modded_jv_netwatch_emperor:
+      58:   $base: Vehicle.jv_netwatch_emperor
+      83: # CHEVALIER EMPEROR NETWATCH
+      84: Vehicle.ncpd__modded_chevalier_emperor_netwatch:
+      85:   $base: Vehicle.vcd_chevalier_emperor_netwatch
+  == r6\tweaks\zz_FactionsEvolved\FactionsEvolved_Utility.yaml
+      99: Vehicle.utility__modded_sheriff_emperor:
+     100:   $base: Vehicle.sheriff_emperor
+##### Law Enforcement Overhaul Reset - AIO-26045-1-2-1aio-1766406377
+##### Law Enforcement Overhaul-10135-3-4-1735309521
+##### NCA Standard Density 2.3 10395 2.3 2026-10-04T08-35Z X32s3EYPc
+  == r6\tweaks\NightCityAlive\vehicles\emperor.yml
+       1: Vehicle.v_standard3_chevalier_emperor.randomPassengers:
+##### NCPDPPE V2.7 HARD TIMER-9863-2-7-1765558453
+  == mods\NCPD Prevention Police Enhancement\tweaks\base\gameplay\static_data\database\fasttravel\preventiondata.tweak
+     153: 				vehicleRecord = "Vehicle.ncpd_suv_chevalier_emperor_heat_4";
+     189: 				vehicleRecord = "Vehicle.ncpd_suv_chevalier_emperor_heat_4";
+     329: 				vehicleRecord = "Vehicle.ncpd_suv_chevalier_emperor_heat_4";
+     365: 				vehicleRecord = "Vehicle.ncpd_suv_chevalier_emperor_heat_4";
+     552: 				vehicleRecord = "Vehicle.ncpd_suv_chevalier_emperor_heat_2_City_Center";
+     592: 				vehicleRecord = "Vehicle.ncpd_suv_chevalier_emperor_heat_2_City_Center";
+     624: 				vehicleRecord = "Vehicle.ncpd_suv_chevalier_emperor_heat_4";
+     656: 				vehicleRecord = "Vehicle.ncpd_suv_chevalier_emperor_heat_4";
+     715: 				vehicleRecord = "Vehicle.ncpd_suv_chevalier_emperor_heat_2_City_Center";
+     747: 				vehicleRecord = "Vehicle.ncpd_suv_chevalier_emperor_heat_2_City_Center";
+     783: 				vehicleRecord = "Vehicle.ncpd_suv_chevalier_emperor_heat_4";
+     815: 				vehicleRecord = "Vehicle.ncpd_suv_chevalier_emperor_heat_4";
+     925: 				vehicleRecord = "Vehicle.ncpd_suv_chevalier_emperor_heat_2_City_Center";
+     969: 				vehicleRecord = "Vehicle.ncpd_suv_chevalier_emperor_heat_4";
+     997: 				vehicleRecord = "Vehicle.ncpd_suv_chevalier_emperor_heat_4";
+    1074: 				vehicleRecord = "Vehicle.ncpd_suv_chevalier_emperor_heat_4";
+    1096: 				vehicleRecord = "Vehicle.ncpd_suv_chevalier_emperor_heat_4";
+    1226: 				vehicleRecord = "Vehicle.ncpd_suv_chevalier_emperor_heat_4";
+    1254: 				vehicleRecord = "Vehicle.ncpd_suv_chevalier_emperor_heat_4";
+    1364: 				vehicleRecord = "Vehicle.ncpd_suv_chevalier_emperor_heat_4";
+    1389: 				vehicleRecord = "Vehicle.ncpd_suv_chevalier_emperor_heat_4";
+    1466: 				vehicleRecord = "Vehicle.ncpd_suv_chevalier_emperor_heat_4";
+    1483: 				vehicleRecord = "Vehicle.ncpd_suv_chevalier_emperor_heat_4";
+    1508: 				vehicleRecord = "Vehicle.ncpd_suv_chevalier_emperor_heat_4";
+    1868: 				vehicleRecord = "Vehicle.border_patrol_chevalier_emperor_militech_heat_3";
+    1900: 				vehicleRecord = "Vehicle.border_patrol_chevalier_emperor_militech_heat_3";
+    1928: 				vehicleRecord = "Vehicle.border_patrol_chevalier_emperor_militech_heat_3";
+    2002: 				vehicleRecord = "Vehicle.wasteland_chevalier_emperor_militech_heat_1";
+    2023: 				vehicleRecord = "Vehicle.wasteland_chevalier_emperor_militech_heat_3";
+    2027: 				vehicleRecord = "Vehicle.wasteland_chevalier_emperor_militech_heat_2";
+    2047: 				vehicleRecord = "Vehicle.wasteland_chevalier_emperor_militech_heat_3";
+    2051: 				vehicleRecord = "Vehicle.wasteland_chevalier_emperor_militech_heat_2";
+  == mods\NCPD Prevention Police Enhancement\tweaks\base\gameplay\static_data\database\vehicles\prevention_vehicles.tweak
+     105: ncpd_suv_chevalier_emperor_heat_2_City_Center : v_standard3_chevalier_emperor_police
+     221: ncpd_suv_chevalier_emperor_heat_4 : v_standard3_chevalier_emperor_police
+     382: border_patrol_chevalier_emperor_militech_heat_3 : v_standard3_chevalier_emperor_militech
+     384: 	appearanceName = "chevalier_emperor__basic_militech_camo_01";
+     393: wasteland_chevalier_emperor_militech_heat_1 : v_standard3_chevalier_emperor_militech
+     395: 	appearanceName = "chevalier_emperor__basic_militech";
+     404: wasteland_chevalier_emperor_militech_heat_2 : v_standard3_chevalier_emperor_militech
+     406: 	appearanceName = "chevalier_emperor__basic_militech";
+     415: wasteland_chevalier_emperor_militech_heat_3 : v_standard3_chevalier_emperor_militech
+     417: 	appearanceName = "chevalier_emperor__basic_militech_camo_01";
+     459: security_car_1 : v_standard3_chevalier_emperor_ncu
+     470: security_car_2 : v_standard3_chevalier_emperor_ncu
+     481: security_car_3 : v_standard3_chevalier_emperor_ncu
+     562: v_standard3_chevalier_emperor_police_prevention : ncpd_suv_chevalier_emperor_heat_4
+     594: v_standard3_chevalier_emperor_militech_border_prevention : border_patrol_chevalier_emperor_militech_heat_3
+     598: v_standard3_chevalier_emperor_militech_wasteland_prevention : wasteland_chevalier_emperor_militech_heat_1
+     602: v_standard3_chevalier_emperor_militech_wasteland_prevention_2 : wasteland_chevalier_emperor_militech_heat_2
+     606: v_standard3_chevalier_emperor_militech_wasteland_heavy_prevention : wasteland_chevalier_emperor_militech_heat_3
+##### Night City Fleet Expansion-25965-1-0-1-1766253751
+  == r6\tweaks\ash\NCPD Fleet\chevalier_emperor_ncpd.yaml
+       1: UIIcon.vcd_chevalier_emperor_ncpd:
+       3:   atlasPartName: emperor_ncpd
+       6: Vehicle.vcd_chevalier_emperor_ncpd:
+       7:   $base: Vehicle.v_standard3_chevalier_emperor_police
+       8:   icon: UIIcon.vcd_chevalier_emperor_ncpd
+      10: Vehicle.vcd_chevalier_emperor_ncpd.dealerPrice: 35000
+      11: Vehicle.vcd_chevalier_emperor_ncpd.dealerCred: 5
+      13: Vehicle.vcd_chevalier_emperor_ncpd.dealerAtlasPath: "ncpd_fleet/previews/emperors.inkatlas"
+      14: Vehicle.vcd_chevalier_emperor_ncpd.dealerPartName: "emperor_ncpd"
+      18:   - !append t"Vehicle.vcd_chevalier_emperor_ncpd"
+  == r6\tweaks\ash\NCPD Fleet\chevalier_emperor_netwatch.yaml
+       1: UIIcon.vcd_chevalier_emperor_netwatch:
+       3:   atlasPartName: emperor_netwatch
+       6: Vehicle.vcd_chevalier_emperor_netwatch:
+       7:   $base: Vehicle.v_standard3_chevalier_emperor_police
+       8:   appearanceName: n"chevalier_emperor__police_netwatch"
+       9:   icon: UIIcon.vcd_chevalier_emperor_netwatch
+      11: Vehicle.vcd_chevalier_emperor_netwatch.dealerPrice: 40000
+      12: Vehicle.vcd_chevalier_emperor_netwatch.dealerCred: 10
+      14: Vehicle.vcd_chevalier_emperor_netwatch.dealerAtlasPath: "ncpd_fleet/previews/emperors.inkatlas"
+      15: Vehicle.vcd_chevalier_emperor_netwatch.dealerPartName: "emperor_netwatch"
+      18:   - !append t"Vehicle.vcd_chevalier_emperor_netwatch"
+##### NightCityTrafficOverhaul V2.40 25552 2.33 2026-08-25T20-40Z OCk3C5pbD
+  == r6\scripts\NightCityTrafficOverhaul\NCTO.reds
+     439:             Equals(vehicle, t"Vehicle.v_standard3_chevalier_emperor_police_prevention") ||
+  == r6\tweaks\NightCityTrafficOverhaul\Arasaka.yaml
+      13: # CHEVALIER EMPEROR
+      14: Vehicle.arasaka__chevalier_emperor:
+      15:   $base: Vehicle.v_standard3_chevalier_emperor
+      16:   entityTemplatePath: night_city_traffic_overhaul\entities\security\chevalier_emperor_arasaka.ent
+      17:   appearanceName: chevalier_emperor__basic_arasaka_01
+  == r6\tweaks\NightCityTrafficOverhaul\Militech.yaml
+       2: # CHEVALIER EMPEROR
+       3: Vehicle.militech__chevalier_emperor:
+       4:   $base: Vehicle.v_standard3_chevalier_emperor_militech
+  == r6\tweaks\NightCityTrafficOverhaul\NCPD.yaml
+      33: # CHEVALIER EMPEROR
+      34: Vehicle.police__chevalier_emperor:
+      35:   $base: Vehicle.v_standard3_chevalier_emperor_police
+      36:   entityTemplatePath: night_city_traffic_overhaul\entities\ncpd\chevalier_emperor_ncpd.ent
+      37:   appearanceName: chevalier_emperor__basic_police
+  == r6\tweaks\NightCityTrafficOverhaul\SecurityGuards.yaml
+       8: # CHEVALIER EMPEROR
+       9: Vehicle.charterHillSecurity__chevalier_emperor:
+      10:   $base: Vehicle.v_standard3_chevalier_emperor
+      11:   entityTemplatePath: night_city_traffic_overhaul\entities\security\chevalier_emperor_security.ent
+      12:   appearanceName: chevalier_emperor__basic_suburban_1_5

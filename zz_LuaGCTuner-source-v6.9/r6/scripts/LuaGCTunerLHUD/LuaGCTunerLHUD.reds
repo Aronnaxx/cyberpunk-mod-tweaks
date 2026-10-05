@@ -1,0 +1,176 @@
+// Lua GC Tuner - Limited HUD (LHUD) bridge
+//
+// Gives the Lua GC Tuner's gameplay (HUD) meter its own section in LHUD's settings (Mod Settings -> LHUD ->
+// "Lua GC Tuner meter") with the same toggles as LHUD's own modules, and lets the CET side ask whether the
+// meter should be visible right now:
+//   local sys = Game.GetScriptableSystemsContainer():Get("LuaGCTunerLHUDSystem")
+//   if sys then show = sys:IsVisible(); opacity = sys:GetOpacity() end
+//
+// LHUD keeps no central visibility state (every HUD controller decides for itself from LHUDEvents), so this
+// recomputes LHUD's rule from the same blackboards its LHUDBlackboardsListener uses (r6\scripts\LHUD\core\
+// listeners.reds), the way LimitedHudNeedsBars does. Everything is compiled only when LHUD is installed.
+// No module line: global names, so CET can reach the system by its plain class name.
+
+@if(ModuleExists("LimitedHudCommon"))
+import LimitedHudCommon.LhudCooldownTracker
+
+@if(ModuleExists("LimitedHudCommon"))
+public class LuaGCTunerLHUDConfig {
+  @runtimeProperty("ModSettings.mod", "LHUD")
+  @runtimeProperty("ModSettings.category", "Lua GC Tuner meter")
+  @runtimeProperty("ModSettings.category.order", "98")
+  @runtimeProperty("ModSettings.displayName", "Mod-LHUD-Is-Enabled")
+  @runtimeProperty("ModSettings.description", "Mod-LHUD-Is-Enabled-Desc")
+  public let IsEnabled: Bool = true;
+
+  @runtimeProperty("ModSettings.mod", "LHUD")
+  @runtimeProperty("ModSettings.category", "Lua GC Tuner meter")
+  @runtimeProperty("ModSettings.category.order", "98")
+  @runtimeProperty("ModSettings.displayName", "Mod-LHUD-Global-Key")
+  @runtimeProperty("ModSettings.description", "Mod-LHUD-Global-Key-Desc")
+  public let BindToGlobalHotkey: Bool = true;
+
+  @runtimeProperty("ModSettings.mod", "LHUD")
+  @runtimeProperty("ModSettings.category", "Lua GC Tuner meter")
+  @runtimeProperty("ModSettings.category.order", "98")
+  @runtimeProperty("ModSettings.displayName", "Mod-LHUD-Show-Combat")
+  @runtimeProperty("ModSettings.description", "Mod-LHUD-Show-Combat-Desc")
+  public let ShowInCombat: Bool = false;
+
+  @runtimeProperty("ModSettings.mod", "LHUD")
+  @runtimeProperty("ModSettings.category", "Lua GC Tuner meter")
+  @runtimeProperty("ModSettings.category.order", "98")
+  @runtimeProperty("ModSettings.displayName", "Mod-LHUD-Show-Out-Combat")
+  @runtimeProperty("ModSettings.description", "Mod-LHUD-Show-Out-Combat-Desc")
+  public let ShowOutOfCombat: Bool = false;
+
+  @runtimeProperty("ModSettings.mod", "LHUD")
+  @runtimeProperty("ModSettings.category", "Lua GC Tuner meter")
+  @runtimeProperty("ModSettings.category.order", "98")
+  @runtimeProperty("ModSettings.displayName", "Mod-LHUD-Show-Stealth")
+  @runtimeProperty("ModSettings.description", "Mod-LHUD-Show-Stealth-Desc")
+  public let ShowInStealth: Bool = false;
+
+  @runtimeProperty("ModSettings.mod", "LHUD")
+  @runtimeProperty("ModSettings.category", "Lua GC Tuner meter")
+  @runtimeProperty("ModSettings.category.order", "98")
+  @runtimeProperty("ModSettings.displayName", "Mod-LHUD-Show-Vehicle")
+  @runtimeProperty("ModSettings.description", "Mod-LHUD-Show-Vehicle-Desc")
+  public let ShowInVehicle: Bool = false;
+
+  @runtimeProperty("ModSettings.mod", "LHUD")
+  @runtimeProperty("ModSettings.category", "Lua GC Tuner meter")
+  @runtimeProperty("ModSettings.category.order", "98")
+  @runtimeProperty("ModSettings.displayName", "Mod-LHUD-Show-AutoPilot")
+  @runtimeProperty("ModSettings.description", "Mod-LHUD-Show-AutoPilot-Desc")
+  public let ShowWithAutoDrive: Bool = false;
+
+  @runtimeProperty("ModSettings.mod", "LHUD")
+  @runtimeProperty("ModSettings.category", "Lua GC Tuner meter")
+  @runtimeProperty("ModSettings.category.order", "98")
+  @runtimeProperty("ModSettings.displayName", "Mod-LHUD-Show-AutoPilot-Del")
+  @runtimeProperty("ModSettings.description", "Mod-LHUD-Show-AutoPilot-Del-Desc")
+  public let ShowWithAutoDriveDelamain: Bool = false;
+
+  @runtimeProperty("ModSettings.mod", "LHUD")
+  @runtimeProperty("ModSettings.category", "Lua GC Tuner meter")
+  @runtimeProperty("ModSettings.category.order", "98")
+  @runtimeProperty("ModSettings.displayName", "Mod-LHUD-Show-Weapon")
+  @runtimeProperty("ModSettings.description", "Mod-LHUD-Show-Weapon-Desc")
+  public let ShowWithWeapon: Bool = false;
+
+  @runtimeProperty("ModSettings.mod", "LHUD")
+  @runtimeProperty("ModSettings.category", "Lua GC Tuner meter")
+  @runtimeProperty("ModSettings.category.order", "98")
+  @runtimeProperty("ModSettings.displayName", "Mod-LHUD-Show-Zoom")
+  @runtimeProperty("ModSettings.description", "Mod-LHUD-Show-Zoom-Desc")
+  public let ShowWithZoom: Bool = false;
+
+  @runtimeProperty("ModSettings.mod", "LHUD")
+  @runtimeProperty("ModSettings.category", "Lua GC Tuner meter")
+  @runtimeProperty("ModSettings.category.order", "98")
+  @runtimeProperty("ModSettings.displayName", "Mod-LHUD-Show-Area")
+  @runtimeProperty("ModSettings.description", "Mod-LHUD-Show-Area-Desc")
+  public let ShowInDangerArea: Bool = false;
+
+  @runtimeProperty("ModSettings.mod", "LHUD")
+  @runtimeProperty("ModSettings.category", "Lua GC Tuner meter")
+  @runtimeProperty("ModSettings.category.order", "98")
+  @runtimeProperty("ModSettings.displayName", "Mod-LHUD-Show-Cooldown")
+  @runtimeProperty("ModSettings.description", "Mod-LHUD-Show-Cooldown-Desc")
+  public let ShowAtCooldown: Bool = false;
+
+  @runtimeProperty("ModSettings.mod", "LHUD")
+  @runtimeProperty("ModSettings.category", "Lua GC Tuner meter")
+  @runtimeProperty("ModSettings.category.order", "98")
+  @runtimeProperty("ModSettings.displayName", "Addons-LHUD-Opacity")
+  @runtimeProperty("ModSettings.description", "Addons-LHUD-Opacity-Desc")
+  @runtimeProperty("ModSettings.step", "0.1")
+  @runtimeProperty("ModSettings.min", "0.0")
+  @runtimeProperty("ModSettings.max", "1.0")
+  public let Opacity: Float = 1.0;
+}
+
+// LHUD's visibility rule for one module, recomputed from the blackboards LHUD listens to.
+@if(ModuleExists("LimitedHudCommon"))
+public func LuaGCTunerLHUD_Decide(gi: GameInstance, c: ref<LuaGCTunerLHUDConfig>) -> Bool {
+  if !IsDefined(c) || !c.IsEnabled { return true; }
+  let player: ref<PlayerPuppet> = GameInstance.GetPlayerSystem(gi).GetLocalPlayerMainGameObject() as PlayerPuppet;
+  if !IsDefined(player) { return true; }
+  let bbs: ref<BlackboardSystem> = GameInstance.GetBlackboardSystem(gi);
+  let d: ref<AllBlackboardDefinitions> = GetAllBlackboardDefs();
+  let ui: ref<IBlackboard> = bbs.Get(d.UI_System);
+  let eq: ref<IBlackboard> = bbs.Get(d.UI_EquipmentData);
+  let bd: ref<IBlackboard> = bbs.Get(d.Braindance);
+  let ad: ref<IBlackboard> = bbs.Get(d.UI_AutodriveData);
+  let psm: ref<IBlackboard> = bbs.GetLocalInstanced(player.GetEntityID(), d.PlayerStateMachine);
+
+  if IsDefined(bd) && bd.GetBool(d.Braindance.IsActive) { return false; }   // LHUD always hides in braindances
+
+  let autoDrive: Bool = IsDefined(ad) && ad.GetBool(d.UI_AutodriveData.AutoDriveEnabled);
+  let autoDel: Bool = IsDefined(ad) && ad.GetBool(d.UI_AutodriveData.AutoDriveDelamain);
+  let global: Bool = IsDefined(ui) && ui.GetBool(d.UI_System.IsGlobalFlagToggled_LHUD);
+  let mounted: Bool = IsDefined(ui) && ui.GetBool(d.UI_System.IsMounted_LHUD);
+  let inVehicle: Bool = mounted && VehicleComponent.IsDriver(gi, player) && !autoDrive;
+  let weapon: Bool = IsDefined(eq) && eq.GetBool(d.UI_EquipmentData.HasWeaponEquipped);
+  let combat: Bool = false;
+  let stealth: Bool = false;
+  let zoom: Bool = false;
+  let danger: Bool = false;
+  if IsDefined(psm) {
+    combat = Equals(psm.GetInt(d.PlayerStateMachine.Combat), 1);
+    if Equals(psm.GetInt(d.PlayerStateMachine.Vehicle), 6) { weapon = true; }
+    let loco: gamePSMLocomotionStates = IntEnum<gamePSMLocomotionStates>(psm.GetInt(d.PlayerStateMachine.Locomotion));
+    stealth = Equals(loco, gamePSMLocomotionStates.Crouch) || Equals(loco, gamePSMLocomotionStates.CrouchSprint)
+      || Equals(loco, gamePSMLocomotionStates.CrouchDodge);
+    zoom = psm.GetFloat(d.PlayerStateMachine.ZoomLevel) > 1.0 && !player.HasAnyWeaponEquipped_LHUD();
+    let zone: SecurityAreaData = FromVariant<SecurityAreaData>(psm.GetVariant(d.PlayerStateMachine.SecurityZoneData));
+    danger = Equals(zone.securityAreaType, ESecurityAreaType.RESTRICTED) || Equals(zone.securityAreaType, ESecurityAreaType.DANGEROUS);
+  }
+  let tracker: ref<LhudCooldownTracker> = LhudCooldownTracker.Get(gi);
+  let cooldown: Bool = IsDefined(tracker) && tracker.IsNotEmpty();
+
+  return (global && c.BindToGlobalHotkey) || (combat && c.ShowInCombat) || (!combat && c.ShowOutOfCombat)
+    || (stealth && c.ShowInStealth) || (inVehicle && c.ShowInVehicle) || (autoDrive && c.ShowWithAutoDrive)
+    || (autoDel && c.ShowWithAutoDriveDelamain) || (weapon && c.ShowWithWeapon) || (zoom && c.ShowWithZoom)
+    || (danger && c.ShowInDangerArea) || (cooldown && c.ShowAtCooldown);
+}
+
+@if(ModuleExists("LimitedHudCommon"))
+public class LuaGCTunerLHUDSystem extends ScriptableSystem {
+  private let config: ref<LuaGCTunerLHUDConfig>;
+
+  private func OnAttach() -> Void {
+    this.config = new LuaGCTunerLHUDConfig();
+  }
+
+  // the config is re-read on every call so Mod Settings changes apply right away (a handful of fields)
+  public func IsVisible() -> Bool {
+    this.config = new LuaGCTunerLHUDConfig();
+    return LuaGCTunerLHUD_Decide(this.GetGameInstance(), this.config);
+  }
+
+  public func GetOpacity() -> Float {
+    return IsDefined(this.config) ? this.config.Opacity : 1.0;
+  }
+}

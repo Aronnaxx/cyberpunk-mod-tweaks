@@ -1,0 +1,14 @@
+# Passenger-entry typo fixes (2026-10-04). Each misspelled ID is created as a copy of the real entry,
+# so vehicles that reference it get valid passengers instead of a missing record.
+
+# Night City Traffic Overhaul 2.40, NCTO.reds:657 ("Auto Assign Passengers for Modded Vehicles", NCPD list):
+# uses Passengers.PolicePassengerBackEntry (capital P); only Passengers.policePassengerBackEntry exists.
+Passengers.PolicePassengerBackEntry:
+  $base: Passengers.policePassengerBackEntry
+
+# Factions Evolved, FactionsEvolved_Vehicles.yaml:97,102 (aldecaldos__modded_arch_fyrn_gray / _vigil_gray):
+# uses Passengers.AldelcaldosDriverEntry ("Aldel"); TweakXL logs it as a non-existent record.
+# Crash 2026-10-04 18:48 on v_sportbike2_arch_v4_fyrn.ent (this bike) in SimpleOccupantSlotSpawner.
+# Base is NCTO's own spelling (Aldecados.yaml), which is the record the other FE Aldecaldos cars use.
+Passengers.AldelcaldosDriverEntry:
+  $base: Passengers.AdelcaldosDriverEntry
