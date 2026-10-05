@@ -227,3 +227,22 @@ Root cause candidate for the 9 police-vehicle occupant crashes today (Emperor + 
 - vsf-disable-list.json: 753 entries (name rules: leo_, GR_, RS_, max_tac_av, cs_savable_, hackable_, *_prevention, *_heat_N, quest/mws/sts/heist, nonexistent records). Apply with tools/vsf_disable.py (game closed; backs up user_settings.json).
 - NCTO auto-assign stays OFF: besides the PolicePassengerBackEntry typo it indexes desiredPassengers[i] past 3 entries for 4+ seat vehicles, and its Aldecaldos list uses Passengers.AldecaldosDriverEntry (doesn't exist; NCTO's own yaml spells it Adelcaldos).
 - Pending: vsf-gang-passenger-check.txt (286 gang-named VSF cars) -> extend crews in v1.1.
+
+## TrafficCrewFix v1.1 (2026-10-04 19:50)
+- Gang check ran (vsf-gang-passenger-check.txt, 288 rows merged into TrafficCrewFix-source/vsfpax-2026-10-04.json). v1.1 = 137 crew fixes (adds Tyger, Valentinos, Scavengers, 6th Street, Maelstrom, Wraith, Voodoo, Mox, Barghest). Mox/Animals bikes stay civilian (no biker entry). Generic "nomad" cars stay civilian.
+- vsf-disable-list.json now 762 (9 new: nonexistent *_edge_* / Shion_MZ*/GalenaNomad records). VSF already applied for the first 753 at 19:41 (backup user_settings.backup-20261004-194135.json); rerun tools/vsf_disable.py vsf-disable-list.json with the game closed to apply the 9 new ones.
+
+# >>> NEXT SESSION: START HERE (written 2026-10-04 ~19:50) <<<
+Install / apply (Ethan, via Vortex):
+1. NCTO-PassengerFix-v1.3.zip - already deployed. Never install v1.2.
+2. TrafficCrewFix-v1.1.zip - install (replaces nothing; new r6/tweaks/zz_TrafficCrewFix). Check TweakXL log after launch for errors mentioning zz_TrafficCrewFix.
+3. Game closed: python tools/vsf_disable.py vsf-disable-list.json (9 remaining entries).
+4. SONC: Ethan leaning to disable it (decision pending; he found a SONC guide he wants to look at). If kept: install SONC-SpawnGuard-v1.0.zip (replaces SONC_System.reds; Vortex conflict -> patch after SONC). If removed: quiet spot, manual save, disable in Vortex, do NOT install SpawnGuard.
+5. Page file: recommended C: 4096-8192 MB, D: 32768 fixed (C: has ~27 GB free; Steam library ~920 GB on C:). hiberfil.sys 24.6 GB (powercfg /h off if no hibernate). Ethan to do this himself (system setting).
+Open checks:
+- memlog: tools/memlog.ps1 (run in background while playing; writes memlog-session.csv) + memchk-cet.txt CET line; compare SysMemInfo values vs Task Manager. Not yet captured with the game running.
+- id-check-commands.txt (15 CET lines, script-literal TweakDB IDs) never run.
+- 18 missing spawn vehicleRecords in LEO/Factions Evolved prevention tables (see earlier section) - candidate for a yaml redirect patch.
+- Stash flicker: More Weapon Filters vs More Inventory Filters - Ethan to disable More Weapon Filters, retest.
+- zz_LuaGCTuner v6.9 still untested in game (LHUD link log line, gameplay cleanup, green marker).
+- NCTO "Auto Assign Passengers" must stay OFF (typo + >3-seat index bug + missing Aldecaldos IDs).
