@@ -1,0 +1,2636 @@
+{
+"v_standard2_villefort_cortes_kangtao_prevention": [
+"Passengers.CorporatDriverEntry",
+"Passengers.CorporatPassengerFrontEntry",
+"Passengers.CorporatPassengerBackEntry"
+],
+"v_standard25_thorton_colby_security_regular_prevention_2": [
+"Passengers.LowlifeRedneckDriverEntry",
+"Passengers.LowlifeRedneckPassengerFrontEntry"
+],
+"vcd_thorton_merrimac_trauma2": [
+"Passengers.CorporatDriverEntry",
+"Passengers.CorporatPassengerFrontEntry",
+"Passengers.CorporatPassengerBackEntry"
+],
+"trauma_hellhound": [
+"Passengers.GenericDriverEntry",
+"Passengers.GenericPassengerEntry"
+],
+"v_sportbike3_brennan_apollo_basic_01_prevention": [
+"Passengers.EP1KurtzDriverEntry"
+],
+"v_standard25_thorton_colby_pickup_kurtz_courier": [
+"Passengers.LowlifeRedneckDriverEntry",
+"Passengers.LowlifeRedneckPassengerFrontEntry"
+],
+"v_standard25_thorton_colby_kurtz_prevention_no_hull": [
+"Passengers.EP1KurtzDriverEntry",
+"Passengers.EP1KurtzFrontEntry",
+"Passengers.EP1KurtzPassengerBackEntry"
+],
+"v_standard2_thorton_galena_mercenary_prevention_3": [
+"Passengers.GenericDriverEntry",
+"Passengers.GenericPassengerEntry"
+],
+"leo_kurtz_barghest_hellhound_heat_4": [
+"Passengers.GenericDriverEntry",
+"Passengers.GenericPassengerEntry"
+],
+"v_standard2_villefort_cortes_police_border_patrol_prevention": [
+"Passengers.NCPDDriverEntry",
+"Passengers.NCPDPassengerFrontEntry"
+],
+"militech__modded_nomad_tanishi_militech": [
+"Passengers.MilitechDriverEntry",
+"Passengers.MilitechPassengerFrontEntry"
+],
+"v_standard25_thorton_colby_kurtz_prevention_weaponized": [
+"Passengers.EP1KurtzDriverEntry",
+"Passengers.EP1KurtzFrontEntry",
+"Passengers.EP1KurtzPassengerBackEntry"
+],
+"vcd_corpo_columbus_purchasable": [
+"Passengers.NightLifeCleanDriverEntry",
+"Passengers.NightLifeCleanPassengerFrontEntry"
+],
+"v_standard25_thorton_colby_security_regular_prevention": [
+"Passengers.LowlifeRedneckDriverEntry",
+"Passengers.LowlifeRedneckPassengerFrontEntry"
+],
+"v_standard25_thorton_merrimac_police_prevention_3": [
+"Passengers.CorporatDriverEntry",
+"Passengers.CorporatPassengerFrontEntry",
+"Passengers.CorporatPassengerBackEntry"
+],
+"v_standard2_villefort_cortes_detective_prevention_2": [
+"Passengers.NCPDDriverEntry",
+"Passengers.NCPDPassengerFrontEntry"
+],
+"GR_ncpd_thorton_merrimac_police_heat_4": [
+"Passengers.CorporatDriverEntry",
+"Passengers.CorporatPassengerFrontEntry",
+"Passengers.CorporatPassengerBackEntry"
+],
+"v_standard3_militech_hellhound": [
+"Passengers.GenericDriverEntry",
+"Passengers.GenericPassengerEntry"
+],
+"v_standard25_thorton_colby_security_regular_prevention_3": [
+"Passengers.LowlifeRedneckDriverEntry",
+"Passengers.LowlifeRedneckPassengerFrontEntry"
+],
+"v_standard3_chevalier_emperor_police_siren": [
+"Passengers.PremiumDriverEntry",
+"Passengers.PremiumPassengerFrontEntry",
+"Passengers.PremiumPassengerBackEntry"
+],
+"leo_militech_militech_hellhound_heat_5": [
+"Passengers.GenericDriverEntry",
+"Passengers.GenericPassengerEntry"
+],
+"vcd_thorton_merrimac_maxtac3": [
+"Passengers.CorporatDriverEntry",
+"Passengers.CorporatPassengerFrontEntry",
+"Passengers.CorporatPassengerBackEntry"
+],
+"GR_arasaka_modded_arch_paladin_carbon": [
+"Passengers.GenericDriverEntry"
+],
+"v_utility4_militech_behemoth_maxtac": [
+"Passengers.WorkerSpecialistDriverEntry",
+"Passengers.WorkerSpecialistPassengerFrontEntry"
+],
+"leo_maxtac_militech_behemoth_heat_5": [
+"Passengers.WorkerSpecialistDriverEntry",
+"Passengers.WorkerSpecialistPassengerFrontEntry"
+],
+"vcd_thorton_merrimac_maxtac2": [
+"Passengers.CorporatDriverEntry",
+"Passengers.CorporatPassengerFrontEntry",
+"Passengers.CorporatPassengerBackEntry"
+],
+"police__biker_brennan_apollo": [
+"Passengers.policeBikerDriverEntry"
+],
+"v_standard25_thorton_colby_militia_armed_prevention_2": [
+"Passengers.LowlifeRedneckDriverEntry",
+"Passengers.LowlifeRedneckPassengerFrontEntry"
+],
+"vcd_herrera_outlaw_purchasable.premium04": [
+"Passengers.CitizenRichDriverEntry",
+"Passengers.CitizenRichPassengerFrontEntry",
+"Passengers.CitizenRichPassengerBackEntry"
+],
+"vcd_herrera_outlaw_purchasable.premium07": [
+"Passengers.CitizenRichDriverEntry",
+"Passengers.CitizenRichPassengerFrontEntry",
+"Passengers.CitizenRichPassengerBackEntry"
+],
+"v_utility4_militech_behemoth_kangtao_prevention_2": [
+"Passengers.WorkerSpecialistDriverEntry",
+"Passengers.WorkerSpecialistPassengerFrontEntry"
+],
+"v_standard25_villefort_columbus_kangtao_courier": [
+"Passengers.NightLifeCleanDriverEntry",
+"Passengers.NightLifeCleanPassengerFrontEntry"
+],
+"v_utility4_militech_behemoth_nusa_prevention_2": [
+"Passengers.WorkerSpecialistDriverEntry",
+"Passengers.WorkerSpecialistPassengerFrontEntry"
+],
+"vcd_herrera_outlaw_purchasable.premium06": [
+"Passengers.CitizenRichDriverEntry",
+"Passengers.CitizenRichPassengerFrontEntry",
+"Passengers.CitizenRichPassengerBackEntry"
+],
+"v_standard3_chevalier_emperor_police_mws": [
+"Passengers.PremiumDriverEntry",
+"Passengers.PremiumPassengerFrontEntry",
+"Passengers.PremiumPassengerBackEntry"
+],
+"GR_kurtz_brennan_apollo_bike": [
+"Passengers.EP1KurtzDriverEntry"
+],
+"v_moto_arch_nemesis_arasaka_prevention": [
+"Passengers.GenericDriverEntry"
+],
+"v_utility4_militech_behemoth_police_prevention": [
+"Passengers.WorkerSpecialistDriverEntry",
+"Passengers.WorkerSpecialistPassengerFrontEntry"
+],
+"cs_savable_villefort_cortes_kangtao": [
+"Passengers.PremiumDriverEntry",
+"Passengers.PremiumPassengerFrontEntry",
+"Passengers.PremiumPassengerBackEntry"
+],
+"GR_arasaka_modded_edge_obsidian": "NORECORD",
+"v_standard25_thorton_colby_militia_regular_prevention": [
+"Passengers.LowlifeRedneckDriverEntry",
+"Passengers.LowlifeRedneckPassengerFrontEntry"
+],
+"v_standard25_thorton_merrimac_police_prevention_2": [
+"Passengers.CorporatDriverEntry",
+"Passengers.CorporatPassengerFrontEntry",
+"Passengers.CorporatPassengerBackEntry"
+],
+"vcd_gangs_yaiba_kusanagi_purchasable.tygerclaws": [
+"Passengers.GenericDriverEntry"
+],
+"v_utility4_militech_behemoth_police_prevention_2": [
+"Passengers.WorkerSpecialistDriverEntry",
+"Passengers.WorkerSpecialistPassengerFrontEntry"
+],
+"v_standard2_villefort_cortes_police_low_prevention_2": [
+"Passengers.NCPDDriverEntry",
+"Passengers.NCPDPassengerFrontEntry"
+],
+"hackable_archer_hella_police_siren": [
+"Passengers.NCPDDriverEntry",
+"Passengers.NCPDPassengerFrontEntry"
+],
+"leo_kurtz_mahir_supron_security_heat_3": [
+"Passengers.GenericDriverEntry",
+"Passengers.GenericPassengerEntry"
+],
+"vcd_villefort_cortes_black_agent": [
+"Passengers.NCPDDriverEntry",
+"Passengers.NCPDPassengerFrontEntry"
+],
+"v_standard2_villefort_cortes_police_mws": [
+"Passengers.NCPDDriverEntry",
+"Passengers.NCPDPassengerFrontEntry"
+],
+"v_standard3_militech_hellhound_maxtac_l30": [
+"Passengers.GenericDriverEntry",
+"Passengers.GenericPassengerEntry"
+],
+"v_standard3_mahir_supron_kurtz": [
+"Passengers.GenericDriverEntry",
+"Passengers.GenericPassengerEntry"
+],
+"leo_arasaka_bio_villefort_columbus_heat_5": [
+"Passengers.GenericDriverEntry",
+"Passengers.GenericPassengerEntry"
+],
+"GR_v_utility4_militech_behemoth_kangtao": [
+"Passengers.WorkerSpecialistDriverEntry",
+"Passengers.WorkerSpecialistPassengerFrontEntry"
+],
+"leo_kangtao_oranje3_supron_widebody_heat_4": [
+"Passengers.LowlifeDriverEntry",
+"Passengers.LowlifePassengerFrontEntry",
+"Passengers.LowlifePassengerBackEntry"
+],
+"v_sportbike3_brennan_apollo_kurtz": [
+"Passengers.GenericDriverEntry"
+],
+"GR_arasaka_modded_arch_mogus_carbon": [
+"Passengers.GenericDriverEntry"
+],
+"militech_apollo_tactical": [
+"Passengers.GenericDriverEntry"
+],
+"aabdii_apollo_trauma_team": [
+"Passengers.GenericDriverEntry"
+],
+"vcd_corpo_columbus_purchasable.kangtao": [
+"Passengers.NightLifeCleanDriverEntry",
+"Passengers.NightLifeCleanPassengerFrontEntry"
+],
+"v_utility4_militech_behemoth_arasaka_bio_prevention": [
+"Passengers.WorkerSpecialistDriverEntry",
+"Passengers.WorkerSpecialistPassengerFrontEntry"
+],
+"leo_maxtac_militech_hellhound_heat_5_variant_2": [
+"Passengers.GenericDriverEntry",
+"Passengers.GenericPassengerEntry"
+],
+"GR_militech_modded_bratsk_akimbo": [
+"Passengers.GenericDriverEntry",
+"Passengers.GenericPassengerEntry"
+],
+"ncpd__modded_villefort_cortes_black_agent": [
+"Passengers.DetectiveDriverEntry",
+"Passengers.DetectivePassengerFrontEntry",
+"Passengers.DetectivePassengerBackEntry"
+],
+"kurtz_thorton_no_hull_1": [
+"Passengers.EP1KurtzDriverEntry",
+"Passengers.EP1KurtzFrontEntry",
+"Passengers.EP1KurtzPassengerBackEntry"
+],
+"v_standard3_militech_hellhound_nusa_prevention": [
+"Passengers.GenericDriverEntry",
+"Passengers.GenericPassengerEntry"
+],
+"leo_militech_kaukaz_bratsk_heat_5": [
+"Passengers.GenericDriverEntry",
+"Passengers.GenericPassengerEntry"
+],
+"leo_biotechnica_archer_hella_heat_2": [
+"Passengers.CorporatDriverEntry",
+"Passengers.CorporatPassengerFrontEntry",
+"Passengers.CorporatPassengerBackEntry"
+],
+"leo_arasaka_militech_behemoth_heat_5": [
+"Passengers.GenericDriverEntry",
+"Passengers.GenericPassengerEntry"
+],
+"v_standard3_mahir_supron_militia_regular_prevention_2": [
+"Passengers.GenericDriverEntry",
+"Passengers.GenericPassengerEntry"
+],
+"v_standard2_archer_hella_police_sts_ep1_10": [
+"Passengers.NCPDDriverEntry",
+"Passengers.NCPDPassengerFrontEntry"
+],
+"v_standard25_thorton_merrimac_nightcorp_prevention": [
+"Passengers.CorporatDriverEntry",
+"Passengers.CorporatPassengerFrontEntry",
+"Passengers.CorporatPassengerBackEntry"
+],
+"v_standard2_thorton_galena_mercenary_prevention": [
+"Passengers.CorporatDriverEntry",
+"Passengers.CorporatPassengerFrontEntry",
+"Passengers.CorporatPassengerBackEntry"
+],
+"leo_ncpd_archer_hella_high_heat_2": [
+"Passengers.NCPDDriverEntry",
+"Passengers.NCPDPassengerFrontEntry"
+],
+"vcd_corpo_emperor_purchasable.militech": [
+"Passengers.PremiumDriverEntry",
+"Passengers.PremiumPassengerFrontEntry",
+"Passengers.PremiumPassengerBackEntry"
+],
+"leo_border_patrol_villefort_cortes_specialist_heat_3": [
+"Passengers.NCPDDriverEntry",
+"Passengers.NCPDPassengerFrontEntry"
+],
+"GR_v_standard2_archer_hella_kurtz": [
+"Passengers.CorporatDriverEntry",
+"Passengers.CorporatPassengerFrontEntry",
+"Passengers.CorporatPassengerBackEntry"
+],
+"vcd_gangs_quadra_turbo_purchasable.tigerclaws02": [
+"Passengers.NightLifeDriverEntry",
+"Passengers.NightLifePassengerFrontEntry"
+],
+"vcd_gangs_quadra_turbo_purchasable.tigerclaws01": [
+"Passengers.NightLifeDriverEntry",
+"Passengers.NightLifePassengerFrontEntry"
+],
+"v_standard3_chevalier_emperor_arasaka_bio_prevention": [
+"Passengers.PremiumDriverEntry",
+"Passengers.PremiumPassengerFrontEntry",
+"Passengers.PremiumPassengerBackEntry"
+],
+"vcd_corpo_columbus_purchasable.netwatch": [
+"Passengers.NightLifeCleanDriverEntry",
+"Passengers.NightLifeCleanPassengerFrontEntry"
+],
+"v_standard25_thorton_colby_militia_armed_prevention_3": [
+"Passengers.LowlifeRedneckDriverEntry",
+"Passengers.LowlifeRedneckPassengerFrontEntry"
+],
+"vcd_herrera_outlaw_purchasable.premium05": [
+"Passengers.CitizenRichDriverEntry",
+"Passengers.CitizenRichPassengerFrontEntry",
+"Passengers.CitizenRichPassengerBackEntry"
+],
+"oranje3_nomad_tanishi_sheriff": [
+"Passengers.GenericDriverEntry",
+"Passengers.GenericPassengerEntry"
+],
+"vcd_corpo_cortes_purchasable.urban": [
+"Passengers.PremiumDriverEntry",
+"Passengers.PremiumPassengerFrontEntry",
+"Passengers.PremiumPassengerBackEntry"
+],
+"v_militech_basilisk": [
+"Passengers.GenericDriverEntry",
+"Passengers.GenericPassengerEntry"
+],
+"vcd_corpo_emperor_purchasable.militech_camo": [
+"Passengers.PremiumDriverEntry",
+"Passengers.PremiumPassengerFrontEntry",
+"Passengers.PremiumPassengerBackEntry"
+],
+"vcd_corpo_emperor_purchasable.netwatch": [
+"Passengers.PremiumDriverEntry",
+"Passengers.PremiumPassengerFrontEntry",
+"Passengers.PremiumPassengerBackEntry"
+],
+"leo_kangtao_villefort_columbus_heat_4": [
+"Passengers.NightLifeCleanDriverEntry",
+"Passengers.NightLifeCleanPassengerFrontEntry"
+],
+"police__brennan_apollo": [
+"Passengers.policeDriverEntry"
+],
+"militech__chevalier_emperor": [
+"Passengers.MilitechDriverEntry",
+"Passengers.MilitechPassengerFrontEntry",
+"Passengers.MilitechPassengerBackEntry"
+],
+"v_standard3_chevalier_emperor_militech_specops_prevention": [
+"Passengers.CorporatDriverEntry",
+"Passengers.CorporatPassengerFrontEntry",
+"Passengers.CorporatPassengerBackEntry"
+],
+"leo_kurtz_thorton_colby_militia_v2_heat_4": [
+"Passengers.LowlifeRedneckDriverEntry",
+"Passengers.LowlifeRedneckPassengerFrontEntry"
+],
+"oranje3_nomad_tanishi_militech": [
+"Passengers.GenericDriverEntry",
+"Passengers.GenericPassengerEntry"
+],
+"vcd_gangs_quadra_turbo_purchasable.tigerclaws03": [
+"Passengers.NightLifeDriverEntry",
+"Passengers.NightLifePassengerFrontEntry"
+],
+"cs_savable_herrera_outlaw_sts_ep1_12_victim": [
+"Passengers.CitizenRichDriverEntry",
+"Passengers.CitizenRichPassengerFrontEntry",
+"Passengers.CitizenRichPassengerBackEntry"
+],
+"leo_arasaka_bio_villefort_columbus_heat_4": [
+"Passengers.NightLifeCleanDriverEntry",
+"Passengers.NightLifeCleanPassengerFrontEntry"
+],
+"vcd_gangs_quadra_turbo_purchasable.tigerclaws05": [
+"Passengers.NightLifeDriverEntry",
+"Passengers.NightLifePassengerFrontEntry"
+],
+"leo_border_patrol_villefort_cortes_specialist_heat_4": [
+"Passengers.NCPDDriverEntry",
+"Passengers.NCPDPassengerFrontEntry"
+],
+"leo_nightcorp_chevalier_emperor_heat_5": [
+"Passengers.CorporatDriverEntry",
+"Passengers.CorporatPassengerFrontEntry",
+"Passengers.CorporatPassengerBackEntry"
+],
+"leo_kurtz_mahir_supron_weaponized_security_heat_4": [
+"Passengers.GenericDriverEntry",
+"Passengers.GenericPassengerEntry"
+],
+"police__thorton_merrimac": [
+"Passengers.policeEnforcerDriverEntry",
+"Passengers.policeEnforcerPassengerFrontEntry",
+"Passengers.policeEnforcerPassengerBackEntry"
+],
+"v_sport1_quadra_turbo_tyger_claw": [
+"Passengers.NightLifeDriverEntry",
+"Passengers.NightLifePassengerFrontEntry"
+],
+"max_tac_av1": [
+"Passengers.GenericDriverEntry",
+"Passengers.GenericPassengerEntry"
+],
+"v_standard2_villefort_cortes_police_medium_prevention_2": [
+"Passengers.NCPDDriverEntry",
+"Passengers.NCPDPassengerFrontEntry"
+],
+"police__villefort_cortes": [
+"Passengers.policeDriverEntry",
+"Passengers.policePassengerFrontEntry",
+"Passengers.policePassengerBackEntry"
+],
+"v_utility4_militech_behemoth_militia_prevention_2": [
+"Passengers.WorkerSpecialistDriverEntry",
+"Passengers.WorkerSpecialistPassengerFrontEntry"
+],
+"cs_savable_archer_hella_kurtz": [
+"Passengers.CorporatDriverEntry",
+"Passengers.CorporatPassengerFrontEntry",
+"Passengers.CorporatPassengerBackEntry"
+],
+"v_standard3_thorton_mackinaw_biotechnica_prevention": [
+"Passengers.CorporatDriverEntry",
+"Passengers.CorporatPassengerFrontEntry",
+"Passengers.CorporatPassengerBackEntry"
+],
+"leo_border_patrol_villefort_cortes_heat_4": [
+"Passengers.NCPDDriverEntry",
+"Passengers.NCPDPassengerFrontEntry"
+],
+"v_standard2_archer_quartz_nomad_prevention": [
+"Passengers.GenericDriverEntry",
+"Passengers.GenericPassengerEntry"
+],
+"v_standard25_thorton_colby_militia_armed_prevention": [
+"Passengers.LowlifeRedneckDriverEntry",
+"Passengers.LowlifeRedneckPassengerFrontEntry"
+],
+"leo_border_patrol_militech_behemoth_heat_4": [
+"Passengers.WorkerSpecialistDriverEntry",
+"Passengers.WorkerSpecialistPassengerFrontEntry"
+],
+"v_standard25_thorton_merrimac_police_prevention": [
+"Passengers.CorporatDriverEntry",
+"Passengers.CorporatPassengerFrontEntry",
+"Passengers.CorporatPassengerBackEntry"
+],
+"v_standard25_thorton_merrimac_militech_prevention_2": [
+"Passengers.CorporatDriverEntry",
+"Passengers.CorporatPassengerFrontEntry",
+"Passengers.CorporatPassengerBackEntry"
+],
+"arasaka__modded_edge_obsidian": "NORECORD",
+"leo_nightcorp_thorton_merrimac_heat_2": [
+"Passengers.CorporatDriverEntry",
+"Passengers.CorporatPassengerFrontEntry",
+"Passengers.CorporatPassengerBackEntry"
+],
+"v_standard2_villefort_cortes_police_medium_prevention": [
+"Passengers.NCPDDriverEntry",
+"Passengers.NCPDPassengerFrontEntry"
+],
+"leo_arasaka_villefort_columbus_heat_5": [
+"Passengers.LowlifeDriverEntry",
+"Passengers.LowlifePassengerFrontEntry"
+],
+"v_utility4_militech_behemoth_nightcorp_prevention": [
+"Passengers.WorkerSpecialistDriverEntry",
+"Passengers.WorkerSpecialistPassengerFrontEntry"
+],
+"v_standard25_thorton_merrimac_maxtac_p054": [
+"Passengers.CorporatDriverEntry",
+"Passengers.CorporatPassengerFrontEntry",
+"Passengers.CorporatPassengerBackEntry"
+],
+"v_standard3_militech_hellhound_police_prevention_2": [
+"Passengers.GenericDriverEntry",
+"Passengers.GenericPassengerEntry"
+],
+"aabdii_apollo_militech_olive": [
+"Passengers.GenericDriverEntry"
+],
+"leo_maxtac_militech_hellhound_heat_5_variant_1": [
+"Passengers.GenericDriverEntry",
+"Passengers.GenericPassengerEntry"
+],
+"v_standard3_militech_hellhound_militech_prevention": [
+"Passengers.GenericDriverEntry",
+"Passengers.GenericPassengerEntry"
+],
+"GR_ncpd_suv_chevalier_emperor_heat_4": [
+"Passengers.PremiumDriverEntry",
+"Passengers.PremiumPassengerFrontEntry",
+"Passengers.PremiumPassengerBackEntry"
+],
+"leo_kurtz_thorton_colby_militia_v3_heat_4": [
+"Passengers.LowlifeRedneckDriverEntry",
+"Passengers.LowlifeRedneckPassengerFrontEntry"
+],
+"leo_kurtz_thorton_colby_weaponized_militia_v2_heat_4": [
+"Passengers.LowlifeRedneckDriverEntry",
+"Passengers.LowlifeRedneckPassengerFrontEntry"
+],
+"vcd_herrera_outlaw_purchasable.mafia": [
+"Passengers.CitizenRichDriverEntry",
+"Passengers.CitizenRichPassengerFrontEntry",
+"Passengers.CitizenRichPassengerBackEntry"
+],
+"vcd_herrera_outlaw_purchasable.premium01": [
+"Passengers.CitizenRichDriverEntry",
+"Passengers.CitizenRichPassengerFrontEntry",
+"Passengers.CitizenRichPassengerBackEntry"
+],
+"vcd_herrera_outlaw_purchasable.premium02": [
+"Passengers.CitizenRichDriverEntry",
+"Passengers.CitizenRichPassengerFrontEntry",
+"Passengers.CitizenRichPassengerBackEntry"
+],
+"v_standard25_thorton_colby_mercenary_prevention": [
+"Passengers.LowlifeRedneckDriverEntry",
+"Passengers.LowlifeRedneckPassengerFrontEntry"
+],
+"v_standard25_villefort_columbus_kangtao_prevention": [
+"Passengers.NightLifeCleanDriverEntry",
+"Passengers.NightLifeCleanPassengerFrontEntry"
+],
+"vcd_herrera_outlaw_purchasable.premium03": [
+"Passengers.CitizenRichDriverEntry",
+"Passengers.CitizenRichPassengerFrontEntry",
+"Passengers.CitizenRichPassengerBackEntry"
+],
+"vcd_herrera_outlaw_purchasable.premium08": [
+"Passengers.CitizenRichDriverEntry",
+"Passengers.CitizenRichPassengerFrontEntry",
+"Passengers.CitizenRichPassengerBackEntry"
+],
+"vcd_herrera_outlaw_purchasable.premium09": [
+"Passengers.CitizenRichDriverEntry",
+"Passengers.CitizenRichPassengerFrontEntry",
+"Passengers.CitizenRichPassengerBackEntry"
+],
+"leo_kurtz_thorton_colby_militia_heat_3": [
+"Passengers.LowlifeRedneckDriverEntry",
+"Passengers.LowlifeRedneckPassengerFrontEntry"
+],
+"v_standard3_chevalier_emperor_nusa_prevention_3": [
+"Passengers.CorporatDriverEntry",
+"Passengers.CorporatPassengerFrontEntry",
+"Passengers.CorporatPassengerBackEntry"
+],
+"v_standard3_chevalier_emperor_arasaka_prevention": [
+"Passengers.CorporatDriverEntry",
+"Passengers.CorporatPassengerFrontEntry",
+"Passengers.CorporatPassengerBackEntry"
+],
+"v_standard2_villefort_cortes_arasaka": [
+"Passengers.PremiumDriverEntry",
+"Passengers.PremiumPassengerFrontEntry",
+"Passengers.PremiumPassengerBackEntry"
+],
+"vcd_gangs_mahir_supron_purchasable.kangtao": [
+"Passengers.WorkerSpecialistDriverEntry",
+"Passengers.WorkerSpecialistPassengerFrontEntry"
+],
+"GR_militech_modded_arch_mogus_gray": [
+"Passengers.GenericDriverEntry"
+],
+"vcd_gangs_mahir_supron_purchasable.border_patrol": [
+"Passengers.WorkerSpecialistDriverEntry",
+"Passengers.WorkerSpecialistPassengerFrontEntry"
+],
+"leo_kurtz_militech_behemoth_heat_5": [
+"Passengers.WorkerSpecialistDriverEntry",
+"Passengers.WorkerSpecialistPassengerFrontEntry"
+],
+"vcd_gangs_mahir_supron_purchasable.arasaka": [
+"Passengers.WorkerSpecialistDriverEntry",
+"Passengers.WorkerSpecialistPassengerFrontEntry"
+],
+"leo_ncpd_villefort_cortes_medium_heat_1": [
+"Passengers.NCPDDriverEntry",
+"Passengers.NCPDPassengerFrontEntry"
+],
+"vcd_police_archer_hella_purchasable": [
+"Passengers.NCPDDriverEntry",
+"Passengers.NCPDPassengerFrontEntry"
+],
+"leo_nightcorp_villefort_cortes_heat_1": [
+"Passengers.PremiumDriverEntry",
+"Passengers.PremiumPassengerFrontEntry",
+"Passengers.PremiumPassengerBackEntry"
+],
+"v_standard2_villefort_cortes_detective_prevention_3": [
+"Passengers.NCPDDriverEntry",
+"Passengers.NCPDPassengerFrontEntry"
+],
+"ncpd__modded_nomad_tanishi_sheriff": [
+"Passengers.SheriffDriverEntry",
+"Passengers.SheriffPassengerFrontEntry"
+],
+"leo_biotechnica_chevalier_emperor_city_heat_4": [
+"Passengers.CorporatDriverEntry",
+"Passengers.CorporatPassengerFrontEntry",
+"Passengers.CorporatPassengerBackEntry"
+],
+"v_standard2_chevalier_thrax_security_prevention": [
+"Passengers.CorporatDriverEntry",
+"Passengers.CorporatPassengerFrontEntry",
+"Passengers.CorporatPassengerBackEntry"
+],
+"leo_kurtz_mahir_supron_militia_heat_4": [
+"Passengers.GenericDriverEntry",
+"Passengers.GenericPassengerEntry"
+],
+"ncpd_archer_hella_heat_3": [
+"Passengers.NCPDDriverEntry",
+"Passengers.NCPDPassengerFrontEntry"
+],
+"v_standard3_chevalier_emperor_arasaka_courier": [
+"Passengers.PremiumDriverEntry",
+"Passengers.PremiumPassengerFrontEntry",
+"Passengers.PremiumPassengerBackEntry"
+],
+"ncpd__modded_villefort_cortes_streetkid": [
+"Passengers.policeDriverEntry",
+"Passengers.policePassengerFrontEntry",
+"Passengers.policePassengerBackEntry"
+],
+"leo_border_patrol_villefort_cortes_heat_2": [
+"Passengers.NCPDDriverEntry",
+"Passengers.NCPDPassengerFrontEntry"
+],
+"v_standard25_villefort_columbus_arasaka_bio_prevention_2": [
+"Passengers.GenericDriverEntry",
+"Passengers.GenericPassengerEntry"
+],
+"leo_border_patrol_villefort_cortes_heat_3": [
+"Passengers.NCPDDriverEntry",
+"Passengers.NCPDPassengerFrontEntry"
+],
+"v_standard3_mahir_supron_security_armed_prevention": [
+"Passengers.GenericDriverEntry",
+"Passengers.GenericPassengerEntry"
+],
+"v_utility4_militech_behemoth_maxtac_prevention": [
+"Passengers.WorkerSpecialistDriverEntry",
+"Passengers.WorkerSpecialistPassengerFrontEntry"
+],
+"v_standard2_villefort_cortes_nightcorp_prevention_3": [
+"Passengers.CorporatDriverEntry",
+"Passengers.CorporatPassengerFrontEntry",
+"Passengers.CorporatPassengerBackEntry"
+],
+"GR_arasaka_modded_suv": [
+"Passengers.PremiumDriverEntry",
+"Passengers.PremiumPassengerFrontEntry",
+"Passengers.PremiumPassengerBackEntry"
+],
+"ncpd__modded_militech_hellhound_max_tac2": [
+"Passengers.MaxTacDriverEntry",
+"Passengers.MaxTacPassengerFrontEntry"
+],
+"aabdii_apollo_militech_red": [
+"Passengers.GenericDriverEntry"
+],
+"leo_militech_chevalier_emperor_specops_heat_3": [
+"Passengers.PremiumDriverEntry",
+"Passengers.PremiumPassengerFrontEntry",
+"Passengers.PremiumPassengerBackEntry"
+],
+"v_standard3_chevalier_emperor_nightcorp_prevention_3": [
+"Passengers.CorporatDriverEntry",
+"Passengers.CorporatPassengerFrontEntry",
+"Passengers.CorporatPassengerBackEntry"
+],
+"v_sportbike3_brennan_apollo_mercenary_prevention_2": [
+"Passengers.GenericDriverEntry"
+],
+"GR_v_standard2_villefort_cortes_kangtao": [
+"Passengers.PremiumDriverEntry",
+"Passengers.PremiumPassengerFrontEntry",
+"Passengers.PremiumPassengerBackEntry"
+],
+"leo_maxtac_nomad_tanishi_heat_5": [
+"Passengers.GenericDriverEntry",
+"Passengers.GenericPassengerEntry"
+],
+"leo_nusa_militech_hellhound_heat_4": [
+"Passengers.GenericDriverEntry",
+"Passengers.GenericPassengerEntry"
+],
+"v_standard2_archer_hella_biotechnica_prevention_2": [
+"Passengers.CorporatDriverEntry",
+"Passengers.CorporatPassengerFrontEntry",
+"Passengers.CorporatPassengerBackEntry"
+],
+"leo_ncpd_thorton_merrimac_heat_5": [
+"Passengers.CorporatDriverEntry",
+"Passengers.CorporatPassengerFrontEntry",
+"Passengers.CorporatPassengerBackEntry"
+],
+"vcd_corpo_cortes_purchasable.mafia": [
+"Passengers.PremiumDriverEntry",
+"Passengers.PremiumPassengerFrontEntry",
+"Passengers.PremiumPassengerBackEntry"
+],
+"leo_trauma_thorton_merrimac_2": [
+"Passengers.CorporatDriverEntry",
+"Passengers.CorporatPassengerFrontEntry",
+"Passengers.CorporatPassengerBackEntry"
+],
+"v_standard3_militech_hellhound_police_prevention": [
+"Passengers.GenericDriverEntry",
+"Passengers.GenericPassengerEntry"
+],
+"v_standard3_chevalier_emperor_ncx_prevention_2": [
+"Passengers.CorporatDriverEntry",
+"Passengers.CorporatPassengerFrontEntry",
+"Passengers.CorporatPassengerBackEntry"
+],
+"v_utility4_kaukaz_bratsk_militech_prevention": [
+"Passengers.GenericDriverEntry",
+"Passengers.GenericPassengerEntry"
+],
+"v_sportbike3_brennan_apollo_police_prevention_2": [
+"Passengers.GenericDriverEntry"
+],
+"hackable_villefort_columbus_arasaka": [
+"Passengers.CorpoArasakaDriverEntry",
+"Passengers.CorpoArasakaPassengerFrontEntry"
+],
+"GR_ncpd_modded_militech_behemoth_police": [
+"Passengers.WorkerSpecialistDriverEntry",
+"Passengers.WorkerSpecialistPassengerFrontEntry"
+],
+"leo_arasaka_villefort_cortes_heat_3": [
+"Passengers.CorporatDriverEntry",
+"Passengers.CorporatPassengerFrontEntry",
+"Passengers.CorporatPassengerBackEntry"
+],
+"leo_ncpd_militech_hellhound_heat_5_variant_3": [
+"Passengers.GenericDriverEntry",
+"Passengers.GenericPassengerEntry"
+],
+"GR_v_standard25_thorton_colby_pickup_kurtz": [
+"Passengers.LowlifeRedneckDriverEntry",
+"Passengers.LowlifeRedneckPassengerFrontEntry"
+],
+"leo_kurtz_thorton_colby_militia_v2_heat_3": [
+"Passengers.LowlifeRedneckDriverEntry",
+"Passengers.LowlifeRedneckPassengerFrontEntry"
+],
+"cs_savable_mahir_supron_kurtz": [
+"Passengers.GenericDriverEntry",
+"Passengers.GenericPassengerEntry"
+],
+"arasaka__chevalier_emperor": [
+"Passengers.ArasakaSecurityDriverEntry",
+"Passengers.ArasakaSecurityPassengerFrontEntry",
+"Passengers.ArasakaSecurityPassengerBackEntry"
+],
+"v_sportbike3_brennan_apollo_basic_prevention": [
+"Passengers.GenericDriverEntry"
+],
+"v_standard3_chevalier_emperor_zetatech_prevention": [
+"Passengers.CorporatDriverEntry",
+"Passengers.CorporatPassengerFrontEntry",
+"Passengers.CorporatPassengerBackEntry"
+],
+"v_standard3_chevalier_emperor_biotechnica_prevention_4": [
+"Passengers.CorporatDriverEntry",
+"Passengers.CorporatPassengerFrontEntry",
+"Passengers.CorporatPassengerBackEntry"
+],
+"v_sport2_villefort_alvarado_security_prevention": [
+"Passengers.LowlifeDriverEntry",
+"Passengers.LowlifePassengerFrontEntry"
+],
+"v_sport2_muzitani_shion_mercenary_prevention": [
+"Passengers.GenericDriverEntry",
+"Passengers.GenericPassengerEntry"
+],
+"GR_ncpd_archer_hella_heat_3": [
+"Passengers.NCPDDriverEntry",
+"Passengers.NCPDPassengerFrontEntry"
+],
+"GR_v_sportbike3_brennan_apollo_kurtz": [
+"Passengers.GenericDriverEntry"
+],
+"v_standard3_militech_hellhound_militech_prevention_2": [
+"Passengers.GenericDriverEntry",
+"Passengers.GenericPassengerEntry"
+],
+"leo_kurtz_thorton_colby_militia_v3_heat_3": [
+"Passengers.LowlifeRedneckDriverEntry",
+"Passengers.LowlifeRedneckPassengerFrontEntry"
+],
+"leo_ncpd_thorton_merrimac_heat_3": [
+"Passengers.CorporatDriverEntry",
+"Passengers.CorporatPassengerFrontEntry",
+"Passengers.CorporatPassengerBackEntry"
+],
+"v_standard3_thorton_mackinaw_biotechnica_prevention_3": [
+"Passengers.CorporatDriverEntry",
+"Passengers.CorporatPassengerFrontEntry",
+"Passengers.CorporatPassengerBackEntry"
+],
+"ncpd__modded_villefort_cortes_border_patrol": [
+"Passengers.BorderDriverEntry",
+"Passengers.BorderPassengerFrontEntry",
+"Passengers.BorderPassengerBackEntry"
+],
+"v_standard2_archer_hella_police_high_prevention_2": [
+"Passengers.NCPDDriverEntry",
+"Passengers.NCPDPassengerFrontEntry"
+],
+"leo_nightcorp_villefort_columbus_heat_5": [
+"Passengers.NightLifeCleanDriverEntry",
+"Passengers.NightLifeCleanPassengerFrontEntry"
+],
+"v_standard3_chevalier_emperor_militech_specops_prevention_3": [
+"Passengers.CorporatDriverEntry",
+"Passengers.CorporatPassengerFrontEntry",
+"Passengers.CorporatPassengerBackEntry"
+],
+"v_standard2_archer_quartz_mercenary_prevention_4": [
+"Passengers.GenericDriverEntry",
+"Passengers.GenericPassengerEntry"
+],
+"leo_nightcorp_militech_behemoth_heat_4": [
+"Passengers.WorkerSpecialistDriverEntry",
+"Passengers.WorkerSpecialistPassengerFrontEntry"
+],
+"v_standard2_archer_hella_biotechnica_prevention": [
+"Passengers.CorporatDriverEntry",
+"Passengers.CorporatPassengerFrontEntry",
+"Passengers.CorporatPassengerBackEntry"
+],
+"GR_militech_modded_apollo_sentinel": [
+"Passengers.GenericDriverEntry"
+],
+"leo_biotechnica_thorton_mackinaw_heat_3": [
+"Passengers.CorporatDriverEntry",
+"Passengers.CorporatPassengerFrontEntry",
+"Passengers.CorporatPassengerBackEntry"
+],
+"kangtao__villefort_columbus": [
+"Passengers.KangtaoDriverEntry",
+"Passengers.KangtaoPassengerFrontEntry"
+],
+"vcd_militech_hellhound_ncpd": [
+"Passengers.GenericDriverEntry",
+"Passengers.GenericPassengerEntry"
+],
+"v_standard3_chevalier_emperor_biotechnica_prevention_2": [
+"Passengers.CorporatDriverEntry",
+"Passengers.CorporatPassengerFrontEntry",
+"Passengers.CorporatPassengerBackEntry"
+],
+"v_standard2_archer_hella_police_low_prevention_2": [
+"Passengers.NCPDDriverEntry",
+"Passengers.NCPDPassengerFrontEntry"
+],
+"leo_militech_thorton_merrimac_heat_2": [
+"Passengers.CorporatDriverEntry",
+"Passengers.CorporatPassengerFrontEntry",
+"Passengers.CorporatPassengerBackEntry"
+],
+"RS_TraumaTeamAv1": [
+"Passengers.GenericDriverEntry",
+"Passengers.GenericPassengerEntry"
+],
+"leo_militech_chevalier_emperor_heat_2": [
+"Passengers.GenericDriverEntry",
+"Passengers.GenericPassengerEntry"
+],
+"leo_ncpd_brennan_apollo_bike_heat_2_variant_1": [
+"Passengers.GenericDriverEntry"
+],
+"v_utility4_militech_behemoth_militia_prevention": [
+"Passengers.WorkerSpecialistDriverEntry",
+"Passengers.WorkerSpecialistPassengerFrontEntry"
+],
+"vcd_corpo_cortes_purchasable.kangtao": [
+"Passengers.PremiumDriverEntry",
+"Passengers.PremiumPassengerFrontEntry",
+"Passengers.PremiumPassengerBackEntry"
+],
+"leo_nightcorp_villefort_cortes_heat_2": [
+"Passengers.PremiumDriverEntry",
+"Passengers.PremiumPassengerFrontEntry",
+"Passengers.PremiumPassengerBackEntry"
+],
+"GR_ncpd_villefort_cortes_heat_1": [
+"Passengers.NCPDDriverEntry",
+"Passengers.NCPDPassengerFrontEntry"
+],
+"GR_ncpd_modded_archer_hella_ncpd2": [
+"Passengers.NCPDDriverEntry",
+"Passengers.NCPDPassengerFrontEntry"
+],
+"leo_maxtac_militech_hellhound_heat_5": [
+"Passengers.GenericDriverEntry",
+"Passengers.GenericPassengerEntry"
+],
+"leo_nightcorp_militech_behemoth_heat_5": [
+"Passengers.WorkerSpecialistDriverEntry",
+"Passengers.WorkerSpecialistPassengerFrontEntry"
+],
+"ncpd_suv_thorton_merrimac_maxtac": [
+"Passengers.CorporatDriverEntry",
+"Passengers.CorporatPassengerFrontEntry",
+"Passengers.CorporatPassengerBackEntry"
+],
+"v_standard2_thorton_galena_mercenary_prevention_6": [
+"Passengers.GenericDriverEntry",
+"Passengers.GenericPassengerEntry"
+],
+"wasteland_chevalier_emperor_militech_heat_2": [
+"Passengers.PremiumDriverEntry",
+"Passengers.PremiumPassengerFrontEntry",
+"Passengers.PremiumPassengerBackEntry"
+],
+"kangtao__modded_edge_obsidian_amber": "NORECORD",
+"ncpd__modded_nomad_tanishi_maxtac": [
+"Passengers.MaxTacDriverEntry",
+"Passengers.MaxTacPassengerFrontEntry"
+],
+"cs_savable_chevalier_emperor_police_siren": [
+"Passengers.PremiumDriverEntry",
+"Passengers.PremiumPassengerFrontEntry",
+"Passengers.PremiumPassengerBackEntry"
+],
+"v_standard2_thorton_galena_nomad_prevention_2": [
+"Passengers.GenericDriverEntry",
+"Passengers.GenericPassengerEntry"
+],
+"cs_savable_villefort_columbus_arasaka": [
+"Passengers.CorpoArasakaDriverEntry",
+"Passengers.CorpoArasakaPassengerFrontEntry"
+],
+"v_standard25_thorton_merrimac_maxtac_e422": [
+"Passengers.CorporatDriverEntry",
+"Passengers.CorporatPassengerFrontEntry",
+"Passengers.CorporatPassengerBackEntry"
+],
+"leo_kurtz_thorton_colby_weaponized_militia_heat_5": [
+"Passengers.LowlifeRedneckDriverEntry",
+"Passengers.LowlifeRedneckPassengerFrontEntry"
+],
+"leo_netwatch_chevalier_emperor_heat_5": [
+"Passengers.CorporatDriverEntry",
+"Passengers.CorporatPassengerFrontEntry",
+"Passengers.CorporatPassengerBackEntry"
+],
+"v_standard3_militech_hellhound_maxtac_prevention": [
+"Passengers.GenericDriverEntry",
+"Passengers.GenericPassengerEntry"
+],
+"max_tac_av3": [
+"Passengers.GenericDriverEntry",
+"Passengers.GenericPassengerEntry"
+],
+"v_standard3_militech_hellhound_nusa_prevention_2": [
+"Passengers.GenericDriverEntry",
+"Passengers.GenericPassengerEntry"
+],
+"leo_militech_chevalier_emperor_heat_3": [
+"Passengers.PremiumDriverEntry",
+"Passengers.PremiumPassengerFrontEntry",
+"Passengers.PremiumPassengerBackEntry"
+],
+"v_utility4_militech_behemoth_kangtao": [
+"Passengers.WorkerSpecialistDriverEntry",
+"Passengers.WorkerSpecialistPassengerFrontEntry"
+],
+"v_standard2_villefort_cortes_detective_prevention": [
+"Passengers.NCPDDriverEntry",
+"Passengers.NCPDPassengerFrontEntry"
+],
+"oranje3_nomad_tanishi_maxtac": [
+"Passengers.GenericDriverEntry",
+"Passengers.GenericPassengerEntry"
+],
+"leo_ncpd_archer_hella_low_heat_2": [
+"Passengers.NCPDDriverEntry",
+"Passengers.NCPDPassengerFrontEntry"
+],
+"v_standard2_archer_hella_police": [
+"Passengers.NCPDDriverEntry",
+"Passengers.NCPDPassengerFrontEntry"
+],
+"leo_arasaka_villefort_cortes_heat_2": [
+"Passengers.PremiumDriverEntry",
+"Passengers.PremiumPassengerFrontEntry",
+"Passengers.PremiumPassengerBackEntry"
+],
+"v_standard2_archer_quartz_mercenary_prevention": [
+"Passengers.LowlifeDriverEntry",
+"Passengers.LowlifePassengerFrontEntry"
+],
+"kurtz_mahir_supron_heat_3": [
+"Passengers.EP1KurtzDriverEntry",
+"Passengers.EP1KurtzFrontEntry",
+"Passengers.EP1KurtzPassengerBackEntry"
+],
+"v_standard25_thorton_colby_militia_regular_prevention_6": [
+"Passengers.LowlifeRedneckDriverEntry",
+"Passengers.LowlifeRedneckPassengerFrontEntry"
+],
+"v_standard25_thorton_merrimac_maxtac_prevention": [
+"Passengers.CorporatDriverEntry",
+"Passengers.CorporatPassengerFrontEntry",
+"Passengers.CorporatPassengerBackEntry"
+],
+"vcd_thorton_merrimac_trauma": [
+"Passengers.CorporatDriverEntry",
+"Passengers.CorporatPassengerFrontEntry",
+"Passengers.CorporatPassengerBackEntry"
+],
+"v_standard25_thorton_colby_mercenary_prevention_4": [
+"Passengers.LowlifeRedneckDriverEntry",
+"Passengers.LowlifeRedneckPassengerFrontEntry"
+],
+"v_sportbike3_brennan_apollo_mercenary_prevention_5": [
+"Passengers.GenericDriverEntry"
+],
+"RS_ArasakaAvElite3": [
+"Passengers.GenericDriverEntry",
+"Passengers.GenericPassengerEntry"
+],
+"police__chevalier_emperor": [
+"Passengers.policeEnforcerDriverEntry",
+"Passengers.policeEnforcerPassengerFrontEntry",
+"Passengers.policeEnforcerPassengerBackEntry"
+],
+"v_standard2_villefort_cortes_police_border_patrol_specialist_prevention_2": [
+"Passengers.NCPDDriverEntry",
+"Passengers.NCPDPassengerFrontEntry"
+],
+"NGPlus_Encounter_Outlaw": [
+"Passengers.CitizenRichDriverEntry",
+"Passengers.CitizenRichPassengerFrontEntry",
+"Passengers.CitizenRichPassengerBackEntry"
+],
+"leo_arasaka_chevalier_emperor_heat_5": [
+"Passengers.CorporatDriverEntry",
+"Passengers.CorporatPassengerFrontEntry",
+"Passengers.CorporatPassengerBackEntry"
+],
+"leo_border_patrol_nomad_tanishi_heat_3": [
+"Passengers.GenericDriverEntry",
+"Passengers.GenericPassengerEntry"
+],
+"v_standard25_thorton_colby_security_armed_prevention": [
+"Passengers.LowlifeRedneckDriverEntry",
+"Passengers.LowlifeRedneckPassengerFrontEntry"
+],
+"leo_militech_thorton_merrimac_heat_1": [
+"Passengers.GenericDriverEntry"
+],
+"v_standard2_villefort_cortes_arasaka_prevention_3": [
+"Passengers.CorporatDriverEntry",
+"Passengers.CorporatPassengerFrontEntry",
+"Passengers.CorporatPassengerBackEntry"
+],
+"leo_ncpd_villefort_cortes_high_heat_1": [
+"Passengers.NCPDDriverEntry",
+"Passengers.NCPDPassengerFrontEntry"
+],
+"leo_kurtz_mahir_supron_security_heat_2": [
+"Passengers.GenericDriverEntry",
+"Passengers.GenericPassengerEntry"
+],
+"leo_arasaka_chevalier_emperor_heat_4": [
+"Passengers.PremiumDriverEntry",
+"Passengers.PremiumPassengerFrontEntry",
+"Passengers.PremiumPassengerBackEntry"
+],
+"v_standard3_chevalier_emperor_militech": [
+"Passengers.PremiumDriverEntry",
+"Passengers.PremiumPassengerFrontEntry",
+"Passengers.PremiumPassengerBackEntry"
+],
+"v_sport1_herrera_outlaw": [
+"Passengers.CitizenRichDriverEntry",
+"Passengers.CitizenRichPassengerFrontEntry",
+"Passengers.CitizenRichPassengerBackEntry"
+],
+"leo_ncpd_chevalier_emperor_heat_4": [
+"Passengers.PremiumDriverEntry",
+"Passengers.PremiumPassengerFrontEntry",
+"Passengers.PremiumPassengerBackEntry"
+],
+"hackable_militech_behemoth": [
+"Passengers.WorkerSpecialistDriverEntry",
+"Passengers.WorkerSpecialistPassengerFrontEntry"
+],
+"arasaka__modded_suv": [
+"Passengers.ArasakaSecurityDriverEntry",
+"Passengers.ArasakaSecurityPassengerFrontEntry",
+"Passengers.ArasakaSecurityPassengerBackEntry"
+],
+"GR_v_standard3_mahir_supron_kurtz": [
+"Passengers.GenericDriverEntry",
+"Passengers.GenericPassengerEntry"
+],
+"leo_kurtz_mahir_supron_weaponized_militia_heat_4": [
+"Passengers.GenericDriverEntry",
+"Passengers.GenericPassengerEntry"
+],
+"v_standard2_thorton_galena_mercenary_prevention_2": [
+"Passengers.CorporatDriverEntry",
+"Passengers.CorporatPassengerFrontEntry",
+"Passengers.CorporatPassengerBackEntry"
+],
+"v_standard25_thorton_merrimac_maxtac_e307": [
+"Passengers.CorporatDriverEntry",
+"Passengers.CorporatPassengerFrontEntry",
+"Passengers.CorporatPassengerBackEntry"
+],
+"ncpd__modded_arch_fyrn_blue": [
+"Passengers.policeBikerDriverEntry"
+],
+"leo_arasaka_villefort_cortes_heat_1": "NORECORD",
+"v_sport1_quadra_turbo_tyger_claw_courier": [
+"Passengers.NightLifeDriverEntry",
+"Passengers.NightLifePassengerFrontEntry"
+],
+"leo_kangtao_militech_behemoth_heat_5": [
+"Passengers.WorkerSpecialistDriverEntry",
+"Passengers.WorkerSpecialistPassengerFrontEntry"
+],
+"leo_kurtz_militech_behemoth_heat_4": [
+"Passengers.WorkerSpecialistDriverEntry",
+"Passengers.WorkerSpecialistPassengerFrontEntry"
+],
+"hackable_villefort_cortes_kangtao": [
+"Passengers.PremiumDriverEntry",
+"Passengers.PremiumPassengerFrontEntry",
+"Passengers.PremiumPassengerBackEntry"
+],
+"GR_militech_modded_apollo_tactical": [
+"Passengers.GenericDriverEntry"
+],
+"leo_militech_chevalier_emperor_heat_4": [
+"Passengers.CorporatDriverEntry",
+"Passengers.CorporatPassengerFrontEntry",
+"Passengers.CorporatPassengerBackEntry"
+],
+"v_standard3_chevalier_emperor_ncx_prevention": [
+"Passengers.CorporatDriverEntry",
+"Passengers.CorporatPassengerFrontEntry",
+"Passengers.CorporatPassengerBackEntry"
+],
+"leo_nightcorp_thorton_merrimac_heat_4": [
+"Passengers.CorporatDriverEntry",
+"Passengers.CorporatPassengerFrontEntry",
+"Passengers.CorporatPassengerBackEntry"
+],
+"vcd_villefort_cortes_law": [
+"Passengers.NCPDDriverEntry",
+"Passengers.NCPDPassengerFrontEntry"
+],
+"leo_ncpd_archer_hella_heat_4": [
+"Passengers.NCPDDriverEntry",
+"Passengers.NCPDPassengerFrontEntry"
+],
+"v_standard3_chevalier_emperor_nightcorp_prevention_2": [
+"Passengers.CorporatDriverEntry",
+"Passengers.CorporatPassengerFrontEntry",
+"Passengers.CorporatPassengerBackEntry"
+],
+"ncpd__modded_militech_hellhound_max_tac1": [
+"Passengers.MaxTacDriverEntry",
+"Passengers.MaxTacPassengerFrontEntry"
+],
+"kangtao__modded_arch_paladin_gray": [
+"Passengers.KangtaoDriverEntry"
+],
+"cs_savable_thorton_colby_pickup_kurtz": [
+"Passengers.LowlifeRedneckDriverEntry",
+"Passengers.LowlifeRedneckPassengerFrontEntry"
+],
+"v_standard3_chevalier_emperor_nightcorp_prevention": [
+"Passengers.PremiumDriverEntry",
+"Passengers.PremiumPassengerFrontEntry",
+"Passengers.PremiumPassengerBackEntry"
+],
+"vcd_herrera_outlaw_purchasable": [
+"Passengers.CitizenRichDriverEntry",
+"Passengers.CitizenRichPassengerFrontEntry",
+"Passengers.CitizenRichPassengerBackEntry"
+],
+"v_standard25_thorton_merrimac_maxtac": [
+"Passengers.CorporatDriverEntry",
+"Passengers.CorporatPassengerFrontEntry",
+"Passengers.CorporatPassengerBackEntry"
+],
+"leo_arasaka_bio_chevalier_emperor_heat_5": [
+"Passengers.PremiumDriverEntry",
+"Passengers.PremiumPassengerFrontEntry",
+"Passengers.PremiumPassengerBackEntry"
+],
+"militech__modded_arch_paladin_gray": [
+"Passengers.MilitechDriverEntry"
+],
+"v_standard3_mahir_supron_militia_regular_prevention": [
+"Passengers.GenericDriverEntry",
+"Passengers.GenericPassengerEntry"
+],
+"border_patrol_villefort_cortes_heat_2": [
+"Passengers.NCPDDriverEntry",
+"Passengers.NCPDPassengerFrontEntry"
+],
+"ncpd_thorton_merrimac_police_heat_4": [
+"Passengers.CorporatDriverEntry",
+"Passengers.CorporatPassengerFrontEntry",
+"Passengers.CorporatPassengerBackEntry"
+],
+"v_standard3_militech_hellhound_courier": [
+"Passengers.GenericDriverEntry",
+"Passengers.GenericPassengerEntry"
+],
+"v_sport2_quadra_type66_mercenary_prevention_3": [
+"Passengers.GenericDriverEntry",
+"Passengers.GenericPassengerEntry"
+],
+"v_standard2_archer_hella_police_prevention": [
+"Passengers.NCPDDriverEntry",
+"Passengers.NCPDPassengerFrontEntry"
+],
+"v_standard2_archer_hella_police_low_prevention": [
+"Passengers.NCPDDriverEntry",
+"Passengers.NCPDPassengerFrontEntry"
+],
+"GR_mws_cct_dtn_02_arasaka_car": [
+"Passengers.PremiumDriverEntry",
+"Passengers.PremiumPassengerFrontEntry",
+"Passengers.PremiumPassengerBackEntry"
+],
+"oranje3_nomad_tanishi_border": [
+"Passengers.GenericDriverEntry",
+"Passengers.GenericPassengerEntry"
+],
+"v_sportbike3_brennan_apollo_mercenary_prevention": [
+"Passengers.GenericDriverEntry"
+],
+"v_standard2_archer_hella_police_mws": [
+"Passengers.NCPDDriverEntry",
+"Passengers.NCPDPassengerFrontEntry"
+],
+"v_standard3_chevalier_emperor_arasaka_prevention_2": [
+"Passengers.CorporatDriverEntry",
+"Passengers.CorporatPassengerFrontEntry",
+"Passengers.CorporatPassengerBackEntry"
+],
+"GR_ncpd_modded_militech_hellhound_ncpd2": [
+"Passengers.GenericDriverEntry",
+"Passengers.GenericPassengerEntry"
+],
+"v_utility4_militech_behemoth": [
+"Passengers.WorkerSpecialistDriverEntry",
+"Passengers.WorkerSpecialistPassengerFrontEntry"
+],
+"v_sportbike3_brennan_apollo_police": [
+"Passengers.GenericDriverEntry"
+],
+"v_standard3_mahir_supron_kurtz_prevention": [
+"Passengers.EP1KurtzDriverEntry",
+"Passengers.EP1KurtzFrontEntry",
+"Passengers.EP1KurtzPassengerBackEntry"
+],
+"ncpd_suv_chevalier_emperor_heat_4": [
+"Passengers.PremiumDriverEntry",
+"Passengers.PremiumPassengerFrontEntry",
+"Passengers.PremiumPassengerBackEntry"
+],
+"ncpd__modded_militech_hellhound_ncpd1": [
+"Passengers.policeEnforcerDriverEntry",
+"Passengers.policeEnforcerPassengerFrontEntry"
+],
+"ncpd__modded_militech_hellhound_ncpd2": [
+"Passengers.policeEnforcerDriverEntry",
+"Passengers.policeEnforcerPassengerFrontEntry"
+],
+"ncpd__modded_villefort_cortes_sheriff": [
+"Passengers.SheriffDriverEntry",
+"Passengers.SheriffPassengerFrontEntry",
+"Passengers.SheriffPassengerBackEntry"
+],
+"v_utility4_militech_behemoth_arasaka_prevention_2": [
+"Passengers.GenericDriverEntry",
+"Passengers.GenericPassengerEntry"
+],
+"ncpd__modded_villefort_cortes_streetkid_black_agent": [
+"Passengers.DetectiveDriverEntry",
+"Passengers.DetectivePassengerFrontEntry",
+"Passengers.DetectivePassengerBackEntry"
+],
+"v_standard2_villefort_cortes_sheriff_prevention": [
+"Passengers.NCPDDriverEntry",
+"Passengers.NCPDPassengerFrontEntry"
+],
+"v_standard3_thorton_mackinaw_biotechnica_prevention_2": [
+"Passengers.CorporatDriverEntry",
+"Passengers.CorporatPassengerFrontEntry",
+"Passengers.CorporatPassengerBackEntry"
+],
+"vcd_militech_hellhound_ncpd1": [
+"Passengers.GenericDriverEntry",
+"Passengers.GenericPassengerEntry"
+],
+"v_standard2_villefort_cortes_nightcorp_prevention_2": [
+"Passengers.CorporatDriverEntry",
+"Passengers.CorporatPassengerFrontEntry",
+"Passengers.CorporatPassengerBackEntry"
+],
+"v_standard25_thorton_colby_militia_regular_prevention_5": [
+"Passengers.LowlifeRedneckDriverEntry",
+"Passengers.LowlifeRedneckPassengerFrontEntry"
+],
+"leo_maxtac_thorton_merrimac_heat_5": [
+"Passengers.CorporatDriverEntry",
+"Passengers.CorporatPassengerFrontEntry",
+"Passengers.CorporatPassengerBackEntry"
+],
+"v_sportbike3_brennan_apollo_mercenary_prevention_4": [
+"Passengers.GenericDriverEntry"
+],
+"v_standard25_thorton_colby_mercenary_prevention_5": [
+"Passengers.GenericDriverEntry",
+"Passengers.GenericPassengerEntry"
+],
+"RS_ArasakaAvElite2": [
+"Passengers.GenericDriverEntry",
+"Passengers.GenericPassengerEntry"
+],
+"v_utility4_militech_behemoth_militech_prevention": [
+"Passengers.WorkerSpecialistDriverEntry",
+"Passengers.WorkerSpecialistPassengerFrontEntry"
+],
+"leo_arasaka_arch_nemesis_bike_heat_5": [
+"Passengers.GenericDriverEntry"
+],
+"leo_ncpd_archer_hella_low_heat_1": [
+"Passengers.NCPDDriverEntry",
+"Passengers.NCPDPassengerFrontEntry"
+],
+"leo_arasaka_militech_behemoth_heat_4": [
+"Passengers.WorkerSpecialistDriverEntry",
+"Passengers.WorkerSpecialistPassengerFrontEntry"
+],
+"leo_kurtz_thorton_colby_weaponized_security_heat_4": [
+"Passengers.LowlifeRedneckDriverEntry",
+"Passengers.LowlifeRedneckPassengerFrontEntry"
+],
+"v_sportbike3_brennan_apollo_basic_prevention_3": [
+"Passengers.GenericDriverEntry"
+],
+"v_standard25_villefort_columbus_nightcorp_prevention": [
+"Passengers.NightLifeCleanDriverEntry",
+"Passengers.NightLifeCleanPassengerFrontEntry"
+],
+"v_standard25_thorton_colby_mercenary_prevention_3": [
+"Passengers.GenericDriverEntry",
+"Passengers.GenericPassengerEntry"
+],
+"v_standard2_villefort_cortes_police_border_patrol_specialist_prevention": [
+"Passengers.NCPDDriverEntry",
+"Passengers.NCPDPassengerFrontEntry"
+],
+"v_standard3_mahir_supron_militia_armed_prevention": [
+"Passengers.GenericDriverEntry",
+"Passengers.GenericPassengerEntry"
+],
+"v_standard25_villefort_columbus_arasaka_prevention": [
+"Passengers.LowlifeDriverEntry",
+"Passengers.LowlifePassengerFrontEntry"
+],
+"v_standard25_thorton_merrimac_police": [
+"Passengers.CorporatDriverEntry",
+"Passengers.CorporatPassengerFrontEntry",
+"Passengers.CorporatPassengerBackEntry"
+],
+"v_standard3_chevalier_emperor_nusa_prevention_2": [
+"Passengers.PremiumDriverEntry",
+"Passengers.PremiumPassengerFrontEntry",
+"Passengers.PremiumPassengerBackEntry"
+],
+"leo_kurtz_thorton_colby_security_heat_2": [
+"Passengers.LowlifeRedneckDriverEntry",
+"Passengers.LowlifeRedneckPassengerFrontEntry"
+],
+"GR_v_standard2_villefort_cortes_arasaka": [
+"Passengers.PremiumDriverEntry",
+"Passengers.PremiumPassengerFrontEntry",
+"Passengers.PremiumPassengerBackEntry"
+],
+"v_sportbike3_brennan_apollo_police_prevention": [
+"Passengers.GenericDriverEntry"
+],
+"leo_ncpd_militech_behemoth_heat_4": [
+"Passengers.WorkerSpecialistDriverEntry",
+"Passengers.WorkerSpecialistPassengerFrontEntry"
+],
+"v_standard2_archer_hella_detective_prevention": [
+"Passengers.NCPDDriverEntry",
+"Passengers.NCPDPassengerFrontEntry"
+],
+"leo_kurtz_mahir_supron_militia_v2_heat_4": [
+"Passengers.GenericDriverEntry",
+"Passengers.GenericPassengerEntry"
+],
+"v_standard3_mahir_supron_security_regular_prevention": [
+"Passengers.GenericDriverEntry",
+"Passengers.GenericPassengerEntry"
+],
+"v_standard25_thorton_colby_militia_regular_prevention_4": [
+"Passengers.LowlifeRedneckDriverEntry",
+"Passengers.LowlifeRedneckPassengerFrontEntry"
+],
+"leo_ncpd_villefort_cortes_medium_heat_2": [
+"Passengers.NCPDDriverEntry",
+"Passengers.NCPDPassengerFrontEntry"
+],
+"leo_militech_militech_behemoth_heat_4": [
+"Passengers.WorkerSpecialistDriverEntry",
+"Passengers.WorkerSpecialistPassengerFrontEntry"
+],
+"GR_v_standard3_chevalier_emperor_arasaka_courier": [
+"Passengers.PremiumDriverEntry",
+"Passengers.PremiumPassengerFrontEntry",
+"Passengers.PremiumPassengerBackEntry"
+],
+"v_standard25_thorton_colby_mercenary_prevention_6": [
+"Passengers.GenericDriverEntry",
+"Passengers.GenericPassengerEntry"
+],
+"v_standard25_villefort_columbus_nightcorp_prevention_2": [
+"Passengers.LowlifeDriverEntry",
+"Passengers.LowlifePassengerFrontEntry"
+],
+"v_utility4_militech_behemoth_border_patrol_prevention": [
+"Passengers.WorkerSpecialistDriverEntry",
+"Passengers.WorkerSpecialistPassengerFrontEntry"
+],
+"v_standard2_archer_hella_police_medium_prevention": [
+"Passengers.NCPDDriverEntry",
+"Passengers.NCPDPassengerFrontEntry"
+],
+"leo_arasaka_villefort_cortes_armored_heat_2": [
+"Passengers.PremiumDriverEntry",
+"Passengers.PremiumPassengerFrontEntry",
+"Passengers.PremiumPassengerBackEntry"
+],
+"RS_ArasakaAvElite1": [
+"Passengers.GenericDriverEntry",
+"Passengers.GenericPassengerEntry"
+],
+"GR_v_sport1_quadra_turbo_tyger_claw": [
+"Passengers.NightLifeDriverEntry",
+"Passengers.NightLifePassengerFrontEntry"
+],
+"RS_ArasakaAvNormal1": [
+"Passengers.GenericDriverEntry",
+"Passengers.GenericPassengerEntry"
+],
+"v_standard3_chevalier_emperor_militech_prevention_3": [
+"Passengers.CorporatDriverEntry",
+"Passengers.CorporatPassengerFrontEntry",
+"Passengers.CorporatPassengerBackEntry"
+],
+"v_standard2_archer_quartz_mercenary_prevention_2": [
+"Passengers.LowlifeDriverEntry",
+"Passengers.LowlifePassengerFrontEntry"
+],
+"arasaka__villefort_cortes": [
+"Passengers.ArasakaCorpoDriverEntry",
+"Passengers.ArasakaCorpoGuardFrontPassengerEntry",
+"Passengers.ArasakaCorpoPassengerBackEntry"
+],
+"vcd_thorton_merrimac_police2": [
+"Passengers.CorporatDriverEntry",
+"Passengers.CorporatPassengerFrontEntry",
+"Passengers.CorporatPassengerBackEntry"
+],
+"leo_ncpd_villefort_cortes_high_heat_2": [
+"Passengers.NCPDDriverEntry",
+"Passengers.NCPDPassengerFrontEntry"
+],
+"leo_nightcorp_villefort_cortes_heat_3": [
+"Passengers.CorporatDriverEntry",
+"Passengers.CorporatPassengerFrontEntry",
+"Passengers.CorporatPassengerBackEntry"
+],
+"leo_ncpd_militech_hellhound_heat_4": [
+"Passengers.GenericDriverEntry",
+"Passengers.GenericPassengerEntry"
+],
+"leo_ncpd_villefort_cortes_low_heat_1": [
+"Passengers.NCPDDriverEntry",
+"Passengers.NCPDPassengerFrontEntry"
+],
+"leo_nightcorp_thorton_merrimac_heat_3": [
+"Passengers.CorporatDriverEntry",
+"Passengers.CorporatPassengerFrontEntry",
+"Passengers.CorporatPassengerBackEntry"
+],
+"leo_ncpd_archer_hella_heat_3": [
+"Passengers.NCPDDriverEntry",
+"Passengers.NCPDPassengerFrontEntry"
+],
+"leo_militech_chevalier_emperor_specops_heat_5": [
+"Passengers.CorporatDriverEntry",
+"Passengers.CorporatPassengerFrontEntry",
+"Passengers.CorporatPassengerBackEntry"
+],
+"v_standard25_thorton_merrimac_nightcorp_prevention_3": [
+"Passengers.CorporatDriverEntry",
+"Passengers.CorporatPassengerFrontEntry",
+"Passengers.CorporatPassengerBackEntry"
+],
+"leo_kurtz_barghest_hellhound_heat_5": [
+"Passengers.GenericDriverEntry",
+"Passengers.GenericPassengerEntry"
+],
+"GR_ncpd_brennan_apollo_bike": [
+"Passengers.GenericDriverEntry"
+],
+"v_standard3_chevalier_emperor_biotechnica_prevention": [
+"Passengers.PremiumDriverEntry",
+"Passengers.PremiumPassengerFrontEntry",
+"Passengers.PremiumPassengerBackEntry"
+],
+"leo_biotechnica_chevalier_emperor_heat_4": [
+"Passengers.CorporatDriverEntry",
+"Passengers.CorporatPassengerFrontEntry",
+"Passengers.CorporatPassengerBackEntry"
+],
+"leo_biotechnica_thorton_mackinaw_heat_2": [
+"Passengers.CorporatDriverEntry",
+"Passengers.CorporatPassengerFrontEntry",
+"Passengers.CorporatPassengerBackEntry"
+],
+"leo_nusa_militech_behemoth_heat_5": [
+"Passengers.WorkerSpecialistDriverEntry",
+"Passengers.WorkerSpecialistPassengerFrontEntry"
+],
+"ncpd__modded_arch_mogus_blue": [
+"Passengers.policeBikerDriverEntry"
+],
+"leo_nusa_chevalier_emperor_heat_5": [
+"Passengers.CorporatDriverEntry",
+"Passengers.CorporatPassengerFrontEntry",
+"Passengers.CorporatPassengerBackEntry"
+],
+"v_standard2_villefort_cortes_nightcorp_prevention": [
+"Passengers.PremiumDriverEntry",
+"Passengers.PremiumPassengerFrontEntry",
+"Passengers.PremiumPassengerBackEntry"
+],
+"leo_biotechnica_chevalier_emperor_heat_3": [
+"Passengers.PremiumDriverEntry",
+"Passengers.PremiumPassengerFrontEntry",
+"Passengers.PremiumPassengerBackEntry"
+],
+"leo_sheriff_villefort_cortes_heat_2": [
+"Passengers.GenericDriverEntry",
+"Passengers.GenericPassengerEntry"
+],
+"v_standard25_villefort_columbus_arasaka_prevention_2": [
+"Passengers.LowlifeDriverEntry",
+"Passengers.LowlifePassengerFrontEntry"
+],
+"leo_kurtz_thorton_colby_security_heat_1": [
+"Passengers.LowlifeRedneckDriverEntry",
+"Passengers.LowlifeRedneckPassengerFrontEntry"
+],
+"v_standard3_chevalier_emperor_biotechnica_prevention_3": [
+"Passengers.CorporatDriverEntry",
+"Passengers.CorporatPassengerFrontEntry",
+"Passengers.CorporatPassengerBackEntry"
+],
+"leo_arasaka_bio_militech_behemoth_heat_5": [
+"Passengers.WorkerSpecialistDriverEntry",
+"Passengers.WorkerSpecialistPassengerFrontEntry"
+],
+"leo_kurtz_thorton_colby_weaponized_militia_heat_4": [
+"Passengers.LowlifeRedneckDriverEntry",
+"Passengers.LowlifeRedneckPassengerFrontEntry"
+],
+"v_standard25_villefort_columbus_arasaka": [
+"Passengers.CorpoArasakaDriverEntry",
+"Passengers.CorpoArasakaPassengerFrontEntry"
+],
+"police__archer_hella": [
+"Passengers.policeDriverEntry",
+"Passengers.policePassengerFrontEntry",
+"Passengers.policePassengerBackEntry"
+],
+"v_utility4_militech_behemoth_netwatch": [
+"Passengers.WorkerSpecialistDriverEntry",
+"Passengers.WorkerSpecialistPassengerFrontEntry"
+],
+"v_utility4_militech_behemoth_nusa_prevention": [
+"Passengers.WorkerSpecialistDriverEntry",
+"Passengers.WorkerSpecialistPassengerFrontEntry"
+],
+"leo_militech_militech_hellhound_heat_4": [
+"Passengers.GenericDriverEntry",
+"Passengers.GenericPassengerEntry"
+],
+"leo_ncpd_archer_hella_medium_heat_2": [
+"Passengers.NCPDDriverEntry",
+"Passengers.NCPDPassengerFrontEntry"
+],
+"leo_biotechnica_archer_hella_heat_1": [
+"Passengers.CorporatDriverEntry",
+"Passengers.CorporatPassengerFrontEntry",
+"Passengers.CorporatPassengerBackEntry"
+],
+"v_standard2_villefort_cortes_police_high_prevention_2": [
+"Passengers.NCPDDriverEntry",
+"Passengers.NCPDPassengerFrontEntry"
+],
+"leo_maxtac_thorton_merrimac_heat_5_variant_3": [
+"Passengers.CorporatDriverEntry",
+"Passengers.CorporatPassengerFrontEntry",
+"Passengers.CorporatPassengerBackEntry"
+],
+"v_sport2_quadra_type66_mercenary_prevention_2": [
+"Passengers.GenericDriverEntry",
+"Passengers.GenericPassengerEntry"
+],
+"sobchak_ncpd_vehicle": [
+"Passengers.PremiumDriverEntry",
+"Passengers.PremiumPassengerFrontEntry",
+"Passengers.PremiumPassengerBackEntry"
+],
+"v_sportbike3_brennan_apollo_mercenary_prevention_3": [
+"Passengers.GenericDriverEntry"
+],
+"oranje3_nomad_tanishi_trauma": [
+"Passengers.GenericDriverEntry",
+"Passengers.GenericPassengerEntry"
+],
+"v_utility4_militech_behemoth_arasaka_bio_prevention_2": [
+"Passengers.WorkerSpecialistDriverEntry",
+"Passengers.WorkerSpecialistPassengerFrontEntry"
+],
+"ncpd__modded_militech_behemoth_maxtac": [
+"Passengers.MaxTacDriverEntry",
+"Passengers.MaxTacPassengerFrontEntry"
+],
+"v_standard2_villefort_cortes_police_high_prevention": [
+"Passengers.NCPDDriverEntry",
+"Passengers.NCPDPassengerFrontEntry"
+],
+"leo_maxtac_thorton_merrimac_heat_5_variant_2": [
+"Passengers.CorporatDriverEntry",
+"Passengers.CorporatPassengerFrontEntry",
+"Passengers.CorporatPassengerBackEntry"
+],
+"leo_ncpd_militech_hellhound_heat_5": [
+"Passengers.GenericDriverEntry",
+"Passengers.GenericPassengerEntry"
+],
+"leo_biotechnica_thorton_mackinaw_heat_4": [
+"Passengers.CorporatDriverEntry",
+"Passengers.CorporatPassengerFrontEntry",
+"Passengers.CorporatPassengerBackEntry"
+],
+"leo_netwatch_chevalier_emperor_heat_4": [
+"Passengers.PremiumDriverEntry",
+"Passengers.PremiumPassengerFrontEntry",
+"Passengers.PremiumPassengerBackEntry"
+],
+"leo_militech_chevalier_emperor_specops_heat_4": [
+"Passengers.CorporatDriverEntry",
+"Passengers.CorporatPassengerFrontEntry",
+"Passengers.CorporatPassengerBackEntry"
+],
+"v_standard25_thorton_merrimac_militech_prevention": [
+"Passengers.GenericDriverEntry"
+],
+"v_utility4_militech_behemoth_nightcorp_prevention_2": [
+"Passengers.WorkerSpecialistDriverEntry",
+"Passengers.WorkerSpecialistPassengerFrontEntry"
+],
+"leo_kurtz_brennan_apollo_bike_heat_1": [
+"Passengers.GenericDriverEntry"
+],
+"leo_biotechnica_chevalier_emperor_heat_5": [
+"Passengers.CorporatDriverEntry",
+"Passengers.CorporatPassengerFrontEntry",
+"Passengers.CorporatPassengerBackEntry"
+],
+"leo_nusa_militech_behemoth_heat_4": [
+"Passengers.WorkerSpecialistDriverEntry",
+"Passengers.WorkerSpecialistPassengerFrontEntry"
+],
+"leo_nusa_chevalier_emperor_heat_4": [
+"Passengers.PremiumDriverEntry",
+"Passengers.PremiumPassengerFrontEntry",
+"Passengers.PremiumPassengerBackEntry"
+],
+"arasaka__modded_edge_obsidian_red": "NORECORD",
+"leo_ncpd_brennan_apollo_bike_heat_1": [
+"Passengers.GenericDriverEntry"
+],
+"leo_nightcorp_chevalier_emperor_heat_4": [
+"Passengers.PremiumDriverEntry",
+"Passengers.PremiumPassengerFrontEntry",
+"Passengers.PremiumPassengerBackEntry"
+],
+"leo_kangtao_villefort_cortes_heat_3": [
+"Passengers.PremiumDriverEntry",
+"Passengers.PremiumPassengerFrontEntry",
+"Passengers.PremiumPassengerBackEntry"
+],
+"GR_militech_modded_arch_paladin_gray": [
+"Passengers.GenericDriverEntry"
+],
+"v_standard3_chevalier_emperor_netwatch_prevention": [
+"Passengers.PremiumDriverEntry",
+"Passengers.PremiumPassengerFrontEntry",
+"Passengers.PremiumPassengerBackEntry"
+],
+"v_standard2_villefort_cortes_arasaka_prevention_2": [
+"Passengers.PremiumDriverEntry",
+"Passengers.PremiumPassengerFrontEntry",
+"Passengers.PremiumPassengerBackEntry"
+],
+"cs_savable_villefort_columbus_kangtao": [
+"Passengers.NightLifeCleanDriverEntry",
+"Passengers.NightLifeCleanPassengerFrontEntry"
+],
+"oranje3_militech_legatus": [
+"Passengers.WorkerSpecialistDriverEntry",
+"Passengers.WorkerSpecialistPassengerFrontEntry"
+],
+"v_standard2_archer_hella_police_medium_prevention_2": [
+"Passengers.NCPDDriverEntry",
+"Passengers.NCPDPassengerFrontEntry"
+],
+"v_standard3_chevalier_emperor_police_prevention_2": [
+"Passengers.CorporatDriverEntry",
+"Passengers.CorporatPassengerFrontEntry",
+"Passengers.CorporatPassengerBackEntry"
+],
+"cs_savable_archer_hella_police_siren": [
+"Passengers.NCPDDriverEntry",
+"Passengers.NCPDPassengerFrontEntry"
+],
+"leo_trauma_thorton_merrimac_1": [
+"Passengers.CorporatDriverEntry",
+"Passengers.CorporatPassengerFrontEntry",
+"Passengers.CorporatPassengerBackEntry"
+],
+"v_utility4_militech_behemoth_quest": [
+"Passengers.WorkerSpecialistDriverEntry",
+"Passengers.WorkerSpecialistPassengerFrontEntry"
+],
+"border_patrol_chevalier_emperor_militech_heat_3": [
+"Passengers.PremiumDriverEntry",
+"Passengers.PremiumPassengerFrontEntry",
+"Passengers.PremiumPassengerBackEntry"
+],
+"vcd_corpo_emperor_purchasable": [
+"Passengers.PremiumDriverEntry",
+"Passengers.PremiumPassengerFrontEntry",
+"Passengers.PremiumPassengerBackEntry"
+],
+"v_standard2_villefort_cortes_police_border_patrol_prevention_3": [
+"Passengers.NCPDDriverEntry",
+"Passengers.NCPDPassengerFrontEntry"
+],
+"v_utility4_militech_behemoth_arasaka_prevention": [
+"Passengers.WorkerSpecialistDriverEntry",
+"Passengers.WorkerSpecialistPassengerFrontEntry"
+],
+"v_standard25_villefort_columbus_arasaka_bio_prevention": [
+"Passengers.NightLifeCleanDriverEntry",
+"Passengers.NightLifeCleanPassengerFrontEntry"
+],
+"GR_kangtao_modded_supron_widebody": [
+"Passengers.LowlifeDriverEntry",
+"Passengers.LowlifePassengerFrontEntry",
+"Passengers.LowlifePassengerBackEntry"
+],
+"v_sport2_quadra_type66_mercenary_prevention": [
+"Passengers.GenericDriverEntry",
+"Passengers.GenericPassengerEntry"
+],
+"v_standard2_villefort_cortes_arasaka_armored_prevention": [
+"Passengers.PremiumDriverEntry",
+"Passengers.PremiumPassengerFrontEntry",
+"Passengers.PremiumPassengerBackEntry"
+],
+"leo_nusa_militech_hellhound_heat_5": [
+"Passengers.GenericDriverEntry",
+"Passengers.GenericPassengerEntry"
+],
+"v_standard2_archer_hella_biotechnica_prevention_3": [
+"Passengers.CorporatDriverEntry",
+"Passengers.CorporatPassengerFrontEntry",
+"Passengers.CorporatPassengerBackEntry"
+],
+"leo_ncpd_thorton_merrimac_heat_4": [
+"Passengers.CorporatDriverEntry",
+"Passengers.CorporatPassengerFrontEntry",
+"Passengers.CorporatPassengerBackEntry"
+],
+"kurtz_thorton_2": [
+"Passengers.EP1KurtzDriverEntry",
+"Passengers.EP1KurtzFrontEntry",
+"Passengers.EP1KurtzPassengerBackEntry"
+],
+"leo_arasaka_bio_militech_behemoth_heat_4": [
+"Passengers.WorkerSpecialistDriverEntry",
+"Passengers.WorkerSpecialistPassengerFrontEntry"
+],
+"leo_militech_militech_behemoth_heat_5": [
+"Passengers.WorkerSpecialistDriverEntry",
+"Passengers.WorkerSpecialistPassengerFrontEntry"
+],
+"cs_savable_kaukaz_zeya_kurtz": [
+"Passengers.WorkerSpecialistDriverEntry"
+],
+"ncpd_hellhound_heat_5": [
+"Passengers.GenericDriverEntry",
+"Passengers.GenericPassengerEntry"
+],
+"v_standard2_archer_quartz_mercenary_prevention_1": [
+"Passengers.GenericDriverEntry",
+"Passengers.GenericPassengerEntry"
+],
+"arasaka__modded_arch_paladin_carbon": [
+"Passengers.ArasakaSecurityDriverEntry"
+],
+"oranje3_bratsk_akimbo_militech": [
+"Passengers.GenericDriverEntry",
+"Passengers.GenericPassengerEntry"
+],
+"vcd_militech_hellhound_ncpd3": [
+"Passengers.GenericDriverEntry",
+"Passengers.GenericPassengerEntry"
+],
+"vcd_villefort_cortes_ncpd": [
+"Passengers.NCPDDriverEntry",
+"Passengers.NCPDPassengerFrontEntry"
+],
+"v_standard2_villefort_cortes_arasaka_prevention": "NORECORD",
+"GR_arasaka_modded_edge_obsidian_red": "NORECORD",
+"GR_militech_modded_edge_ashen": "NORECORD",
+"GR_kangtao_modded_edge_obsidian_amber": "NORECORD",
+"reed_car_border_crossing": [
+"Passengers.CorporatDriverEntry",
+"Passengers.CorporatPassengerFrontEntry",
+"Passengers.CorporatPassengerBackEntry"
+],
+"v_standard25_villefort_columbus_kangtao": [
+"Passengers.NightLifeCleanDriverEntry",
+"Passengers.NightLifeCleanPassengerFrontEntry"
+],
+"v_standard25_thorton_colby_pickup_kurtz": [
+"Passengers.LowlifeRedneckDriverEntry",
+"Passengers.LowlifeRedneckPassengerFrontEntry"
+],
+"cs_savable_militech_behemoth": [
+"Passengers.WorkerSpecialistDriverEntry",
+"Passengers.WorkerSpecialistPassengerFrontEntry"
+],
+"hackable_militech_hellhound_police_siren": [
+"Passengers.GenericDriverEntry",
+"Passengers.GenericPassengerEntry"
+],
+"v_standard25_thorton_kurtz_no_hull_01_prevention": [
+"Passengers.EP1KurtzDriverEntry",
+"Passengers.EP1KurtzFrontEntry",
+"Passengers.EP1KurtzPassengerBackEntry"
+],
+"militech__modded_legatus": [
+"Passengers.MilitechDriverEntry",
+"Passengers.MilitechPassengerFrontEntry"
+],
+"v_standard3_mahir_supron_kurtz_overlander": [
+"Passengers.GenericDriverEntry",
+"Passengers.GenericPassengerEntry"
+],
+"ncpd__modded_archer_hella_ncpd2": [
+"Passengers.policeDriverEntry",
+"Passengers.policePassengerFrontEntry",
+"Passengers.policePassengerBackEntry"
+],
+"leo_ncpd_thorton_merrimac_heat_2": [
+"Passengers.CorporatDriverEntry",
+"Passengers.CorporatPassengerFrontEntry",
+"Passengers.CorporatPassengerBackEntry"
+],
+"v_sport2_villefort_alvarado_security_prevention_2": [
+"Passengers.LowlifeDriverEntry",
+"Passengers.LowlifePassengerFrontEntry"
+],
+"leo_kurtz_thorton_colby_militia_heat_4": [
+"Passengers.LowlifeRedneckDriverEntry",
+"Passengers.LowlifeRedneckPassengerFrontEntry"
+],
+"ncpd_villefort_cortes_heat_1": [
+"Passengers.NCPDDriverEntry",
+"Passengers.NCPDPassengerFrontEntry"
+],
+"v_standard2_thorton_galena_mercenary_prevention_5": [
+"Passengers.GenericDriverEntry",
+"Passengers.GenericPassengerEntry"
+],
+"v_standard3_militech_hellhound_maxtac_w1n": [
+"Passengers.GenericDriverEntry",
+"Passengers.GenericPassengerEntry"
+],
+"v_standard2_villefort_cortes_police_border_patrol_prevention_2": [
+"Passengers.NCPDDriverEntry",
+"Passengers.NCPDPassengerFrontEntry"
+],
+"arasaka__modded_arch_mogus_carbon": [
+"Passengers.ArasakaSecurityDriverEntry"
+],
+"v_standard2_villefort_cortes_police": [
+"Passengers.NCPDDriverEntry",
+"Passengers.NCPDPassengerFrontEntry"
+],
+"v_007_interceptor_police": [
+"Passengers.PremiumDriverEntry",
+"Passengers.PremiumPassengerFrontEntry",
+"Passengers.PremiumPassengerBackEntry"
+],
+"arasaka__modded_hellhound": [
+"Passengers.ArasakaSecurityDriverEntry",
+"Passengers.ArasakaSecurityPassengerFrontEntry",
+"Passengers.ArasakaSecurityPassengerBackEntry"
+],
+"v_standard3_chevalier_emperor_netwatch_prevention_2": [
+"Passengers.CorporatDriverEntry",
+"Passengers.CorporatPassengerFrontEntry",
+"Passengers.CorporatPassengerBackEntry"
+],
+"GR_militech_modded_nomad_tanishi": [
+"Passengers.GenericDriverEntry",
+"Passengers.GenericPassengerEntry"
+],
+"GR_militech_modded_legatus": [
+"Passengers.WorkerSpecialistDriverEntry",
+"Passengers.WorkerSpecialistPassengerFrontEntry"
+],
+"cs_savable_v_standard3_militech_hellhound_police": [
+"Passengers.GenericDriverEntry",
+"Passengers.GenericPassengerEntry"
+],
+"v_standard2_thorton_galena_mercenary_prevention_4": [
+"Passengers.CorporatDriverEntry",
+"Passengers.CorporatPassengerFrontEntry",
+"Passengers.CorporatPassengerBackEntry"
+],
+"hackable_villefort_cortes_police_siren": [
+"Passengers.NCPDDriverEntry",
+"Passengers.NCPDPassengerFrontEntry"
+],
+"v_standard2_archer_hella_kurtz": [
+"Passengers.CorporatDriverEntry",
+"Passengers.CorporatPassengerFrontEntry",
+"Passengers.CorporatPassengerBackEntry"
+],
+"hackable_thorton_merrimac_police_siren": [
+"Passengers.CorporatDriverEntry",
+"Passengers.CorporatPassengerFrontEntry",
+"Passengers.CorporatPassengerBackEntry"
+],
+"wasteland_chevalier_emperor_militech_heat_3": [
+"Passengers.PremiumDriverEntry",
+"Passengers.PremiumPassengerFrontEntry",
+"Passengers.PremiumPassengerBackEntry"
+],
+"v_standard2_villefort_cortes_police_sheriff": [
+"Passengers.NCPDDriverEntry",
+"Passengers.NCPDPassengerFrontEntry"
+],
+"v_standard2_villefort_cortes_police_prevention_2": [
+"Passengers.NCPDDriverEntry",
+"Passengers.NCPDPassengerFrontEntry"
+],
+"v_standard25_thorton_colby_pickup_kurtz_no_hull": [
+"Passengers.LowlifeRedneckDriverEntry",
+"Passengers.LowlifeRedneckPassengerFrontEntry"
+],
+"v_sport1_herrera_outlaw_courier": [
+"Passengers.CitizenRichDriverEntry",
+"Passengers.CitizenRichPassengerFrontEntry",
+"Passengers.CitizenRichPassengerBackEntry"
+],
+"ncpd_brennan_apollo_bike": [
+"Passengers.GenericDriverEntry"
+],
+"wasteland_chevalier_emperor_militech_heat_1": [
+"Passengers.PremiumDriverEntry",
+"Passengers.PremiumPassengerFrontEntry",
+"Passengers.PremiumPassengerBackEntry"
+],
+"v_standard2_villefort_cortes_kangtao": [
+"Passengers.PremiumDriverEntry",
+"Passengers.PremiumPassengerFrontEntry",
+"Passengers.PremiumPassengerBackEntry"
+],
+"arasaka_hellhound": [
+"Passengers.GenericDriverEntry",
+"Passengers.GenericPassengerEntry"
+],
+"v_militech_basilisk_militech": [
+"Passengers.GenericDriverEntry",
+"Passengers.GenericPassengerEntry"
+],
+"cs_savable_militech_behemoth_kurtz": [
+"Passengers.WorkerSpecialistDriverEntry",
+"Passengers.WorkerSpecialistPassengerFrontEntry"
+],
+"vcd_thorton_merrimac_police": [
+"Passengers.CorporatDriverEntry",
+"Passengers.CorporatPassengerFrontEntry",
+"Passengers.CorporatPassengerBackEntry"
+],
+"vcd_thorton_merrimac_trauma1": [
+"Passengers.CorporatDriverEntry",
+"Passengers.CorporatPassengerFrontEntry",
+"Passengers.CorporatPassengerBackEntry"
+],
+"militech_apollo_sentinel": [
+"Passengers.GenericDriverEntry"
+],
+"v_standard2_villefort_cortes_police_border_patrol": [
+"Passengers.NCPDDriverEntry",
+"Passengers.NCPDPassengerFrontEntry"
+],
+"v_utility4_militech_behemoth_border_patrol": [
+"Passengers.WorkerSpecialistDriverEntry",
+"Passengers.WorkerSpecialistPassengerFrontEntry"
+],
+"vcd_archer_hella_black_agent": [
+"Passengers.NCPDDriverEntry",
+"Passengers.NCPDPassengerFrontEntry"
+],
+"vcd_archer_hella_ncpd2": [
+"Passengers.NCPDDriverEntry",
+"Passengers.NCPDPassengerFrontEntry"
+],
+"vcd_brennan_apollo_ncpd": [
+"Passengers.GenericDriverEntry"
+],
+"vcd_chevalier_emperor_ncpd": [
+"Passengers.PremiumDriverEntry",
+"Passengers.PremiumPassengerFrontEntry",
+"Passengers.PremiumPassengerBackEntry"
+],
+"vcd_chevalier_emperor_netwatch": [
+"Passengers.PremiumDriverEntry",
+"Passengers.PremiumPassengerFrontEntry",
+"Passengers.PremiumPassengerBackEntry"
+],
+"vcd_militech_behemoth_border": [
+"Passengers.WorkerSpecialistDriverEntry",
+"Passengers.WorkerSpecialistPassengerFrontEntry"
+],
+"vcd_militech_behemoth_maxtac": [
+"Passengers.WorkerSpecialistDriverEntry",
+"Passengers.WorkerSpecialistPassengerFrontEntry"
+],
+"ra_behemoth_border_patrol": [
+"Passengers.WorkerSpecialistDriverEntry",
+"Passengers.WorkerSpecialistPassengerFrontEntry"
+],
+"vcd_militech_hellhound_max_tac3": [
+"Passengers.GenericDriverEntry",
+"Passengers.GenericPassengerEntry"
+],
+"vcd_militech_hellhound_ncpd2": [
+"Passengers.GenericDriverEntry",
+"Passengers.GenericPassengerEntry"
+],
+"v_standard3_militech_hellhound_police": [
+"Passengers.GenericDriverEntry",
+"Passengers.GenericPassengerEntry"
+],
+"v_standard3_chevalier_emperor_militech_wasteland_heavy_prevention": [
+"Passengers.PremiumDriverEntry",
+"Passengers.PremiumPassengerFrontEntry",
+"Passengers.PremiumPassengerBackEntry"
+],
+"max_tac_av2": [
+"Passengers.GenericDriverEntry",
+"Passengers.GenericPassengerEntry"
+],
+"v_standard3_militech_hellhound_maxtac_p28": [
+"Passengers.GenericDriverEntry",
+"Passengers.GenericPassengerEntry"
+],
+"ncpd_archer_hella_heat_2": [
+"Passengers.NCPDDriverEntry",
+"Passengers.NCPDPassengerFrontEntry"
+],
+"v_standard25_thorton_kurtz_no_hull_02_prevention": [
+"Passengers.EP1KurtzDriverEntry",
+"Passengers.EP1KurtzFrontEntry",
+"Passengers.EP1KurtzPassengerBackEntry"
+],
+"cs_savable_v_standard25_thorton_merrimac_police": [
+"Passengers.CorporatDriverEntry",
+"Passengers.CorporatPassengerFrontEntry",
+"Passengers.CorporatPassengerBackEntry"
+],
+"oranje3_penny_racers_ncpd1": [
+"Passengers.CorporatDriverEntry",
+"Passengers.CorporatPassengerFrontEntry"
+],
+"v_utility4_kaukaz_zeya_kurtz": [
+"Passengers.WorkerSpecialistDriverEntry"
+],
+"v_standard3_chevalier_emperor_arasaka_prevention_3": [
+"Passengers.CorporatDriverEntry",
+"Passengers.CorporatPassengerFrontEntry",
+"Passengers.CorporatPassengerBackEntry"
+],
+"v_standard25_thorton_colby_pickup_kurtz_cd": [
+"Passengers.LowlifeRedneckDriverEntry",
+"Passengers.LowlifeRedneckPassengerFrontEntry"
+],
+"v_standard3_chevalier_emperor_militech_border_prevention": [
+"Passengers.PremiumDriverEntry",
+"Passengers.PremiumPassengerFrontEntry",
+"Passengers.PremiumPassengerBackEntry"
+],
+"v_standard25_thorton_colby_kurtz_prevention": [
+"Passengers.EP1KurtzDriverEntry",
+"Passengers.EP1KurtzFrontEntry",
+"Passengers.EP1KurtzPassengerBackEntry"
+],
+"vcd_gangs_quadra_turbo_purchasable.tigerclaws04": [
+"Passengers.NightLifeDriverEntry",
+"Passengers.NightLifePassengerFrontEntry"
+],
+"militech__modded_bratsk_akimbo": [
+"Passengers.MilitechDriverEntry",
+"Passengers.MilitechPassengerFrontEntry"
+],
+"v_standard2_archer_hella_police_siren": [
+"Passengers.NCPDDriverEntry",
+"Passengers.NCPDPassengerFrontEntry"
+],
+"hackable_villefort_columbus_kangtao": [
+"Passengers.NightLifeCleanDriverEntry",
+"Passengers.NightLifeCleanPassengerFrontEntry"
+],
+"v_sportbike3_brennan_apollo_basic_prevention_2": [
+"Passengers.GenericDriverEntry"
+],
+"v_standard2_villefort_cortes_police_prevention": [
+"Passengers.NCPDDriverEntry",
+"Passengers.NCPDPassengerFrontEntry"
+],
+"vcd_archer_hella_ncpd": [
+"Passengers.NCPDDriverEntry",
+"Passengers.NCPDPassengerFrontEntry"
+],
+"cs_savable_v_standard25_thorton_merrimac_police_siren": [
+"Passengers.CorporatDriverEntry",
+"Passengers.CorporatPassengerFrontEntry",
+"Passengers.CorporatPassengerBackEntry"
+],
+"v_012_corpo_suv": [
+"Passengers.PremiumDriverEntry",
+"Passengers.PremiumPassengerFrontEntry",
+"Passengers.PremiumPassengerBackEntry"
+],
+"hackable_herrera_outlaw": [
+"Passengers.CitizenRichDriverEntry",
+"Passengers.CitizenRichPassengerFrontEntry",
+"Passengers.CitizenRichPassengerBackEntry"
+],
+"v_sport1_herrera_outlaw_quest": [
+"Passengers.CitizenRichDriverEntry",
+"Passengers.CitizenRichPassengerFrontEntry",
+"Passengers.CitizenRichPassengerBackEntry"
+],
+"GR_arasaka_modded_hellhound": [
+"Passengers.GenericDriverEntry",
+"Passengers.GenericPassengerEntry"
+],
+"v_standard3_mahir_supron_security_regular_prevention_2": [
+"Passengers.GenericDriverEntry",
+"Passengers.GenericPassengerEntry"
+],
+"v_standard25_villefort_columbus_corpo": [
+"Passengers.CorpoArasakaDriverEntry",
+"Passengers.CorpoArasakaPassengerFrontEntry"
+],
+"cs_savable_herrera_outlaw": [
+"Passengers.CitizenRichDriverEntry",
+"Passengers.CitizenRichPassengerFrontEntry",
+"Passengers.CitizenRichPassengerBackEntry"
+],
+"cs_savable_villefort_cortes_police": [
+"Passengers.NCPDDriverEntry",
+"Passengers.NCPDPassengerFrontEntry"
+],
+"GR_ncpd_modded_thorton_merrimac_police": [
+"Passengers.CorporatDriverEntry",
+"Passengers.CorporatPassengerFrontEntry",
+"Passengers.CorporatPassengerBackEntry"
+],
+"GR_ncpd_modded_villefort_cortes_streetkid": [
+"Passengers.NCPDDriverEntry",
+"Passengers.NCPDPassengerFrontEntry"
+],
+"hackable_chevalier_emperor_police_siren": [
+"Passengers.PremiumDriverEntry",
+"Passengers.PremiumPassengerFrontEntry",
+"Passengers.PremiumPassengerBackEntry"
+],
+"v_standard2_villefort_cortes_kangtao_courier": [
+"Passengers.PremiumDriverEntry",
+"Passengers.PremiumPassengerFrontEntry",
+"Passengers.PremiumPassengerBackEntry"
+],
+"hackable_quadra_turbo_tyger_claw": [
+"Passengers.NightLifeDriverEntry",
+"Passengers.NightLifePassengerFrontEntry"
+],
+"GR_ncpd_modded_militech_hellhound_ncpd1": [
+"Passengers.GenericDriverEntry",
+"Passengers.GenericPassengerEntry"
+],
+"vcd_corpo_columbus_purchasable.suburban": [
+"Passengers.NightLifeCleanDriverEntry",
+"Passengers.NightLifeCleanPassengerFrontEntry"
+],
+"vcd_corpo_cortes_purchasable.arasaka": [
+"Passengers.PremiumDriverEntry",
+"Passengers.PremiumPassengerFrontEntry",
+"Passengers.PremiumPassengerBackEntry"
+],
+"vcd_corpo_emperor_purchasable.arasaka": [
+"Passengers.PremiumDriverEntry",
+"Passengers.PremiumPassengerFrontEntry",
+"Passengers.PremiumPassengerBackEntry"
+],
+"vcd_gangs_quadra_turbo_purchasable.tigerclaws06": [
+"Passengers.NightLifeDriverEntry",
+"Passengers.NightLifePassengerFrontEntry"
+],
+"vcd_police_cortes_purchasable": [
+"Passengers.NCPDDriverEntry",
+"Passengers.NCPDPassengerFrontEntry"
+],
+"vcd_chevalier_emperor_police_purchasable": [
+"Passengers.PremiumDriverEntry",
+"Passengers.PremiumPassengerFrontEntry",
+"Passengers.PremiumPassengerBackEntry"
+],
+"ncpd_villefort_cortes_heat_2": [
+"Passengers.NCPDDriverEntry",
+"Passengers.NCPDPassengerFrontEntry"
+],
+"v_standard2_archer_hella_police_prevention_2": [
+"Passengers.NCPDDriverEntry",
+"Passengers.NCPDPassengerFrontEntry"
+],
+"kurtz_thorton_1": [
+"Passengers.EP1KurtzDriverEntry",
+"Passengers.EP1KurtzFrontEntry",
+"Passengers.EP1KurtzPassengerBackEntry"
+],
+"ncpd__modded_archer_hella_black_agent": [
+"Passengers.DetectiveDriverEntry",
+"Passengers.DetectivePassengerFrontEntry",
+"Passengers.DetectivePassengerBackEntry"
+],
+"ncpd__modded_arch_paladin_blue": [
+"Passengers.policeBikerDriverEntry"
+],
+"v_standard3_chevalier_emperor_police_prevention": [
+"Passengers.PremiumDriverEntry",
+"Passengers.PremiumPassengerFrontEntry",
+"Passengers.PremiumPassengerBackEntry"
+],
+"v_militech_basilisk_transport": [
+"Passengers.GenericDriverEntry",
+"Passengers.GenericPassengerEntry"
+],
+"ep1_hackable_kaukaz_zeya_kurtz": [
+"Passengers.WorkerSpecialistDriverEntry"
+],
+"militech__modded_arch_mogus_gray": [
+"Passengers.MilitechDriverEntry"
+],
+"kurtz_brennan_apollo_bike": [
+"Passengers.EP1KurtzDriverEntry"
+],
+"v_standard2_thorton_galena_nomad_prevention": [
+"Passengers.GenericDriverEntry",
+"Passengers.GenericPassengerEntry"
+],
+"v_standard25_thorton_colby_mercenary_prevention_2": [
+"Passengers.LowlifeRedneckDriverEntry",
+"Passengers.LowlifeRedneckPassengerFrontEntry"
+],
+"ncpd__modded_militech_behemoth_border": [
+"Passengers.BorderDriverEntry",
+"Passengers.BorderPassengerFrontEntry"
+],
+"leo_nightcorp_villefort_columbus_heat_4": [
+"Passengers.NightLifeCleanDriverEntry",
+"Passengers.NightLifeCleanPassengerFrontEntry"
+],
+"v_standard3_chevalier_emperor_militech_specops_prevention_2": [
+"Passengers.CorporatDriverEntry",
+"Passengers.CorporatPassengerFrontEntry",
+"Passengers.CorporatPassengerBackEntry"
+],
+"vcd_thorton_merrimac_maxtac": [
+"Passengers.CorporatDriverEntry",
+"Passengers.CorporatPassengerFrontEntry",
+"Passengers.CorporatPassengerBackEntry"
+],
+"v_standard25_thorton_colby_nomad_prevention": [
+"Passengers.GenericDriverEntry",
+"Passengers.GenericPassengerEntry"
+],
+"leo_ncpd_brennan_apollo_bike_heat_2": [
+"Passengers.GenericDriverEntry"
+],
+"v_standard3_chevalier_emperor_zetatech_prevention_3": [
+"Passengers.CorporatDriverEntry",
+"Passengers.CorporatPassengerFrontEntry",
+"Passengers.CorporatPassengerBackEntry"
+],
+"ncpd__modded_nomad_tanishi_trauma": [
+"Passengers.TraumaDriverEntry",
+"Passengers.TraumaPassengerFrontEntry"
+],
+"v_standard3_chevalier_emperor_militech_prevention_2": [
+"Passengers.PremiumDriverEntry",
+"Passengers.PremiumPassengerFrontEntry",
+"Passengers.PremiumPassengerBackEntry"
+],
+"kangtao__militech_behemoth": [
+"Passengers.KangtaoDriverEntry",
+"Passengers.KangtaoPassengerFrontEntry"
+],
+"kangtao__villefort_cortes": [
+"Passengers.KangtaoDriverEntry",
+"Passengers.KangtaoPassengerFrontEntry",
+"Passengers.KangtaoPassengerBackEntry"
+],
+"leo_arasaka_chevalier_emperor_heat_3": [
+"Passengers.PremiumDriverEntry",
+"Passengers.PremiumPassengerFrontEntry",
+"Passengers.PremiumPassengerBackEntry"
+],
+"kurtz_mahir_supron_heat_3_cd": [
+"Passengers.EP1KurtzDriverEntry",
+"Passengers.EP1KurtzFrontEntry",
+"Passengers.EP1KurtzPassengerBackEntry"
+],
+"v_standard2_villefort_cortes_police_siren": [
+"Passengers.NCPDDriverEntry",
+"Passengers.NCPDPassengerFrontEntry"
+],
+"v_standard3_chevalier_emperor_militech_wasteland_prevention": [
+"Passengers.PremiumDriverEntry",
+"Passengers.PremiumPassengerFrontEntry",
+"Passengers.PremiumPassengerBackEntry"
+],
+"v_standard3_chevalier_emperor_police": [
+"Passengers.PremiumDriverEntry",
+"Passengers.PremiumPassengerFrontEntry",
+"Passengers.PremiumPassengerBackEntry"
+],
+"v_standard2_villefort_cortes_sheriff_prevention_2": [
+"Passengers.GenericDriverEntry",
+"Passengers.GenericPassengerEntry"
+],
+"utility__militech_behemoth": [
+"Passengers.MilitechDriverEntry",
+"Passengers.MilitechPassengerFrontEntry",
+"Passengers.MilitechPassengerBackEntry"
+],
+"ncpd__modded_chevalier_emperor_netwatch": [
+"Passengers.NetWatchDriverEntry",
+"Passengers.NetWatchPassengerFrontEntry"
+],
+"v_standard2_archer_hella_police_prevention_1": [
+"Passengers.NCPDDriverEntry",
+"Passengers.NCPDPassengerFrontEntry"
+],
+"leo_kurtz_brennan_apollo_bike_heat_2": [
+"Passengers.GenericDriverEntry"
+],
+"v_standard25_thorton_colby_militia_regular_prevention_3": [
+"Passengers.LowlifeRedneckDriverEntry",
+"Passengers.LowlifeRedneckPassengerFrontEntry"
+],
+"v_standard3_chevalier_emperor_zetatech_prevention_2": [
+"Passengers.CorporatDriverEntry",
+"Passengers.CorporatPassengerFrontEntry",
+"Passengers.CorporatPassengerBackEntry"
+],
+"leo_ncpd_archer_hella_medium_heat_1": [
+"Passengers.NCPDDriverEntry",
+"Passengers.NCPDPassengerFrontEntry"
+],
+"v_standard2_archer_quartz_mercenary_prevention_3": [
+"Passengers.GenericDriverEntry",
+"Passengers.GenericPassengerEntry"
+],
+"leo_ncpd_villefort_cortes_low_heat_2": [
+"Passengers.NCPDDriverEntry",
+"Passengers.NCPDPassengerFrontEntry"
+],
+"militech__modded_apollo_sentinel": [
+"Passengers.MilitechDriverEntry"
+],
+"militech__modded_apollo_tactical": [
+"Passengers.MilitechDriverEntry"
+],
+"leo_nightcorp_chevalier_emperor_heat_3": [
+"Passengers.PremiumDriverEntry",
+"Passengers.PremiumPassengerFrontEntry",
+"Passengers.PremiumPassengerBackEntry"
+],
+"ncpd__modded_militech_behemoth_police": [
+"Passengers.policeEnforcerDriverEntry",
+"Passengers.policeEnforcerPassengerFrontEntry"
+],
+"v_standard25_thorton_colby_militia_regular_prevention_2": [
+"Passengers.LowlifeRedneckDriverEntry",
+"Passengers.LowlifeRedneckPassengerFrontEntry"
+],
+"v_standard25_thorton_merrimac_nightcorp_prevention_2": [
+"Passengers.CorporatDriverEntry",
+"Passengers.CorporatPassengerFrontEntry",
+"Passengers.CorporatPassengerBackEntry"
+],
+"vcd_villefort_cortes_streetkid_black_agent": [
+"Passengers.NCPDDriverEntry",
+"Passengers.NCPDPassengerFrontEntry"
+],
+"leo_sheriff_villefort_cortes_heat_1": [
+"Passengers.NCPDDriverEntry",
+"Passengers.NCPDPassengerFrontEntry"
+],
+"ncpd__modded_nomad_tanishi_border": [
+"Passengers.BorderDriverEntry",
+"Passengers.BorderPassengerFrontEntry"
+],
+"v_standard3_mahir_supron_kurtz_basic_mq304": [
+"Passengers.GenericDriverEntry",
+"Passengers.GenericPassengerEntry"
+],
+"hackable_villefort_cortes_police": [
+"Passengers.NCPDDriverEntry",
+"Passengers.NCPDPassengerFrontEntry"
+],
+"vcd_corpo_cortes_purchasable": [
+"Passengers.PremiumDriverEntry",
+"Passengers.PremiumPassengerFrontEntry",
+"Passengers.PremiumPassengerBackEntry"
+],
+"leo_arasaka_villefort_columbus_heat_4": [
+"Passengers.NightLifeCleanDriverEntry",
+"Passengers.NightLifeCleanPassengerFrontEntry"
+],
+"leo_ncpd_chevalier_emperor_heat_3": [
+"Passengers.PremiumDriverEntry",
+"Passengers.PremiumPassengerFrontEntry",
+"Passengers.PremiumPassengerBackEntry"
+],
+"v_standard2_archer_hella_detective_prevention_3": [
+"Passengers.NCPDDriverEntry",
+"Passengers.NCPDPassengerFrontEntry"
+],
+"arasaka__villefort_columbus": [
+"Passengers.ArasakaSecurityDriverEntry",
+"Passengers.ArasakaSecurityPassengerFrontEntry"
+],
+"militech__modded_edge_ashen": "NORECORD",
+"v_sport1_herrera_outlaw_heist": [
+"Passengers.CitizenRichDriverEntry",
+"Passengers.CitizenRichPassengerFrontEntry",
+"Passengers.CitizenRichPassengerBackEntry"
+],
+"cs_savable_villefort_cortes_police_siren": [
+"Passengers.NCPDDriverEntry",
+"Passengers.NCPDPassengerFrontEntry"
+],
+"v_standard25_thorton_colby_pickup_kurtz_cd_no_hull": [
+"Passengers.LowlifeRedneckDriverEntry",
+"Passengers.LowlifeRedneckPassengerFrontEntry"
+],
+"v_standard3_chevalier_emperor_militech_wasteland_prevention_2": [
+"Passengers.PremiumDriverEntry",
+"Passengers.PremiumPassengerFrontEntry",
+"Passengers.PremiumPassengerBackEntry"
+],
+"border_patrol_villefort_cortes_heat_1": [
+"Passengers.NCPDDriverEntry",
+"Passengers.NCPDPassengerFrontEntry"
+],
+"v_utility4_militech_behemoth_police": [
+"Passengers.WorkerSpecialistDriverEntry",
+"Passengers.WorkerSpecialistPassengerFrontEntry"
+],
+"kangtao__modded_supron_widebody": [
+"Passengers.KangtaoDriverEntry"
+],
+"vcd_villefort_cortes_sheriff": [
+"Passengers.NCPDDriverEntry",
+"Passengers.NCPDPassengerFrontEntry"
+],
+"vcd_militech_hellhound_max_tac1": [
+"Passengers.GenericDriverEntry",
+"Passengers.GenericPassengerEntry"
+],
+"leo_ncpd_militech_behemoth_heat_5": [
+"Passengers.WorkerSpecialistDriverEntry",
+"Passengers.WorkerSpecialistPassengerFrontEntry"
+],
+"leo_biotechnica_archer_hella_heat_3": [
+"Passengers.CorporatDriverEntry",
+"Passengers.CorporatPassengerFrontEntry",
+"Passengers.CorporatPassengerBackEntry"
+],
+"GR_v_standard3_chevalier_emperor_militech": [
+"Passengers.PremiumDriverEntry",
+"Passengers.PremiumPassengerFrontEntry",
+"Passengers.PremiumPassengerBackEntry"
+],
+"v_standard3_chevalier_emperor_militech_prevention": [
+"Passengers.GenericDriverEntry",
+"Passengers.GenericPassengerEntry"
+],
+"GR_v_standard25_villefort_columbus_kangtao": [
+"Passengers.NightLifeCleanDriverEntry",
+"Passengers.NightLifeCleanPassengerFrontEntry"
+],
+"v_utility4_militech_behemoth_militech_prevention_2": [
+"Passengers.WorkerSpecialistDriverEntry",
+"Passengers.WorkerSpecialistPassengerFrontEntry"
+],
+"vcd_militech_hellhound_variants": [
+"Passengers.GenericDriverEntry",
+"Passengers.GenericPassengerEntry"
+],
+"leo_ncpd_brennan_apollo_bike_heat_2_variant_2": [
+"Passengers.GenericDriverEntry"
+],
+"vcd_corpo_columbus_purchasable.arasaka": [
+"Passengers.CorpoArasakaDriverEntry",
+"Passengers.CorpoArasakaPassengerFrontEntry"
+],
+"leo_ncpd_chevalier_emperor_heat_5": [
+"Passengers.CorporatDriverEntry",
+"Passengers.CorporatPassengerFrontEntry",
+"Passengers.CorporatPassengerBackEntry"
+],
+"leo_kurtz_thorton_colby_security_heat_3": [
+"Passengers.LowlifeRedneckDriverEntry",
+"Passengers.LowlifeRedneckPassengerFrontEntry"
+],
+"v_utility4_militech_behemoth_kurtz": [
+"Passengers.WorkerSpecialistDriverEntry",
+"Passengers.WorkerSpecialistPassengerFrontEntry"
+],
+"cs_savable_quadra_turbo_tyger_claw": [
+"Passengers.NightLifeDriverEntry",
+"Passengers.NightLifePassengerFrontEntry"
+],
+"Militech": "NORECORD",
+"v_standard3_chevalier_emperor_militech_courier": [
+"Passengers.PremiumDriverEntry",
+"Passengers.PremiumPassengerFrontEntry",
+"Passengers.PremiumPassengerBackEntry"
+],
+"vcd_militech_behemoth_police": [
+"Passengers.WorkerSpecialistDriverEntry",
+"Passengers.WorkerSpecialistPassengerFrontEntry"
+],
+"vcd_militech_hellhound_max_tac2": [
+"Passengers.GenericDriverEntry",
+"Passengers.GenericPassengerEntry"
+],
+"v_standard3_chevalier_emperor_police_prevention_3": [
+"Passengers.CorporatDriverEntry",
+"Passengers.CorporatPassengerFrontEntry",
+"Passengers.CorporatPassengerBackEntry"
+],
+"cs_savable_v_standard3_militech_hellhound_police_siren": [
+"Passengers.GenericDriverEntry"
+]
+}
