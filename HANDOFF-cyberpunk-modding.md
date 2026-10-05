@@ -266,3 +266,5 @@ Open checks:
 - Open: Dark Future needs bars vs scanner. LimitedHudNeedsBars has ShowWithScanner=true in user.ini and DF has no scanner code; waiting on Ethan's description of what happens.
 
 - Lua GC Tuner v6.13: LHUD bridge reads LHUD's published flags (AllBlackboardDefinitions.lhud_*) instead of re-deriving from blackboards; v6.10-6.12 showed the HUD meter while LHUD hid everything.
+
+- 2026-10-04: Ethan removed Dark Future (clashed with Flesh & Chrome). Dark Future questions are closed. FAC-TimeskipPosition only existed to move FAC sleep-menu bars off Dark Future's, so it is optional now. LimitedHudNeedsBars still gates Flushing Etiquette / SynthDose.
