@@ -1,0 +1,315 @@
+# VSF special vehicles (from user_settings.json, 2026-10-06 23:26)
+
+ON = currently in VSF traffic. Flag: Q = quest/scripted/locked/no-interaction record (should never be traffic).
+
+## AVs / aircraft: 62 records, 1 ON
+
+- off `av_base`  (in disable list)
+- off `av_camera_drone`  (in disable list)
+- off `av_garbage_drone`  (in disable list)
+- off `av_kurt_barghest`  (in disable list)
+- off `av_luxury`  (in disable list)
+- off `av_militech`  (in disable list)
+- off `av_militech_manticore`  (in disable list)
+- off `av_militech_manticore_dav_dummy` Q (in disable list)
+- off `av_militech_manticore_no_thruster`  (in disable list)
+- off `av_militech_manticore_quest` Q (in disable list)
+- off `av_public_train`  (in disable list)
+- off `av_public_train_b`  (in disable list)
+- off `av_rayfield_excalibur`  (in disable list)
+- off `av_rayfield_excalibur_dav_dummy` Q (in disable list)
+- off `av_rayfield_excalibur_no_thruster`  (in disable list)
+- off `av_rayfield_excalibur_quest` Q (in disable list)
+- off `av_scanning_drone`  (in disable list)
+- off `av_test`  (in disable list)
+- off `av_trauma`  (in disable list)
+- off `av_trauma_savable` Q (in disable list)
+- off `av_zetatech_atlus`  (in disable list)
+- off `av_zetatech_atlus_dav_dummy` Q (in disable list)
+- off `av_zetatech_atlus_no_thruster`  (in disable list)
+- off `av_zetatech_octant`  (in disable list)
+- off `av_zetatech_surveyor`  (in disable list)
+- off `av_zetatech_surveyor_dav_dummy` Q (in disable list)
+- off `av_zetatech_valgus`  (in disable list)
+- off `av_zetatech_valgus_quest` Q (in disable list)
+- off `batty_av`  (in disable list)
+- off `delamain_av_LizziesBDs`  (in disable list)
+- off `leo_trauma_av`  (in disable list)
+- off `ma_hey_spr_12_trauma_av` Q (in disable list)
+- off `ma_hey_spr_12_trauma_av_engine_on` Q (in disable list)
+- off `ma_pac_cvi_08_av_atlus` Q (in disable list)
+- off `ma_pac_cvi_08_av_valgus` Q (in disable list)
+- off `max_tac_av`  (in disable list)
+- off `max_tac_av_2nd_wave1`  (in disable list)
+- off `max_tac_av_2nd_wave2`  (in disable list)
+- off `max_tac_av_2nd_wave3`  (in disable list)
+- off `mq001_little_bombus` Q (in disable list)
+- off `mq027_news_av` Q (in disable list)
+- off `mq030_max_tac_av` Q (in disable list)
+- off `mws_arr_01_av`  (in disable list)
+- off `mws_arr_07_av`  (in disable list)
+- off `mws_pac_06_trauma_av`  (in disable list)
+- **ON** `Octant`  (in disable list)
+- off `q000_nomad_border_patrol_heli_dav_dummy` Q (in disable list)
+- off `q000_nomad_border_patrol_heli_mayhem_dav_dummy` Q (in disable list)
+- off `sa_ep1_airdrop_av`  (in disable list)
+- off `sq006_av` Q (in disable list)
+- off `sq018_maxtac_av` Q (in disable list)
+- off `sq021_av_trauma` Q (in disable list)
+- off `sq021_corpo_av` Q (in disable list)
+- off `sq024_trauma_team_av` Q (in disable list)
+- off `sq025_delamain_av` Q (in disable list)
+- off `sq026_av_ncpd` Q (in disable list)
+- off `stadium_ow_av_garbage`  (in disable list)
+- off `sts_cct_dtn_04_av` Q (in disable list)
+- off `sts_cct_dtn_04_av_alt` Q (in disable list)
+- off `sts_std_arr_12_av_zetatech_atlus` Q (in disable list)
+- off `trauma_team_av_model_toy` Q (in disable list)
+- off `trauma_team_av_model_toy_custom` Q (in disable list)
+
+## Drones: 3 records, 0 ON
+
+- off `sq004_nomad_drone` Q (in disable list)
+- off `sq022_drone` Q (in disable list)
+- off `VehicleDroneCarrier`  (in disable list)
+
+## Boats / yachts: 3 records, 1 ON
+
+- off `sq028_yacht` Q
+- off `sq028_yacht_no_enviro` Q
+- **ON** `yacht_LizziesBDs` 
+
+## Trains / metro: 4 records, 1 ON
+
+- off `sq027_fake_train` Q (in disable list)
+- off `sq027_fake_train_car_A` Q (in disable list)
+- off `sq027_fake_train_car_B` Q (in disable list)
+- **ON** `ue_metro_train`  (in disable list)
+
+## Cargo trucks / semis / trailers: 214 records, 111 ON
+
+- **ON** `aldecaldos__modded_semimaru_rfl` 
+- **ON** `arr_05_objective_truck` Q
+- **ON** `Bratsk` 
+- off `cs_savable_kaukaz_bratsk` Q (in disable list)
+- off `cs_savable_kaukaz_bratsk_containers` Q (in disable list)
+- off `cs_savable_kaukaz_bratsk_metalstud` Q (in disable list)
+- off `cs_savable_kaukaz_zeya` Q (in disable list)
+- off `cs_savable_kaukaz_zeya_container` Q (in disable list)
+- off `cs_savable_kaukaz_zeya_full` Q (in disable list)
+- off `cs_savable_kaukaz_zeya_kurtz` Q (in disable list)
+- off `cs_savable_militech_behemoth` Q (in disable list)
+- off `cs_savable_militech_behemoth_kurtz` Q (in disable list)
+- off `cs_savable_utility4_kaukaz_zeya_freight` Q (in disable list)
+- off `cs_savable_v_utility4_kaukaz_bratsk_container_dogtown_ow` Q (in disable list)
+- off `ep1_hackable_kaukaz_zeya_kurtz`  (in disable list)
+- off `ep1_hackable_militech_behemoth_kurtz` 
+- off `GR_aldecaldos_modded_semimaru_rfl`  (in disable list)
+- off `GR_militech_modded_bratsk_akimbo`  (in disable list)
+- off `GR_ncpd_modded_militech_behemoth_police`  (in disable list)
+- off `GR_v_utility4_militech_behemoth_kangtao`  (in disable list)
+- off `hackable_kaukaz_bratsk`  (in disable list)
+- off `hackable_kaukaz_bratsk_containers`  (in disable list)
+- off `hackable_kaukaz_bratsk_metalstud`  (in disable list)
+- off `hackable_kaukaz_zeya`  (in disable list)
+- off `hackable_kaukaz_zeya_container`  (in disable list)
+- off `hackable_kaukaz_zeya_full`  (in disable list)
+- off `hackable_militech_behemoth`  (in disable list)
+- off `hackable_utility4_kaukaz_zeya_freight`  (in disable list)
+- **ON** `kangtao__militech_behemoth` 
+- **ON** `Kaukaz` 
+- off `leo_arasaka_bio_militech_behemoth_heat_4`  (in disable list)
+- off `leo_arasaka_bio_militech_behemoth_heat_5`  (in disable list)
+- off `leo_arasaka_militech_behemoth_heat_4`  (in disable list)
+- off `leo_arasaka_militech_behemoth_heat_5`  (in disable list)
+- off `leo_border_patrol_militech_behemoth_heat_4`  (in disable list)
+- off `leo_kangtao_militech_behemoth_heat_5`  (in disable list)
+- off `leo_kurtz_militech_behemoth_heat_4`  (in disable list)
+- off `leo_kurtz_militech_behemoth_heat_5`  (in disable list)
+- off `leo_maxtac_militech_behemoth_heat_5`  (in disable list)
+- off `leo_militech_kaukaz_bratsk_heat_5`  (in disable list)
+- off `leo_militech_militech_behemoth_heat_4`  (in disable list)
+- off `leo_militech_militech_behemoth_heat_5`  (in disable list)
+- off `leo_ncpd_militech_behemoth_heat_4`  (in disable list)
+- off `leo_ncpd_militech_behemoth_heat_5`  (in disable list)
+- off `leo_nightcorp_militech_behemoth_heat_4`  (in disable list)
+- off `leo_nightcorp_militech_behemoth_heat_5`  (in disable list)
+- off `leo_nusa_militech_behemoth_heat_4`  (in disable list)
+- off `leo_nusa_militech_behemoth_heat_5`  (in disable list)
+- off `ma_wat_lch_03_garbage_truck` Q
+- **ON** `militech__modded_bratsk_akimbo` 
+- off `mq017_delivery_truck` Q
+- off `mq057_semimaru_car` Q
+- off `mq301_kurt_delivery_car` Q
+- off `mq301_scav_delivery_bike_brennan_apollo` Q
+- off `mq301_scav_delivery_car_colby` Q
+- off `mq301_scav_delivery_car_columbus` Q
+- off `mq301_scav_delivery_car_cortes` Q
+- off `mq301_scav_delivery_car_galena` Q
+- off `mws_se5_06_netwatch_truck` 
+- **ON** `ncpd__modded_militech_behemoth_border` 
+- **ON** `ncpd__modded_militech_behemoth_maxtac` 
+- **ON** `ncpd__modded_militech_behemoth_police` 
+- **ON** `oranje3_bratsk_akimbo` 
+- **ON** `oranje3_bratsk_akimbo_militech` 
+- **ON** `oranje3_penny_racers_semi` 
+- **ON** `oranje3_semimaru_nomad` 
+- **ON** `oranje3_semimaru_nomad_black` 
+- **ON** `oranje3_semimaru_nomad_glass` 
+- **ON** `oranje3_semimaru_nomad_glass_black` 
+- **ON** `oranje3_semimaru_nomad_rfl` 
+- **ON** `oranje3_semimaru_nomad_rfl_black` 
+- **ON** `oranje3_semimaru_nomad_rfl_glass` 
+- **ON** `oranje3_semimaru_nomad_rfl_glass_black` 
+- **ON** `oranje3_table_top_oranje_container` 
+- **ON** `oranje3_table_top_oranje_container_frame` 
+- **ON** `oranje3_table_top_oranje_hauler` 
+- **ON** `oranje3_table_top_oranje_hauler_empty` 
+- **ON** `oranje3_table_top_oranje_tanker` 
+- **ON** `panam_army_truck` 
+- off `q000_nomad_v_utility4_kaukaz_bratsk_quest` Q (in disable list)
+- off `q000_nomad_v_utility4_kaukaz_zeya_quest` Q (in disable list)
+- off `q000_nomad_v_utility4_militech_behemoth_quest` Q
+- off `q110_animals_delivery_truck` Q
+- off `q112_truck` Q
+- off `q114_fake_4wheel_truck` Q
+- off `q114_militech_missile_truck_final` Q
+- off `q301_border_truck_gate_01` Q
+- off `q301_border_truck_gate_02` Q
+- off `q301_border_truck_inspection` Q
+- off `q304_ambush_truck` Q
+- off `q304_car_retrieval_truck` Q
+- off `q304_car_retrieval_truck_replacement` Q
+- off `q304_v_utility4_kaukaz_bratsk_concrete_scanning` Q (in disable list)
+- off `q304_v_utility4_militech_behemoth_quest_scanning` Q
+- off `q306_corpbud_truck_01` Q
+- off `q306_corpbud_truck_02` Q
+- off `q306_corpbud_truck_03` Q
+- **ON** `ra_behemoth_border_patrol` 
+- off `sa_ep1_courier_outro_behemoth` 
+- **ON** `santiago_truck` 
+- **ON** `spr_03_nomad_truck` Q
+- off `sq004_saul_truck_scanning` Q
+- off `sq017_us_cracks_truck` Q
+- off `sq023_bills_truck` Q
+- off `sq023_cargo_truck` Q
+- off `sq024_claire_truck` Q
+- off `sq024_dominic_truck` Q
+- off `sq027_fake_flatbed_truck_a` Q
+- off `sq027_fake_flatbed_truck_b` Q
+- off `sq027_nomad_truck` Q
+- off `sts_std_arr_12_autonomous_truck` Q
+- **ON** `utility__kaukaz_bratsk_machine_01` 
+- **ON** `utility__kaukaz_bratsk_machine_02` 
+- **ON** `utility__kaukaz_z71_aras` 
+- **ON** `utility__kaukaz_zeya_full_01` 
+- **ON** `utility__kaukaz_zeya_full_02` 
+- **ON** `utility__kaukaz_zeya_full_03` 
+- **ON** `utility__kaukaz_zeya_hazmat` 
+- **ON** `utility__militech_behemoth` 
+- **ON** `utility__modded_table_top_oranje_container` 
+- **ON** `utility__modded_table_top_oranje_container_frame` 
+- **ON** `utility__modded_table_top_oranje_hauler` 
+- **ON** `utility__modded_table_top_oranje_hauler_empty` 
+- **ON** `utility__modded_table_top_oranje_tanker` 
+- **ON** `v_003_smalltruck` 
+- **ON** `v_kaukaz_z71_aras` 
+- **ON** `v_sport1_yaiba_semimaru` 
+- **ON** `v_standard3_makigai_tanishi_cargo_courier` 
+- **ON** `v_standard3_thorton_mackinaw_cargo_courier` 
+- **ON** `v_trailer_supron` 
+- **ON** `v_utility4_chevalier_centurion_cargo` 
+- **ON** `v_utility4_chevalier_centurion_cargo_courier` 
+- **ON** `v_utility4_chevalier_centurion_cargo_dogtown` 
+- **ON** `v_utility4_kaukaz_bratsk` 
+- **ON** `v_utility4_kaukaz_bratsk_concrete` 
+- **ON** `v_utility4_kaukaz_bratsk_concrete_locked_doors` Q
+- **ON** `v_utility4_kaukaz_bratsk_concrete_non_interation` Q
+- **ON** `v_utility4_kaukaz_bratsk_container` 
+- **ON** `v_utility4_kaukaz_bratsk_container_dogtown` 
+- **ON** `v_utility4_kaukaz_bratsk_container_dogtown_ow` 
+- **ON** `v_utility4_kaukaz_bratsk_container_locked_doors` Q
+- **ON** `v_utility4_kaukaz_bratsk_corp_bud_01` 
+- **ON** `v_utility4_kaukaz_bratsk_corp_bud_02` 
+- **ON** `v_utility4_kaukaz_bratsk_corp_bud_03` 
+- **ON** `v_utility4_kaukaz_bratsk_dogtown` 
+- **ON** `v_utility4_kaukaz_bratsk_dumpster` 
+- **ON** `v_utility4_kaukaz_bratsk_dumpster_locked_doors` Q
+- **ON** `v_utility4_kaukaz_bratsk_extended` 
+- **ON** `v_utility4_kaukaz_bratsk_extended_locked_doors` Q
+- **ON** `v_utility4_kaukaz_bratsk_machine` 
+- **ON** `v_utility4_kaukaz_bratsk_machine_dogtown` 
+- **ON** `v_utility4_kaukaz_bratsk_machine_locked_doors` Q
+- **ON** `v_utility4_kaukaz_bratsk_metalstud` 
+- **ON** `v_utility4_kaukaz_bratsk_metalstud_dogtown` 
+- **ON** `v_utility4_kaukaz_bratsk_metalstud_locked_doors` Q
+- off `v_utility4_kaukaz_bratsk_militech_prevention`  (in disable list)
+- **ON** `v_utility4_kaukaz_bratsk_misile` 
+- off `v_utility4_kaukaz_bratsk_quest` Q (in disable list)
+- **ON** `v_utility4_kaukaz_zeya` 
+- **ON** `v_utility4_kaukaz_zeya_barrels` 
+- **ON** `v_utility4_kaukaz_zeya_barrels_dogtown` 
+- **ON** `v_utility4_kaukaz_zeya_barrels_locked_doors` Q
+- **ON** `v_utility4_kaukaz_zeya_container` 
+- **ON** `v_utility4_kaukaz_zeya_container_dogtown` 
+- **ON** `v_utility4_kaukaz_zeya_container_locked_doors` Q
+- **ON** `v_utility4_kaukaz_zeya_freight` 
+- **ON** `v_utility4_kaukaz_zeya_freight_locked_doors` Q
+- **ON** `v_utility4_kaukaz_zeya_full` 
+- **ON** `v_utility4_kaukaz_zeya_full_courier` 
+- **ON** `v_utility4_kaukaz_zeya_full_courier_expanded` 
+- **ON** `v_utility4_kaukaz_zeya_full_dogtown` 
+- **ON** `v_utility4_kaukaz_zeya_full_locked_doors` Q
+- **ON** `v_utility4_kaukaz_zeya_kurtz` 
+- off `v_utility4_kaukaz_zeya_quest` Q (in disable list)
+- **ON** `v_utility4_militech_behemoth` 
+- off `v_utility4_militech_behemoth_arasaka_bio_prevention`  (in disable list)
+- off `v_utility4_militech_behemoth_arasaka_bio_prevention_2`  (in disable list)
+- off `v_utility4_militech_behemoth_arasaka_prevention`  (in disable list)
+- off `v_utility4_militech_behemoth_arasaka_prevention_2`  (in disable list)
+- **ON** `v_utility4_militech_behemoth_border_patrol` 
+- off `v_utility4_militech_behemoth_border_patrol_prevention`  (in disable list)
+- **ON** `v_utility4_militech_behemoth_kangtao` 
+- off `v_utility4_militech_behemoth_kangtao_prevention_2`  (in disable list)
+- **ON** `v_utility4_militech_behemoth_kurtz` 
+- **ON** `v_utility4_militech_behemoth_maxtac` 
+- off `v_utility4_militech_behemoth_maxtac_prevention`  (in disable list)
+- off `v_utility4_militech_behemoth_militech_prevention`  (in disable list)
+- off `v_utility4_militech_behemoth_militech_prevention_2`  (in disable list)
+- off `v_utility4_militech_behemoth_militia_prevention`  (in disable list)
+- off `v_utility4_militech_behemoth_militia_prevention_2`  (in disable list)
+- **ON** `v_utility4_militech_behemoth_netwatch` 
+- off `v_utility4_militech_behemoth_nightcorp_prevention`  (in disable list)
+- off `v_utility4_militech_behemoth_nightcorp_prevention_2`  (in disable list)
+- off `v_utility4_militech_behemoth_nusa_prevention`  (in disable list)
+- off `v_utility4_militech_behemoth_nusa_prevention_2`  (in disable list)
+- **ON** `v_utility4_militech_behemoth_police` 
+- off `v_utility4_militech_behemoth_police_prevention`  (in disable list)
+- off `v_utility4_militech_behemoth_police_prevention_2`  (in disable list)
+- off `v_utility4_militech_behemoth_quest` Q (in disable list)
+- **ON** `vcd_kaukaz_bratsk_concrete_purchasable` 
+- **ON** `vcd_kaukaz_bratsk_dumpster_purchasable` 
+- **ON** `vcd_kaukaz_bratsk_machine_purchasable` 
+- **ON** `vcd_kaukaz_bratsk_machine_purchasable.blue` 
+- **ON** `vcd_kaukaz_bratsk_machine_purchasable.orange` 
+- **ON** `vcd_kaukaz_bratsk_metalstud_purchasable` 
+- **ON** `vcd_kaukaz_zeya_purchasable` 
+- **ON** `vcd_kaukaz_zeya_purchasable.freight` 
+- **ON** `vcd_kaukaz_zeya_purchasable.full` 
+- **ON** `vcd_militech_behemoth_border` 
+- **ON** `vcd_militech_behemoth_maxtac` 
+- **ON** `vcd_militech_behemoth_police` 
+- **ON** `vcd_thorton_mackinaw_larimore_purchasable` 
+- **ON** `wraith__modded_semimaru_rfl_black` 
+- **ON** `Zeya` 
+
+## Heavy trucks currently ON (113), by family
+- Kaukaz Bratsk 35 (incl. 9 *_locked_doors / *_non_interation quest copies)
+- Kaukaz Zeya 23 (incl. 4 *_locked_doors)
+- Kaukaz Z71 Aras 2
+- Militech Behemoth 16 (police, MaxTac, border patrol, NetWatch, Kang Tao, Kurtz, Militech)
+- Semimaru 12 (v_sport1_yaiba_semimaru is the Yaiba hypercar, not a truck)
+- Oranje table-top rigs 14
+- Tanishi 6x6 4
+- Trailer 1: v_trailer_supron
+- Other 6: Kaukaz, panam_army_truck, santiago_truck, v_003_smalltruck, arr_05_objective_truck (quest), spr_03_nomad_truck (quest)

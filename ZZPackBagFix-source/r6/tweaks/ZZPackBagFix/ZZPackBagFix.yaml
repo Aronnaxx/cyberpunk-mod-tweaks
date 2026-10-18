@@ -1,0 +1,26 @@
+# ZZ Tactical Backpack: the real pack records have no "bag"/"backpack" in their ID, so DV Core's name
+# heuristic never flags them as bags. Flesh & Chrome Carry Capacity then logs "Bag carry: 0", backpack
+# weapon slots stay 0/0 and any weapon past the two body slots drains stamina even under the weight limit.
+# DV Core also treats the item tags Bag / Backpack as a bag, so tag the packs. Straps, ropes and antennas
+# are left alone (carry 0, not bags).
+Items.oneslowzz_zz_default:
+  tags:
+    - !append-once Bag
+Items.oneslowzz_zz_militech:
+  tags:
+    - !append-once Bag
+Items.oneslowzz_zz_arasaka:
+  tags:
+    - !append-once Bag
+Items.oneslowzz_zz_brown:
+  tags:
+    - !append-once Bag
+Items.oneslowzz_zz_gray:
+  tags:
+    - !append-once Bag
+Items.oneslowzz_zz_carbon_fiber:
+  tags:
+    - !append-once Bag
+Items.oneslowzz_zz_badger_pack_m:
+  tags:
+    - !append-once Bag

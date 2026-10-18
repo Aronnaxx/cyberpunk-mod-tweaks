@@ -1,0 +1,19 @@
+{
+	"applyGame23MapPOIUntrackingBugPatch": true,
+	"currentGameplayToggleSoundName": "ui_gui_tab_change",
+	"enableButtonHintsInMapMenuBottomRow": true,
+	"enableButtonHintsInQuestJournalMenu": true,
+	"enableGamepadToggleInMenus": false,
+	"enableGamepadToggleWhilePlaying": false,
+	"enableMouseToggleInMenus": true,
+	"enableMouseToggleWhilePlaying": false,
+	"enablePadDpDownA": false,
+	"filename": "mod_user_settings.json",
+	"lastLanguageSelected": "en-us",
+	"mapDirectMouseClickQuestUntrack": false,
+	"mapDirectPadClickQuestUntrack": true,
+	"playConfirmationSounds": true,
+	"preventFixerRewarQuests": false,
+	"preventMainQuestsAutotrackingProtectingPrologueAndEndings": false,
+	"preventUntrackedMainQuests": false
+}

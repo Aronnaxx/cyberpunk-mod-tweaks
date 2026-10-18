@@ -11,5 +11,154 @@
   "Items.ash_trauma_armor_03": {
     "armor": "heavy",
     "armorValue": 250
+  },
+  "Items.rm_back_claire_": {
+    "carry": 15
+  },
+  "Items.rm_back_claire_toggle_": {
+    "carry": 0
+  },
+  "Items.rm_back_claire_decals_": {
+    "carry": 0
+  },
+  "Items.rm_back_chestbag_": {
+    "carry": 10
+  },
+  "Items.rm_back_chestbag_chains_": {
+    "carry": 0
+  },
+  "Items.oneslowzz_zz_": {
+    "armor": "light",
+    "armorValue": 5
+  },
+  "Items.oneslowzz_zz_default": {
+    "armor": "light",
+    "armorValue": 20,
+    "carry": 30
+  },
+  "Items.oneslowzz_zz_militech": {
+    "armor": "light",
+    "armorValue": 20,
+    "carry": 30
+  },
+  "Items.oneslowzz_zz_arasaka": {
+    "armor": "light",
+    "armorValue": 20,
+    "carry": 30
+  },
+  "Items.oneslowzz_zz_brown": {
+    "armor": "light",
+    "armorValue": 20,
+    "carry": 30
+  },
+  "Items.oneslowzz_zz_gray": {
+    "armor": "light",
+    "armorValue": 20,
+    "carry": 30
+  },
+  "Items.oneslowzz_zz_carbon_fiber": {
+    "armor": "light",
+    "armorValue": 20,
+    "carry": 30
+  },
+  "Items.oneslowzz_zz_carbon_fiber_backpack_juice": {
+    "armor": "light",
+    "armorValue": 20,
+    "carry": 30
+  },
+  "Items.oneslowzz_zz_badger_pack_m": {
+    "carry": 10,
+    "armor": "light",
+    "armorValue": 20
+  },
+  "Items.oneslowzz_zz_backpack_": {
+    "carry": 0,
+    "armor": "light",
+    "armorValue": 5
+  },
+  "Items.oneslowzz_zz_default_antenna": {
+    "carry": 0,
+    "armor": "light",
+    "armorValue": 5
+  },
+  "Items.oneslowzz_zz_militech_antenna": {
+    "carry": 0,
+    "armor": "light",
+    "armorValue": 5
+  },
+  "Items.oneslowzz_zz_arasaka_antenna": {
+    "carry": 0,
+    "armor": "light",
+    "armorValue": 5
+  },
+  "Items.oneslowzz_zz_gray_antenna": {
+    "carry": 0,
+    "armor": "light",
+    "armorValue": 5
+  },
+  "Items.oneslowzz_zz_black_yellow_led_antenna": {
+    "carry": 0,
+    "armor": "light",
+    "armorValue": 5
+  },
+  "Items.oneslowzz_zz_carbon_fiber_antenna": {
+    "carry": 0,
+    "armor": "light",
+    "armorValue": 5
+  },
+  "Items.oneslowzz_zz_carbon_fiber_backpack_antenna_juice_right": {
+    "carry": 0,
+    "armor": "light",
+    "armorValue": 5
+  },
+  "Items.oneslowzz_zz_antenna_badger_right": {
+    "carry": 0,
+    "armor": "light",
+    "armorValue": 5
+  },
+  "Items.oneslowzz_zz_default_antenna_left": {
+    "carry": 0,
+    "armor": "light",
+    "armorValue": 5
+  },
+  "Items.oneslowzz_zz_militech_antenna_left": {
+    "carry": 0,
+    "armor": "light",
+    "armorValue": 5
+  },
+  "Items.oneslowzz_zz_arasaka_antenna_left": {
+    "carry": 0,
+    "armor": "light",
+    "armorValue": 5
+  },
+  "Items.oneslowzz_zz_brown_antenna_left": {
+    "carry": 0,
+    "armor": "light",
+    "armorValue": 5
+  },
+  "Items.oneslowzz_zz_gray_antenna_left": {
+    "carry": 0,
+    "armor": "light",
+    "armorValue": 5
+  },
+  "Items.oneslowzz_zz_carbon_fiber_antenna_left": {
+    "carry": 0,
+    "armor": "light",
+    "armorValue": 5
+  },
+  "Items.oneslowzz_zz_carbon_fiber_backpack_antenna_juice_left": {
+    "carry": 0,
+    "armor": "light",
+    "armorValue": 5
+  },
+  "Items.oneslowzz_zz_antenna_badger_left": {
+    "carry": 0,
+    "armor": "light",
+    "armorValue": 5
+  },
+  "Items.oneslowzz_zz_rope_badger": {
+    "carry": 0,
+    "armor": "light",
+    "armorValue": 5
   }
 }

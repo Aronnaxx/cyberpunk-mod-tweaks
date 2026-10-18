@@ -1,0 +1,13 @@
+2026-10-13T21:21:01 saved UserSettings -> flat
+2026-10-13T21:21:05 VR port enabled (257 files, 22 from vr\game)
+2026-10-13T21:21:05 loaded vr UserSettings
+2026-10-13T21:21:06 launched vr
+2026-10-13T21:33:02 game exited
+2026-10-13T21:33:02 saved UserSettings -> vr
+2026-10-13T21:33:07 VR port disabled (257 files)
+2026-10-13T21:33:07 loaded flat UserSettings
+{
+    "live":  "flat",
+    "last":  "vr"
+}
+29

@@ -49,9 +49,10 @@ public class FACConfig extends ScriptableSystem {
       }
       DVRCF.Register(gi, "FleshAndChrome", title, desc, this.m_provider);
     }
-    FACStaminaImplants.RefreshAdrenalineTooltips(this);   
-    FACStaminaImplants.RefreshIsometricTooltips(this);
-    FACPerks.RefreshPerkTuning(this);   
+    
+    let facSys: ref<FACSystem> = GameInstance.GetScriptableSystemsContainer(this.GetGameInstance())
+      .Get(n"FleshAndChrome.FACSystem") as FACSystem;
+    if IsDefined(facSys) { facSys.QueueTooltipRefresh(); }
   }
 
   public let modON: Bool = true;

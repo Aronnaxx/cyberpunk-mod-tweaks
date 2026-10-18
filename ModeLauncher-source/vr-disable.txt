@@ -1,0 +1,9 @@
+# Folders (relative to the game folder) parked outside the game for the length of a VR session.
+# One per line; '#' starts a comment. Empty = VR and flat share every mod (preferred).
+# 2026-10-13: the four render mods below were parked as a guess for the pink headset image, but the
+# pink persisted with them parked (10-12 20:12+ sessions) and none of them hooks the swapchain,
+# so they are shared again. Uncomment a line to park that mod during VR.
+# red4ext\plugins\ReFRACT
+# red4ext\plugins\FXBegone
+# red4ext\plugins\BlurBegone
+# bin\x64\plugins\cyber_engine_tweaks\mods\RenderPlaneFix

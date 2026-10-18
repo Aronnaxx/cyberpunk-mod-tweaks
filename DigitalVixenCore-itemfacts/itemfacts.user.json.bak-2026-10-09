@@ -1,0 +1,30 @@
+{
+  "$comment": "Your item rows - same columns as itemfacts.json; these win over the shipped file and survive updates. Edited in game by the DVCore Item Editor (RedWindows).",
+  "Items.ash_trauma_armor_01": {
+    "armor": "medium",
+    "armorValue": 100
+  },
+  "Items.ash_trauma_armor_02": {
+    "armor": "heavy",
+    "armorValue": 250
+  },
+  "Items.ash_trauma_armor_03": {
+    "armor": "heavy",
+    "armorValue": 250
+  },
+  "Items.rm_back_claire_": {
+    "carry": 15
+  },
+  "Items.rm_back_claire_toggle_": {
+    "carry": 0
+  },
+  "Items.rm_back_claire_decals_": {
+    "carry": 0
+  },
+  "Items.rm_back_chestbag_": {
+    "carry": 10
+  },
+  "Items.rm_back_chestbag_chains_": {
+    "carry": 0
+  }
+}

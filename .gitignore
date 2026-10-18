@@ -13,3 +13,13 @@ __pycache__/
 .vscode/
 Thumbs.db
 desktop.ini
+
+# Local backups (game/mod/Vortex state snapshots, ~1 GB) - kept on disk, not in git
+clean-install-backup-*/
+
+# Third-party VR port downloads/repacks (not ours to redistribute)
+CyberpunkVRPort-*.zip
+CyberpunkVRPort-Auto-Installer.exe
+
+# Vortex state database copies (contain Nexus account/OAuth data) - never commit
+vortex-state-*/

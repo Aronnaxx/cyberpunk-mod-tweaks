@@ -1,0 +1,11 @@
+# MapFilterFix v1.0 - give Garage Core's world-map filter its own slot.
+#
+# The map keeps one on/off flag per gamedataWorldMapFilter value, and every filter group whose value
+# is on shows its pins. Garage Core used CustomFilter, the value behind the "Custom" tab itself and
+# Custom Map Markers' entry, so ticking Garages also showed Custom Map Markers' group (which the
+# Immersive Odometer and Fuel gas stations share by variant) and the checkboxes toggled each other.
+#
+# Courier is not used by any vanilla Custom-list entry; its only vanilla pins (courier jobs) are also
+# in Gigs.
+WorldMap.GarageCoreFilter:
+  enumName: Courier

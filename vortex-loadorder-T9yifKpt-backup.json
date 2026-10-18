@@ -1,0 +1,42 @@
+[
+ {
+  "id": "Driver Sawedoffs-11199-1-1700805324",
+  "modId": "11199",
+  "enabled": true,
+  "name": "✅ Driver_Sawedoffs 1.0.0 (from Driver Sawedoffs 1)",
+  "data": {
+   "ownerVortexProfileId": "T9yifKpt-",
+   "vortexId": "Driver Sawedoffs-11199-1-1700805324",
+   "vortexModId": "11199",
+   "vortexModVersion": "1",
+   "vortexEnabled": true,
+   "redmodInfo": {
+    "name": "Driver_Sawedoffs",
+    "version": "1.0.0",
+    "relativePath": "mods\\Driver_Sawedoffs",
+    "vortexModId": "11199"
+   }
+  },
+  "index": 0
+ },
+ {
+  "id": "NCPDPPE V2.7 HARD TIMER-9863-2-7-1765558453",
+  "modId": "9863",
+  "enabled": true,
+  "name": "✅ NCPD Prevention Police Enhancement 2.7 HARD TIMER (from NCPD Prevention Police Enhancement (Redmod) - NCPDPPE V2.7 HARD TIMER 2.7)",
+  "data": {
+   "ownerVortexProfileId": "T9yifKpt-",
+   "vortexId": "NCPDPPE V2.7 HARD TIMER-9863-2-7-1765558453",
+   "vortexModId": "9863",
+   "vortexModVersion": "2.7",
+   "vortexEnabled": true,
+   "redmodInfo": {
+    "name": "NCPD Prevention Police Enhancement",
+    "version": "2.7 HARD TIMER",
+    "relativePath": "mods\\NCPD Prevention Police Enhancement",
+    "vortexModId": "9863"
+   }
+  },
+  "index": 1
+ }
+]

@@ -1,0 +1,165 @@
+﻿time,mod,modId,fileId,result,files,seconds
+18:53:09,"start: 520 nexus rows"
+18:53:17,"00 - Multicolored Hair Pack - All In One-21614-1-1-1748774239",21614,110413,ok,50,8
+18:53:23,"1. AIO - ALL IN ONE - HYST HAIR COLLECTION-21766-1-2-1762627999",21766,127082,ok,14,6
+18:53:29,"1. Better Enemy Health Bar-19815-1-0-1739766543",19815,101785,ok,1,6
+18:53:29,"end: processed=3 failed=0 stopped=False"
+18:53:34,"start: 520 nexus rows"
+18:55:34,"2BT Converse High Tops Edits-21806-1-1-1748783529",21806,163044,timeout,0,120
+18:55:41,"2BT No Weapon In Inventory-20311-1-3-1773230325",20311,139189,ok,2,6
+18:55:47,"2BT Pants Over Shoes-21053-1-1-1767440913",21053,131587,ok,2,6
+18:55:53,"3. Mute Menu Inventory and Scan Humming-18781-1-2-1741562532",18781,103661,ok,1,6
+18:55:59,"3D World Map Fixed 26500 1.5.0 2026-09-12T11-03Z PYMIYqMXw",26500,160412,ok,2,6
+18:56:06,"402 north oak-26437-2-1772336808",26437,137945,ok,4,6
+18:56:12,"7th Hell Bar Enhanced ( with Apartment )-22454-2-3-1771674225",22454,136853,ok,3,6
+18:56:17,"7th Hell Club Unlocked and Remastered 1.1-27207-1-1-1772572137",27207,138342,ok,2,5
+18:56:26,"99.99 Trauma Team Radio-27839-0-1-0-1772065702",27839,137397,ok,8,9
+18:56:32,"A Gift For Jack-20952-1-0-1744550757",20952,106546,ok,2,6
+18:56:39,"Adam Finlay Hidden Gem Quest Recovery v1.2.1-22103-1-2-1-1755962200",22103,118996,ok,2,6
+18:56:47,"AdaptiveSliders 5075 20260912 2026-09-12T20-00Z q7jg7fjhh",5075,160495,ok,2,8
+18:57:16,"start: 520 nexus rows"
+18:58:41,"STOP: unexpected dialog text: Error Too many files in ASI Mod! 6 Show Details"
+18:58:41,"Advanced Crash Reporter 34403 1.2.0 2026-10-03T15-16Z rxs7xR8Lh",34403,163897,stopped,0,86
+18:58:41,"end: processed=1 failed=0 stopped=True"
+19:01:51,"start: 519 nexus rows"
+19:01:56,"Aerial Drones-27769-1-2-1777625036",27769,143927,ok,2,5
+19:02:07,"Ahri - Female V Preset-11946-1-1-1768420141",11946,132765,ok,1,11
+19:02:18,"AirTrafficDupeFix 31304 1.0.0 2026-07-08T02-36Z 5em9eoIRj",31304,151363,ok,1,11
+19:02:21,"AKA Cosmetics 28187 1.9 2026-08-23T14-45Z 5em9eovzS",28187,163462,ok-newentry,0,3
+19:02:29,"AleV2 - Female V Preset-10292-1-2-1768414239",10292,132757,ok,1,8
+19:02:41,"Alex Romanced 30777 1.0.1 2026-06-27T20-06Z UQrhQSaP8",30777,150101,ok,5,12
+19:02:52,"All in One-19191-1-3-1738518052",19191,100307,ok,40,11
+19:03:03,"All Merged-1149-1-1-1611301307",1149,3589,ok,1,11
+19:03:14,"All Vehicles Can Steer-18210-1-0-0-1733293763",18210,93731,ok,1,11
+19:03:25,"All-In-One-28990-2-1776602405",28990,142700,ok,18,11
+19:03:36,"Allow Highest AI LOD 16720 0.1 2026-07-12T01-47Z ebPkbziWG",16720,151789,ok,1,11
+19:03:47,"Allow Unbound Actions (Keybinds)-11429-1-0-1701862575",11429,59998,ok,1,11
+19:03:58,"Alt Cunningham Body Enhanced-9994-1-0-1697289194",9994,52937,ok,1,11
+19:04:09,"Alternate Posters-4030-1-0-1646518454",4030,21394,ok,1,11
+19:04:21,"Alvarix Custom Store - Atelier-4602-3-5-2-1757565635",4602,120954,ok,2,11
+19:04:32,"Always Equipped Unique V Rig-29927-1-1779614399",29927,146472,ok,2,11
+19:04:34,"Always First Equip-2557-2-1-5-1779632278",2557,163493,ok-newentry,0,2
+19:04:44,"Always_Best_Quality_Ads For 2.31-12700-4-0-2-31-1757680891",12700,121078,ok,1,10
+19:04:55,"amm_props_cherry_trees_1_0_0-7988-1-0-0-1680683859",7988,42055,ok,2,11
+19:05:06,"Androids Faction 1-27769-1-2-1777625080",27769,143930,ok,1,11
+19:05:16,"AnimatedWidgetsFramework-24950-0-9-1760288657",24950,124418,ok,4,10
+19:05:27,"ANODOS Financial 33607 2.1 2026-10-02T00-51Z n1B61wjlR",33607,163625,ok,120,11
+19:05:38,"Anti-Glare Face Paint-28956-1-0-1777631953",28956,143938,ok,1,11
+19:05:48,"Apartment Cats Customs - Base files-6837-1-3-0-1740786536",6837,102903,ok,6,10
+19:06:00,"Apartment Main File-24739-1-0-1759571637",24739,123571,ok,5,11
+19:06:11,"Apartments Enhanced - Corpo Plaza addon-19521-2-02-1757683236",19521,121085,ok,1,11
+19:06:22,"Apartments Enhanced - Japantown addon-19521-2-02-1757683336",19521,121087,ok,2,11
+19:06:33,"Appearance Menu Mod-790-2-12-5-1749642728",790,111215,ok,62,11
+19:06:43,"Arasaka Estate Mansion 19169 2.3 2026-10-01T21-03Z JSKWSQ5hh",19169,163596,ok,11,10
+19:06:54,"arcadie_beaded_curtains-23888-1-0-1756592441",23888,119681,ok,2,11
+19:07:04,"arcadie_grabbag-16806-1-0-1727461551",16806,87926,ok,2,10
+19:09:05,"Aroused encouters sex locations FOMOD-27322-1-5-1-1771422569",27322,136528,timeout,0,120
+19:09:10,"Ash Preset-11456-1-1-1716411087",11456,78228,ok,1,5
+19:09:13,"Ashe Preset-20597-1-0-1743104023",20597,104942,ok,1,3
+19:09:17,"AshV2 Preset-16181-1-0-1724054372",16181,85076,ok,1,4
+19:09:22,"Asterina Hair - PHYSCIS ENABLED-6072-1-0-1697135440",6072,52643,ok,2,4
+19:09:25,"Astraia Hair - PHYSCIS ENABLED-6072-1-1-1697390872",6072,53169,ok,2,3
+19:09:27,"Atomiic Shop 20058 3.11 2026-09-04T15-43Z tvQTvsQDN",20058,162556,ok-newentry,0,2
+19:09:31,"Auto Fixer Customs-18037-1-0-1732469109",18037,93104,ok,2,3
+19:09:36,"Auto Unequip Weapon Mods And Attachments-9604-1-1-0-1696461706",9604,51146,ok,1,5
+19:09:39,"Ava Preset-10102-1-1-1716411940",10102,78231,ok,1,3
+19:10:47,"start: 519 nexus rows"
+19:10:52,"Avamicrodetails-11937-1-0-1703958814",11937,62823,ok,1,4
+19:11:03,"Avante Fashionwear - VA-28532-1-0-1-1774851190",28532,140812,ok,2,11
+19:11:14,"Back Door People Remover-24739-1-0-1759658522",24739,123686,ok,1,11
+19:11:14,"end: processed=3 failed=0 stopped=False"
+19:11:17,"start: 519 nexus rows"
+19:11:25,"Backpack Search-14264-1-2-1-1752387587",14264,113478,ok,1,8
+19:13:25,"Badlands Garage-28630-1-0-1-1775325017",28630,141186,timeout,0,120
+19:13:31,"Bags Prop Pack-7260-1-6-1674972866",7260,38198,ok,3,5
+19:13:34,"Balatro Joker Locations-20069-1-0-1740767896",20069,102895,ok,10,4
+19:14:04,"start: 519 nexus rows"
+19:14:10,"Badlands Garage-28630-1-0-1-1775325017",28630,141186,ok,4,6
+19:16:11,"Base Fists and Arm Cyberware Attack Speed Fix-14130-2-12-2024-04-09-1712688991",14130,74436,timeout,0,121
+19:16:16,"Beanie's CCXL Clinic - Player Cyberware-21901-4-0-1749937205",21901,111479,ok,2,5
+19:16:23,"Beautiful Eyebrows - 01 - Fuller - CCXL-18783-1-0-1765149390",18783,129325,ok,2,7
+19:16:29,"Beautiful Eyebrows - 02 - Fuller - CCXL-26168-1-0-1765398379",26168,129560,ok,2,5
+19:16:34,"Beautiful MAKEUP - BASE-29336-1-1777732105",29336,144047,ok,2,5
+19:16:40,"Beautiful MAKEUP II - BASE - Basegame Head-29513-1-1778297809",29513,144664,ok,2,5
+19:16:44,"Becca Hair - PHYSCIS ENABLED-6072-3-0-1673791622",6072,37393,ok,1,5
+19:16:50,"Bella Hair - PHYSCIS ENABLED-6072-1-0-1673461932",6072,37175,ok,2,5
+19:16:54,"Bella Preset-9925-1-1-1755902553",9925,118915,ok,1,5
+19:16:59,"BellaV2 Preset-15979-1-0-1722153935",15979,83537,ok,1,5
+19:17:04,"Better Armor Tooltip-9706-1-0-1-1766882622",9706,131025,ok,3,5
+19:17:09,"Better Attachments-10822-1-0-0-4-1699483636",10822,56964,ok,3,5
+19:17:13,"BetterHMGsNerfed-9685-1-0-0-6-1699899294",9685,57643,ok,1,5
+19:17:18,"Blade Runner Ringtone and SMS v1.1-14081-1-1-1762474785",14081,126969,ok,1,5
+19:17:24,"Blur Begone 8105 1.26.2 2026-09-29T22-24Z gMz5MucOY",8105,163246,ok,1,6
+19:17:28,"Borg Malorian-9213-1-6-0-1729704968",9213,90279,ok,2,5
+19:17:33,"Bounties Restored-21820-1-0-2-1748897108",21820,110530,ok,2,5
+19:17:38,"Bounty class stars fix-23211-1-0-0-2-1754810263",23211,117048,ok,1,5
+19:17:42,"Breezy's Accessory Alcove - Atelier-17749-10-0-1767371264",17749,131506,ok,2,5
+19:17:47,"Breezy's Clothing Emporium - Atelier-14744-22-0-1733973296",14744,94532,ok,2,5
+19:17:51,"Breezy's Thrift Shop - Atelier-18465-30-0-1757133517",18465,120437,ok,2,5
+19:17:56,"BrowserExtensionFramework-10038-0-9-7-1758341320",10038,121987,ok,7,5
+19:18:00,"Busy Vampire Boutique for FemV-17075-3-1-1776993468",17075,143097,ok,2,5
+19:18:05,"Californication-7833-3-1-2-1774982483",7833,140933,ok,2,5
+19:18:09,"Canyon Fixes-25918-1-2-1-1769489512",25918,134113,ok,8,5
+19:18:14,"Canyon Ramps-27013-1-0-1-1769048558",27013,133526,ok,2,5
+19:18:18,"CC Fix - Remake-30257-1-0-1780600244",30257,147588,ok,2,5
+19:18:24,"CCXL - EVERYDAY MEGAPAK-19863-4-1768463019",19863,132816,ok,5,5
+19:20:24,"CCXL - GLEY PONY V2-26170-1-1765338310",26170,129502,timeout,0,120
+19:20:30,"CCXL - HAIR MEGAPAK-19197-5-0-0-1744339844",19197,106301,ok,21,6
+19:20:36,"CCXL - IRMA V1-24707-1-1759282747",24707,123288,ok,2,5
+19:20:40,"CCXL More Cyberware-21935-1-0-1749178506",21935,110766,ok,2,5
+19:20:47,"CCXL Sub Hair Pack - AllInOne-19268-1-09-1772653636",19268,138452,ok,28,7
+19:20:54,"CET 1.37.1 - Scripting fixes-107-1-37-1-1759193708",107,123169,ok,19,6
+19:20:59,"CET NPC Body Tweaks with Codeware Extensions-10458-2-2-5-1781078870",10458,148166,ok,6,5
+19:21:03,"Challenging Breach Minigame-3661-1-3-3-1726342744",3661,87057,ok,5,5
+19:21:08,"Character Customization Anywhere 1.2-3930-1-2-1668426876",3930,33280,ok,1,5
+19:21:12,"CharacterCreatorUIImprovements 1.0.0 34310 1 2026-09-25T17-59Z 3dwHd9fd6",34310,162588,ok,7,5
+19:21:17,"Charter Hill Penthouse - With Landing Pads-25409-1-1-1765772637",25409,129957,ok,4,5
+19:21:22,"Chloe Preset-9800-1-1-1755902492",9800,118913,ok,1,5
+19:23:22,"ChloeV2 - Female V Preset-13264-1-2-1768412383",13264,132754,timeout,0,120
+19:25:22,"Clean Computer Wallpaper-13657-1-0-1710551064",13657,71710,timeout,0,120
+19:25:45,"Clean Photomode UI with Hotkeys-26742-1-0-1767882946",26742,132121,ok,1,22
+19:25:50,"Clean Voiceovers-15285-r1-1718471958",15285,80157,ok,1,5
+19:25:56,"Cleaner Main Menu and Pause Menu-10285-2-3-1752876182",10285,114109,ok,1,6
+19:26:01,"Clear Skill Checks-2805-1-1-1-1764416716",2805,128692,ok,2,5
+19:26:05,"CNRK-Tattoo-Studio-5730-1-1-1665224992",5730,30247,ok,1,5
+19:28:06,"CODE P0L4R1S - AMM-27447-1-0-1770714683",27447,135649,timeout,0,120
+19:28:28,"start: 519 nexus rows"
+19:28:36,"Base Fists and Arm Cyberware Attack Speed Fix-14130-2-12-2024-04-09-1712688991",14130,74436,ok,2,8
+19:28:41,"CCXL - GLEY PONY V2-26170-1-1765338310",26170,129502,ok,2,5
+19:28:45,"Compact Weapon Mod Slots-25032-1-0-0-1760513571",25032,124681,ok,1,4
+19:28:49,"CompactAbilities-24853-2-0-1778023896",24853,144350,ok,2,4
+19:28:52,"Computer Scrolling-7879-v1-30b-1701636405",7879,59749,ok,1,4
+19:28:56,"Comrade Restored-9707-1-2-1699218051",9707,56508,ok,1,4
+19:29:00,"Conflict Begone 21912 1.4.0 2026-08-08T21-00Z IieOigRcG",21912,155422,ok,6,4
+19:29:09,"Containers 4K-7998-1-2-1681945133",7998,42921,ok,1,9
+19:29:14,"Convo Skill Check Scaling-2886-1-4-1-1701903429",2886,60146,ok,5,5
+19:29:19,"Cookedprefabs Nulled-4789-2-0-1695396661",4789,49162,ok,1,5
+19:29:23,"CORE - HoloPlugins-29638-1-0-0-1778665781",29638,145176,ok,1,5
+19:29:28,"Core File-23032-1-0-1753747571",23032,115492,ok,2,5
+19:29:32,"Core-22859-1-01-1753141539",22859,114598,ok,2,5
+19:29:37,"Corpo SUV 2.0-17213-2-5-1729438765",17213,89943,ok,1,5
+19:29:41,"Courier Job Settings-21707-1-0-0-1748177034",21707,109895,ok,5,5
+19:29:47,"Coyote Cojo's rooftop apartment - With friends-27269-1-1-1775592923",27269,141459,ok,3,5
+19:29:51,"Crafting recipe owned and iconic labels-11261-1-1-1-1764672356",11261,128905,ok,1,5
+19:29:56,"Crosshair simple dot only slightly bigger-13424-0-1-1709585766",13424,70689,ok,1,5
+19:30:01,"Crunch Plaza Restoration-25795-0-4-5a-1764937732",25795,129107,ok,2,5
+19:30:06,"Cub's Closet-15621-23-1778086001",15621,144471,ok,2,5
+19:30:30,"Custom Expansion Mode - Optional Config File-14499-1-0-1716836951",14499,78774,ok,1,24
+19:30:31,"STOP: unexpected dialog text: ds Mod Name - Head Cyberware CCXL - Vanilla 3.0 berrywoman (PM) SOLO vo•g (PROPS) Make It cozy decor pack - home Appearance Animations Miscellaneous Modders Resources Nexus Mods Nexus Mods Nexus Mods Nexus Mods )-Engine-StateThrottle-v1.O.zip OO - in one 00 - Multicolored Hair Pack One 02 - Rosa's Shop 2 I. AIO - ALL IN ONE - HYST HAIR COLLECTION l. Disappearing Enemy Health aar 1966 Ford Mustang GT 28T Converse High Tops Edits 28T Converse High Tops Edits 28T Heavy Boots Overhaul 28T No Weapon In Inventory 2nd Amendment Sign - Unpixelated - Core File 3. Mute Menu Inventory and Scan Humming 3D World Map Explorer Install options - Name mod variant Enter a variant name for •Badlands Garage 1.0.1• to differentiate it from the original Variant 21 Remember: You can switch between variants by clicking in the version column in your mod list and selecting from the dropdown. NightCity2026 NightCity2026 NightCity2026 NightCity2026 NightCity2026 dightCity2026 dightCity2026 dightCity2026 dightCity2026 dightCity2026 dightCity2026 dightCity2026 dightCity2026 NightCity2026 NightCity2026 NightCity2026 NightCity2026 NightCity2026 NightCity2026 PREMIUM 5 days ago 5 days ago 2 days ago 4 days ago 2 days ago 5 days ago 5 days ago 5 days ago 5 days ago 5 days ago seconds ago I.S.I valour549 anygoodname Mod installed: Gameplay Appearance Audio User Interface Nexus Mods Nexus Mods Nexus Mods Nexus Mods Cyberware-EX - Custom Expansion Mode (Raito Labs Contig) - Optional contig tile - Extra Face slot e Mod(s) removed"
+19:30:31,"Custom Quickslots 3096 5.7.0 2026-07-25T09-40Z Z0ER0B2jp",3096,153371,stopped,0,1
+19:30:31,"end: processed=22 failed=0 stopped=True"
+19:31:09,"start: 519 nexus rows"
+19:31:14,"Custom Quickslots 3096 5.7.0 2026-07-25T09-40Z Z0ER0B2jp",3096,153371,ok,45,5
+19:31:16,"STOP: unexpected dialog text: ds Mod Name - Head Cyberware CCXL - Vanilla 3.0 berrywoman (PM) SOLO vo•g (PROPS) Make It cozy decor pack - home Appearance Animations Miscellaneous Modders Resources Nexus Mods Nexus Mods Nexus Mods Nexus Mods )-Engine-StateThrottle-v1.O.zip OO - in one 00 - Multicolored Hair Pack One 02 - Rosa's Shop 2 I. AIO - ALL IN ONE - HYST HAIR COLLECTION l. Disappearing Enemy Health aar 1966 Ford Mustang GT 28T Converse High Tops Edits 28T Converse High Tops Edits 28T Heavy Boots Overhaul 28T No Weapon In Inventory 2nd Amendment Sign - Unpixelated - Core File 3. Mute Menu Inventory and Scan Humming 3D World Map Explorer Install options - Name mod variant Enter a variant name for •Badlands Garage 1.0.1• to differentiate it from the original Variant Remember: You can switch between variants by clicking in the version column in your mod list and selecting from the dropdown. NightCity2026 NightCity2026 NightCity2026 NightCity2026 NightCity2026 dightCity2026 dightCity2026 dightCity2026 dightCity2026 dightCity2026 dightCity2026 dightCity2026 dightCity2026 NightCity2026 NightCity2026 NightCity2026 NightCity2026 NightCity2026 NightCity2026 PREMIUM 5 days ago 5 days ago 2 days ago 4 days ago 2 days ago 5 days ago 5 days ago 5 days ago 5 days ago 5 days ago seconds ago I.S.I valour549 anygoodname Gameplay Appearance Audio User Interface 2 mods installed Mod(s) rernoved Nexus Mods Nexus Mods Nexus Mods Nexus Mods"
+19:31:16,"Cutscene Weapon Swapper-20743-1-4-1-1745154157",20743,107189,stopped,0,1
+19:31:16,"end: processed=2 failed=0 stopped=True"
+19:31:48,"start: 519 nexus rows"
+19:32:02,"CYB3RSN4K3 - DOGHAUS R3L04D3D-28345-1-0-1774207004",28345,140239,ok,7,13
+19:32:21,"Cyberpunk Story Quest Fixes 29152 1.18.0 2026-09-19T08-19Z aI50IA5qV",29152,161605,ok,5,19
+19:32:39,"Cyberware 12 No Scars-18350-1-0-1734020256",18350,94603,ok,1,18
+19:32:43,"Cyberware Injector 26363 2.2.0 2026-08-29T15-44Z AgoGgixkM",26363,163482,ok-newentry,0,3
+19:32:57,"Cyberware Screen Tooltip Fix-23615-1-0-1755606888",23615,118380,ok,1,15
+19:33:15,"Cyberware-EX-9429-1-5-6-1777717378",9429,144031,ok,4,18
+19:33:33,"Dance Off-10615-1-1-0-1734907231",10615,95735,ok,2,17
+19:33:51,"Dash Fix-16272-1-0-0-1723844109",16272,84895,ok,3,18
+19:34:11,"Deceptious Quest Core 7831 3.3.0 2026-08-24T01-10Z OCk3C5pgx",7831,157484,ok,2,20

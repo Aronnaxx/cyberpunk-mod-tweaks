@@ -1,0 +1,90 @@
+# Flesh & Chrome owns stamina and carry weight: neutralize Dark Future's modifiers on them.
+# Loads after Dark Future's own tweaks (folder name sorts last).
+
+# DarkFuture.BaseGameUpdate_AlwaysOnEffects.yaml: StaminaRegenStartDelay Additive 0.20
+DarkFutureStatusEffect.AlwaysOn_StaminaRegenStartDelayStatModifier:
+  value: 0.0
+
+# DarkFuture.BaseGameUpdate_AlwaysOnEffects.yaml: CarryCapacity Additive -80
+DarkFutureStatusEffect.AlwaysOn_CarryCapacityStatModifierFull:
+  value: 0.0
+
+# DarkFuture.BaseGameUpdate_AlwaysOnEffects.yaml: CarryCapacity Additive -40
+DarkFutureStatusEffect.AlwaysOn_CarryCapacityStatModifierHalf:
+  value: 0.0
+
+# DarkFuture.BaseGameUpdate_AlwaysOnEffects.yaml: CarryCapacity Additive -30
+DarkFutureStatusEffect.StrengthSkillCarryCapacityPenaltyFull5StatModifier:
+  value: 0.0
+
+# DarkFuture.BaseGameUpdate_AlwaysOnEffects.yaml: CarryCapacity Additive -100
+DarkFutureStatusEffect.StrengthSkillCarryCapacityPenaltyFull25StatModifier:
+  value: 0.0
+
+# DarkFuture.BaseGameUpdate_AlwaysOnEffects.yaml: CarryCapacity Additive -25
+DarkFutureStatusEffect.StrengthSkillCarryCapacityPenaltyHalf5StatModifier:
+  value: 0.0
+
+# DarkFuture.BaseGameUpdate_AlwaysOnEffects.yaml: CarryCapacity Additive -75
+DarkFutureStatusEffect.StrengthSkillCarryCapacityPenaltyHalf25StatModifier:
+  value: 0.0
+
+# DarkFuture.BaseGameUpdate_ConsumableItemData.yaml: StaminaRegenRateMult Additive 0.15
+DarkFutureStatusEffect.UncommonDrugsMrWhitey_StatsPackageModifier_StaminaRegenRate:
+  value: 0.0
+
+# DarkFuture.ConsumableCigarettes.yaml: Stamina Multiplier 0.80
+DarkFutureStatusEffect.CigarettePackageStatStamina:
+  value: 1.0
+
+# DarkFuture.NeedPenaltyEffects_Energy.yaml: Stamina Multiplier 0.85
+DarkFutureStatusEffect.EnergyPenalty_01_StatsPackageModifier_Stamina:
+  value: 1.0
+
+# DarkFuture.NeedPenaltyEffects_Energy.yaml: Stamina Multiplier 0.80
+DarkFutureStatusEffect.EnergyPenalty_02_StatsPackageModifier_Stamina:
+  value: 1.0
+
+# DarkFuture.NeedPenaltyEffects_Energy.yaml: Stamina Multiplier 0.70
+DarkFutureStatusEffect.EnergyPenalty_03_StatsPackageModifier_Stamina:
+  value: 1.0
+
+# DarkFuture.NeedPenaltyEffects_Energy.yaml: Stamina Multiplier 0.60
+DarkFutureStatusEffect.EnergyPenalty_04_StatsPackageModifier_Stamina:
+  value: 1.0
+
+# DarkFuture.NeedPenaltyEffects_Hydration.yaml: StaminaRegenRate Multiplier 0.90
+DarkFutureStatusEffect.HydrationPenalty_01_StatsPackageModifier_StaminaRegenRate:
+  value: 1.0
+
+# DarkFuture.NeedPenaltyEffects_Hydration.yaml: StaminaRegenRate Multiplier 0.75
+DarkFutureStatusEffect.HydrationPenalty_02_StatsPackageModifier_StaminaRegenRate:
+  value: 1.0
+
+# DarkFuture.NeedPenaltyEffects_Hydration.yaml: StaminaRegenRate Multiplier 0.50
+DarkFutureStatusEffect.HydrationPenalty_03_StatsPackageModifier_StaminaRegenRate:
+  value: 1.0
+
+# DarkFuture.NeedPenaltyEffects_Hydration.yaml: StaminaRegenRate Multiplier 0.25
+DarkFutureStatusEffect.HydrationPenalty_04_StatsPackageModifier_StaminaRegenRate:
+  value: 1.0
+
+# DarkFuture.NeedPenaltyEffects_Nerve.yaml: StaminaRegenStartDelay Additive 0.20
+DarkFutureStatusEffect.NervePenalty_01_StatsPackageModifier_StaminaRegenStartDelay:
+  value: 0.0
+
+# DarkFuture.NeedPenaltyEffects_Nerve.yaml: StaminaRegenStartDelay Additive 0.40
+DarkFutureStatusEffect.NervePenalty_02_StatsPackageModifier_StaminaRegenStartDelay:
+  value: 0.0
+
+# DarkFuture.NeedPenaltyEffects_Nerve.yaml: StaminaRegenStartDelay Additive 0.60
+DarkFutureStatusEffect.NervePenalty_03_StatsPackageModifier_StaminaRegenStartDelay:
+  value: 0.0
+
+# DarkFuture.NeedPenaltyEffects_Nerve.yaml: StaminaRegenStartDelay Additive 1.0
+DarkFutureStatusEffect.NervePenalty_04_StatsPackageModifier_StaminaRegenStartDelay:
+  value: 0.0
+
+# DarkFuture.NewDrugs.yaml: StaminaRegenRateMult Additive 0.25
+DarkFutureStatusEffect.Glitter_StatsPackageModifier_StaminaRegenRate:
+  value: 0.0

@@ -1,0 +1,111 @@
+
+FullName                                                                                                                                                    Length LastWriteTime         
+--------                                                                                                                                                    ------ -------------         
+C:\Users\wyant\AppData\Local\CP2077ModeLauncher\launcher.log                                                                                                  4143 10/13/2026 9:04:07 PM 
+C:\Users\wyant\AppData\Local\CP2077ModeLauncher\state.json                                                                                                      25 10/13/2026 8:43:30 PM 
+C:\Users\wyant\AppData\Local\CP2077ModeLauncher\vr-port.zip                                                                                               16529328 10/6/2026 5:27:43 PM  
+C:\Users\wyant\AppData\Local\CP2077ModeLauncher\backups\20261012-200330-UserSettings.json                                                                    91686 10/12/2026 6:51:37 PM 
+C:\Users\wyant\AppData\Local\CP2077ModeLauncher\backups\20261012-200330-vrport-launcher.ini                                                                     87 10/6/2026 7:08:35 PM  
+C:\Users\wyant\AppData\Local\CP2077ModeLauncher\backups\20261012-200330-vrport.ini                                                                            7121 10/6/2026 7:23:13 PM  
+C:\Users\wyant\AppData\Local\CP2077ModeLauncher\backups\20261012-205235-UserSettings.json                                                                    95384 10/12/2026 8:40:27 PM 
+C:\Users\wyant\AppData\Local\CP2077ModeLauncher\backups\20261012-205235-vrport-launcher.ini                                                                     87 10/12/2026 8:41:12 PM 
+C:\Users\wyant\AppData\Local\CP2077ModeLauncher\backups\20261012-205235-vrport.ini                                                                            7120 10/12/2026 8:49:28 PM 
+C:\Users\wyant\AppData\Local\CP2077ModeLauncher\backups\20261013-204330-UserSettings.json                                                                    91685 10/13/2026 8:41:58 PM 
+C:\Users\wyant\AppData\Local\CP2077ModeLauncher\flat\UserSettings.json                                                                                       91685 10/13/2026 8:41:58 PM 
+C:\Users\wyant\AppData\Local\CP2077ModeLauncher\flat\vrport-launcher.ini                                                                                        87 10/6/2026 7:08:35 PM  
+C:\Users\wyant\AppData\Local\CP2077ModeLauncher\flat\vrport.ini                                                                                               7121 10/6/2026 7:23:13 PM  
+C:\Users\wyant\AppData\Local\CP2077ModeLauncher\vr\UserSettings.json                                                                                         91722 10/13/2026 8:56:47 PM 
+C:\Users\wyant\AppData\Local\CP2077ModeLauncher\vr\vrport-launcher.ini                                                                                          87 10/13/2026 9:01:02 PM 
+C:\Users\wyant\AppData\Local\CP2077ModeLauncher\vr\vrport.ini                                                                                                 7121 10/13/2026 9:03:29 PM 
+C:\Users\wyant\AppData\Local\CP2077ModeLauncher\vr-modified\bin\x64\plugins\cyber_engine_tweaks\mods\CyberpunkVRPort_Stereo\vrcam.json                        3058 10/12/2026 8:41:12 PM 
+C:\Users\wyant\AppData\Local\CP2077ModeLauncher\vr-off\bin\x64\plugins\cyber_engine_tweaks\mods\RenderPlaneFix\BetterUI.lua                                   2571 6/9/2024 4:08:58 AM   
+C:\Users\wyant\AppData\Local\CP2077ModeLauncher\vr-off\bin\x64\plugins\cyber_engine_tweaks\mods\RenderPlaneFix\db.sqlite3                                        0 10/2/2026 2:54:54 PM  
+C:\Users\wyant\AppData\Local\CP2077ModeLauncher\vr-off\bin\x64\plugins\cyber_engine_tweaks\mods\RenderPlaneFix\init.lua                                      21284 9/6/2024 5:38:22 AM   
+C:\Users\wyant\AppData\Local\CP2077ModeLauncher\vr-off\bin\x64\plugins\cyber_engine_tweaks\mods\RenderPlaneFix\LICENSE.md                                     1127 5/17/2024 8:09:06 AM  
+C:\Users\wyant\AppData\Local\CP2077ModeLauncher\vr-off\bin\x64\plugins\cyber_engine_tweaks\mods\RenderPlaneFix\README.md                                      2269 6/9/2024 5:57:33 AM   
+C:\Users\wyant\AppData\Local\CP2077ModeLauncher\vr-off\bin\x64\plugins\cyber_engine_tweaks\mods\RenderPlaneFix\RenderPlaneFix.log                                0 10/9/2026 10:47:13 PM 
+C:\Users\wyant\AppData\Local\CP2077ModeLauncher\vr-off\bin\x64\plugins\cyber_engine_tweaks\mods\RenderPlaneFix\__folder_managed_by_vortex                       96 10/9/2026 10:26:55 PM 
+C:\Users\wyant\AppData\Local\CP2077ModeLauncher\vr-off\bin\x64\plugins\cyber_engine_tweaks\mods\RenderPlaneFix\data\config.json                                348 10/13/2026 8:41:57 PM 
+C:\Users\wyant\AppData\Local\CP2077ModeLauncher\vr-off\bin\x64\plugins\cyber_engine_tweaks\mods\RenderPlaneFix\data\PLEASE_VORTEX_DONT_IGNORE_THIS_FOLDER        0 6/9/2024 3:13:58 AM   
+C:\Users\wyant\AppData\Local\CP2077ModeLauncher\vr-off\bin\x64\plugins\cyber_engine_tweaks\mods\RenderPlaneFix\data\__folder_managed_by_vortex                  96 10/9/2026 10:26:55 PM 
+C:\Users\wyant\AppData\Local\CP2077ModeLauncher\vr-off\red4ext\plugins\BlurBegone\BlurBegoneNative.dll                                                     4344832 10/13/2026 3:16:00 PM 
+C:\Users\wyant\AppData\Local\CP2077ModeLauncher\vr-off\red4ext\plugins\BlurBegone\__folder_managed_by_vortex                                                    96 10/9/2026 10:17:39 PM 
+C:\Users\wyant\AppData\Local\CP2077ModeLauncher\vr-off\red4ext\plugins\BlurBegone\scripts\BlurBegone.reds                                                    25280 10/13/2026 12:58:08 PM
+C:\Users\wyant\AppData\Local\CP2077ModeLauncher\vr-off\red4ext\plugins\BlurBegone\scripts\BlurBegoneMenu.reds                                                12323 10/11/2026 11:21:34 PM
+C:\Users\wyant\AppData\Local\CP2077ModeLauncher\vr-off\red4ext\plugins\BlurBegone\scripts\__folder_managed_by_vortex                                            96 10/9/2026 10:17:39 PM 
+C:\Users\wyant\AppData\Local\CP2077ModeLauncher\vr-off\red4ext\plugins\FXBegone\FXBegoneNative.dll                                                          207360 10/11/2026 12:35:28 AM
+C:\Users\wyant\AppData\Local\CP2077ModeLauncher\vr-off\red4ext\plugins\FXBegone\__folder_managed_by_vortex                                                      96 10/9/2026 10:17:42 PM 
+C:\Users\wyant\AppData\Local\CP2077ModeLauncher\vr-off\red4ext\plugins\FXBegone\scripts\FXBegone.reds                                                         2777 10/8/2026 11:03:28 PM 
+C:\Users\wyant\AppData\Local\CP2077ModeLauncher\vr-off\red4ext\plugins\FXBegone\scripts\FXBegoneSettings.reds                                                45645 10/11/2026 12:14:12 AM
+C:\Users\wyant\AppData\Local\CP2077ModeLauncher\vr-off\red4ext\plugins\FXBegone\scripts\__folder_managed_by_vortex                                              96 10/9/2026 10:17:42 PM 
+C:\Users\wyant\AppData\Local\CP2077ModeLauncher\vr-off\red4ext\plugins\ReFRACT\ReFRACTNative.dll                                                           7472640 10/13/2026 4:49:56 PM 
+C:\Users\wyant\AppData\Local\CP2077ModeLauncher\vr-off\red4ext\plugins\ReFRACT\__folder_managed_by_vortex                                                       96 10/9/2026 10:17:42 PM 
+C:\Users\wyant\AppData\Local\CP2077ModeLauncher\vr-off\red4ext\plugins\ReFRACT\scripts\ReFRACT.reds                                                          27031 10/13/2026 4:42:10 PM 
+C:\Users\wyant\AppData\Local\CP2077ModeLauncher\vr-off\red4ext\plugins\ReFRACT\scripts\ReFRACTMenu.reds                                                      11183 10/13/2026 4:36:34 PM 
+C:\Users\wyant\AppData\Local\CP2077ModeLauncher\vr-off\red4ext\plugins\ReFRACT\scripts\__folder_managed_by_vortex                                               96 10/9/2026 10:17:42 PM 
+
+
+
+{
+    "last":  "vr"
+}
+2026-10-12T20:11:02 game exited, settings saved
+2026-10-12T20:12:55 start mode='' args=0
+2026-10-12T20:12:57 picked vr (last=vr deployed=vr)
+2026-10-12T20:12:57 parked red4ext\plugins\ReFRACT
+2026-10-12T20:12:57 parked red4ext\plugins\FXBegone
+2026-10-12T20:12:57 parked red4ext\plugins\BlurBegone
+2026-10-12T20:12:57 parked bin\x64\plugins\cyber_engine_tweaks\mods\RenderPlaneFix
+2026-10-12T20:14:42 saved live settings -> vr
+2026-10-12T20:14:42 game exited, settings saved
+2026-10-12T20:20:45 start mode='' args=0
+2026-10-12T20:20:47 picked vr (last=vr deployed=vr)
+2026-10-12T20:22:57 saved live settings -> vr
+2026-10-12T20:22:57 game exited, settings saved
+2026-10-12T20:39:34 start mode='' args=0
+2026-10-12T20:39:38 cancelled
+2026-10-12T20:40:14 start mode='' args=0
+2026-10-12T20:40:15 picked vr (last=vr deployed=flat)
+2026-10-12T20:40:19 parked red4ext\plugins\ReFRACT
+2026-10-12T20:40:19 parked red4ext\plugins\FXBegone
+2026-10-12T20:40:19 parked red4ext\plugins\BlurBegone
+2026-10-12T20:40:19 parked bin\x64\plugins\cyber_engine_tweaks\mods\RenderPlaneFix
+2026-10-12T20:40:20 VR port enabled (257 files)
+2026-10-12T20:52:09 saved live settings -> vr
+2026-10-12T20:52:09 game exited, settings saved
+2026-10-12T20:52:28 start mode='' args=0
+2026-10-12T20:52:29 picked flat (last=vr deployed=vr)
+2026-10-12T20:52:34 restored red4ext\plugins\ReFRACT
+2026-10-12T20:52:34 restored red4ext\plugins\FXBegone
+2026-10-12T20:52:34 restored red4ext\plugins\BlurBegone
+2026-10-12T20:52:34 restored bin\x64\plugins\cyber_engine_tweaks\mods\RenderPlaneFix
+2026-10-12T20:52:35 VR port disabled (257 files)
+2026-10-12T20:52:35 saved live settings -> vr
+2026-10-12T20:52:35 loaded flat settings into live
+2026-10-13T20:42:43 start mode='' args=0
+2026-10-13T20:43:25 picked vr (last=flat deployed=flat)
+2026-10-13T20:43:29 parked red4ext\plugins\ReFRACT
+2026-10-13T20:43:29 parked red4ext\plugins\FXBegone
+2026-10-13T20:43:29 parked red4ext\plugins\BlurBegone
+2026-10-13T20:43:29 parked bin\x64\plugins\cyber_engine_tweaks\mods\RenderPlaneFix
+2026-10-13T20:43:30 VR port enabled (257 files)
+2026-10-13T20:43:30 saved live settings -> flat
+2026-10-13T20:43:30 loaded vr settings into live
+2026-10-13T20:46:41 saved live settings -> vr
+2026-10-13T20:46:41 game exited, settings saved
+2026-10-13T20:46:46 start mode='' args=0
+2026-10-13T20:46:48 picked vr (last=vr deployed=vr)
+2026-10-13T20:49:19 saved live settings -> vr
+2026-10-13T20:49:19 game exited, settings saved
+2026-10-13T20:52:39 start mode='' args=0
+2026-10-13T20:52:40 picked vr (last=vr deployed=vr)
+2026-10-13T20:54:14 saved live settings -> vr
+2026-10-13T20:54:14 game exited, settings saved
+2026-10-13T20:54:27 start mode='' args=0
+2026-10-13T20:54:28 picked vr (last=vr deployed=vr)
+2026-10-13T21:00:05 saved live settings -> vr
+2026-10-13T21:00:05 game exited, settings saved
+2026-10-13T21:00:13 start mode='' args=0
+2026-10-13T21:00:15 picked vr (last=vr deployed=vr)
+2026-10-13T21:04:07 saved live settings -> vr
+2026-10-13T21:04:07 game exited, settings saved
